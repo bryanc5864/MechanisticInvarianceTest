@@ -1,0 +1,164 @@
+{
+  "hexamer_frequencies": {
+    "TACAAT": {
+      "position": 2,
+      "original_nt": "T",
+      "new_nt": "C",
+      "expected_freq": 0.00022882804601990402
+    },
+    "TAGAAT": {
+      "position": 2,
+      "original_nt": "T",
+      "new_nt": "G",
+      "expected_freq": 0.00022882804601990402
+    },
+    "TATCAT": {
+      "position": 3,
+      "original_nt": "A",
+      "new_nt": "C",
+      "expected_freq": 0.00022882804601990402
+    },
+    "TATGAT": {
+      "position": 3,
+      "original_nt": "A",
+      "new_nt": "G",
+      "expected_freq": 0.00022882804601990402
+    },
+    "CATAAT": {
+      "position": 0,
+      "original_nt": "T",
+      "new_nt": "C",
+      "expected_freq": 0.000228828046019904
+    },
+    "GATAAT": {
+      "position": 0,
+      "original_nt": "T",
+      "new_nt": "G",
+      "expected_freq": 0.000228828046019904
+    },
+    "TCTAAT": {
+      "position": 1,
+      "original_nt": "A",
+      "new_nt": "C",
+      "expected_freq": 0.000228828046019904
+    },
+    "TGTAAT": {
+      "position": 1,
+      "original_nt": "A",
+      "new_nt": "G",
+      "expected_freq": 0.000228828046019904
+    },
+    "TATACT": {
+      "position": 4,
+      "original_nt": "A",
+      "new_nt": "C",
+      "expected_freq": 0.000228828046019904
+    },
+    "TATAGT": {
+      "position": 4,
+      "original_nt": "A",
+      "new_nt": "G",
+      "expected_freq": 0.000228828046019904
+    },
+    "TATAAC": {
+      "position": 5,
+      "original_nt": "T",
+      "new_nt": "C",
+      "expected_freq": 0.000228828046019904
+    },
+    "TATAAG": {
+      "position": 5,
+      "original_nt": "T",
+      "new_nt": "G",
+      "expected_freq": 0.000228828046019904
+    },
+    "AATAAT": {
+      "position": 0,
+      "original_nt": "T",
+      "new_nt": "A",
+      "expected_freq": 0.000221620863468096
+    },
+    "TTTAAT": {
+      "position": 1,
+      "original_nt": "A",
+      "new_nt": "T",
+      "expected_freq": 0.000221620863468096
+    },
+    "TAAAAT": {
+      "position": 2,
+      "original_nt": "T",
+      "new_nt": "A",
+      "expected_freq": 0.000221620863468096
+    },
+    "TATTAT": {
+      "position": 3,
+      "original_nt": "A",
+      "new_nt": "T",
+      "expected_freq": 0.000221620863468096
+    },
+    "TATATT": {
+      "position": 4,
+      "original_nt": "A",
+      "new_nt": "T",
+      "expected_freq": 0.000221620863468096
+    },
+    "TATAAA": {
+      "position": 5,
+      "original_nt": "T",
+      "new_nt": "A",
+      "expected_freq": 0.000221620863468096
+    },
+    "TATAAT": {
+      "position": -1,
+      "original_nt": "-",
+      "new_nt": "-",
+      "expected_freq": 0.000221620863468096
+    }
+  },
+  "intact_freq": 0.000221620863468096,
+  "broken_freq": 0.000228828046019904,
+  "freq_ratio_broken_over_intact": 1.032520325203252,
+  "papwm_scores": {
+    "AATAAT": 16.669000000000004,
+    "CATAAT": 14.895999999999999,
+    "GATAAT": 15.27,
+    "TAAAAT": 16.645,
+    "TACAAT": 15.718000000000002,
+    "TAGAAT": 15.061,
+    "TATAAA": 16.906000000000002,
+    "TATAAC": 15.405,
+    "TATAAG": 15.026000000000002,
+    "TATAAT": 18.694000000000003,
+    "TATACT": 15.823,
+    "TATAGT": 15.493000000000002,
+    "TATATT": 16.915000000000003,
+    "TATCAT": 15.227,
+    "TATGAT": 15.745,
+    "TATTAT": 16.902,
+    "TCTAAT": 14.206,
+    "TGTAAT": 14.161,
+    "TTTAAT": 16.303
+  },
+  "thermo_scores": {
+    "AATAAT": 24.8,
+    "CATAAT": 22.86,
+    "GATAAT": 22.37,
+    "TAAAAT": 24.77,
+    "TACAAT": 23.48,
+    "TAGAAT": 22.93,
+    "TATAAA": 25.05,
+    "TATAAC": 23.37,
+    "TATAAG": 22.78,
+    "TATAAT": 26.42,
+    "TATACT": 23.47,
+    "TATAGT": 23.41,
+    "TATATT": 25.0,
+    "TATCAT": 23.0,
+    "TATGAT": 23.5,
+    "TATTAT": 25.11,
+    "TCTAAT": 20.64,
+    "TGTAAT": 20.64,
+    "TTTAAT": 23.47
+  },
+  "description": "Investigation of why gLMs score TGTAAT (broken) higher than TATAAT (intact). Tests whether this is due to genome-wide hexamer frequency priors."
+}

@@ -1,0 +1,12 @@
+torch>=2.0
+transformers>=4.40
+huggingface-hub
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+tqdm
+biopython
+einops
+tabulate

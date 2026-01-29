@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "A_000",
+    "sequence": "GAAATGTACAAGAAGGAGTATGCATCAATGTTTACATTGTCGTGTGGAACAAATATAATAGCCAATGGATACTGGGTTAACAATTCGCTCAAGAGTCATG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTTACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "lac operon",
+      "name": "lacUV5_v0"
+    }
+  },
+  {
+    "id": "A_001",
+    "sequence": "AAAGTCACTGTTATGGAGACCTTAGATTCGTTGACAGATGTGACATTTCATTATATAATCATTACGATCAGTACTGCGAACGAAAGATTAAGAATGCTTA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "tac hybrid",
+      "name": "tac_v0"
+    }
+  },
+  {
+    "id": "A_002",
+    "sequence": "ACCCTGTACCTAACCAATCTGATTTTTACATTGACACACTATCCTTGGACTGTTTAACTTAGGTATAAGGAATAGGCGGTAGACGCCTACTTAAATTTCA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TTAACT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "trp operon",
+      "name": "trp_v0"
+    }
+  },
+  {
+    "id": "A_003",
+    "sequence": "TGGTGATCGTAAAGAAAAAAAGAGGATAGTTTTTCTACATACGGATGAACTGTTATAATCTTACGGCGTTTTAATACATTCGTAAGCACATCTTAGCAAT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTTTCT",
+    "minus_10": "TATAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "rRNA",
+      "name": "rrnB_P1_v0"
+    }
+  },
+  {
+    "id": "A_004",
+    "sequence": "CGGTCATAGTAGCTCAAAAAATAGACGTGTATGCATTACTTGGATGGCGGAGCTAAAATTAGCTCATGCCGGTTTGCGGATACTAATGTCTGGCCAGTTT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "ATGCAT",
+    "minus_10": "TAAAAT",
+    "has_up_element": true,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "rRNA",
+      "name": "rrnB_P2_v0"
+    }
+  },
+  {
+    "id": "A_005",
+    "sequence": "TATGCGTAACGGCTCTTCTCATCTTATCACTTGTCAGACTAACAACCCATCTTTAAAATATGCTCCTTGTTTCACCGTTTTTGTGGACTAACCCTATCTC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTCA",
+    "minus_10": "TAAAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "lipoprotein",
+      "name": "lpp_v0"
+    }
+  },
+  {
+    "id": "A_006",
+    "sequence": "TATAATAAATGACATCACGTGTACGTGTCTGTGTCAAGTAGCGTTGAGGATGTTATGTTCCCTCAAGGGTTCTGCATACTGGCCCCCAAGTGGAACGACG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "GTGTCA",
+    "minus_10": "TATGTT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "galactose",
+      "name": "galP1_v0"
+    }
+  },
+  {
+    "id": "A_007",
+    "sequence": "CACCAGCGCTGCCCATCTTGATAGTGTTCCTTGCATCGAAACTGTAACCCTATTATAATAACGGATTAAGCGGTCTCGCGATATGAAAGACGCACCTAAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGCAT",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "galactose",
+      "name": "galP2_v0"
+    }
+  },
+  {
+    "id": "A_008",
+    "sequence": "TGTAAAAAAATGTTCCCCAGCGTTGAAGTGTTGATAATTGTAGCATCTTCCCATATAATACCGCTAAAATTTATCAGGCCAAACTCAGTGCACATATGAT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGATA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "recA",
+      "name": "recA_v0"
+    }
+  },
+  {
+    "id": "A_009",
+    "sequence": "CGCCCCAAGTAATTCAAAAAGAGGTGGTCCTCTTTTCTCTTTACTCCCTCTGTTACACTATATCATATAATTATAGCACGGTGTCGGAGCAATTGAACAC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TCTTTT",
+    "minus_10": "TACACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "outer membrane",
+      "name": "ompA_v0"
+    }
+  },
+  {
+    "id": "A_010",
+    "sequence": "ACCACGAAGCGCGAGCGTCCGATTCTGCCTCTGACGTACCCGATCATTTTTGTTACTGTTATAAATTGAAGATACATCCATTCGAATTTCTTCATAGGCT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "CTGACG",
+    "minus_10": "TACTGT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "arabinose",
+      "name": "araBAD_v0"
+    }
+  },
+  {
+    "id": "A_011",
+    "sequence": "GACAACTACGCGCGTCGGGCGGAAATAAGCTTGTAACTGGGTTGTGTAGACACAATAATTCTGAATTTAAGTACTTATGGTATTGATTGTATACTGAAAC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTAA",
+    "minus_10": "AATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "maltose",
+      "name": "malT_v0"
+    }
+  },
+  {
+    "id": "A_012",
+    "sequence": "AACCGCAGTTGCGATAAAAAGTAGGCTCAAATGCAAGGGCGCGCTAGTGTTGTGATACTTCTCCATGCAACTCAATGGCTTCTACCAGACTCGAAACGTG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "ATGCAA",
+    "minus_10": "GATACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "tRNA-Tyr",
+      "name": "tyrT_v0"
+    }
+  },
+  {
+    "id": "A_013",
+    "sequence": "GGGGGAATTCAAGATTAGCCACCTGTATAATTCAAACCGCAGCAGGGCATAATTATGTTTTCACCAGAGGCCTCCACCCGCCTATCGCCACCATTATAGG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTCAAA",
+    "minus_10": "TATGTT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "beta-lactamase",
+      "name": "bla_v0"
+    }
+  },
+  {
+    "id": "A_014",
+    "sequence": "ATCTGAAAAATATGCGGGTGTCTCCCGTGCTGGAAAACACCGTAGCGTTATGATAAACTGGTCTTTAGAGTGGCTCTGAGCCGCATTGAAGTCGGAGAGG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TGGAAA",
+    "minus_10": "TAAACT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "CAT",
+      "name": "cat_v0"
+    }
+  },
+  {
+    "id": "A_015",
+    "sequence": "CAGTTTAGGACTCTATACTGGTGGTGGAAGTTGTCCGTTACGTGTTAATTTAGTTTAATGCTTGCAAGTACCTGGAAACGTATTTTCCCCAACAGCAATC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTCC",
+    "minus_10": "TTTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "dnaA",
+      "name": "dnaA_P1_v0"
+    }
+  },
+  {
+    "id": "A_016",
+    "sequence": "TTCGTAAATGCTAAAAAAAAGAAGGAGAACTTATCAGACGATAGGTGCCGTGTTAGACTTCTGTTCAGTATCGGTATCCAAATGTGATACTTCACTTTCT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTATCA",
+    "minus_10": "TAGACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "dnaA",
+      "name": "dnaA_P2_v0"
+    }
+  },
+  {
+    "id": "A_017",
+    "sequence": "CCTGTTAGTGCAGCGAAAAAGCGGCTTGCGTTGACTTAGCGTAATGCAAGCTATACGATACCCAACCATAAGTATGAGGTAAAAGTTTTGGGCCAGGACA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACT",
+    "minus_10": "TACGAT",
+    "has_up_element": true,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "Fis",
+      "name": "fis_v0"
+    }
+  },
+  {
+    "id": "A_018",
+    "sequence": "TTACCGCTATACGCCCGACACGATGGTAGTTTGACCTGCATATGCAATAGGAGTATAACGGAGTCTATATTAAGGATGGCATCCGACCCATCTCCTGAAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACC",
+    "minus_10": "TATAAC",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "IHF alpha",
+      "name": "ihfA_v0"
+    }
+  },
+  {
+    "id": "A_019",
+    "sequence": "CAATTCTTTTTAATCAAAAAGTAATGTACATTGACACTGCGTCTTTCCGATGTGATACTTATGATCTCTTAGGAACCCGGCGATTCCTGGCTCGTGTTGA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "GATACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "sigma70",
+      "name": "rpoD_v0"
+    }
+  },
+  {
+    "id": "A_020",
+    "sequence": "CTTTGTGAGGTAGATAACAGCTTTTAAACGTTTACAGCATCCTTGGGAAGATCTATAATCAGCCTTAAGCTTTTCCGCCACAGTGAGGAGGGACGATAGT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTTACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "lac operon",
+      "name": "lacUV5_v1"
+    }
+  },
+  {
+    "id": "A_021",
+    "sequence": "CTTCATCGTAGGTTTATATTCCTTTTAGATTTGACACTGCTTCAAACAATTGTTATAATATTTGAGAACAAATTCTAGGAACCGTGCATCGAAATGCGCG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "tac hybrid",
+      "name": "tac_v1"
+    }
+  },
+  {
+    "id": "A_022",
+    "sequence": "GAATTACGAGAGGGACGAAGAGTCGCACTTTTGACACTTGACATTATACTTGTTTAACTCTCTTCGGGGCAGGTAAACGGGTACATTATCTTAAAAGGAT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TTAACT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "trp operon",
+      "name": "trp_v1"
+    }
+  },
+  {
+    "id": "A_023",
+    "sequence": "CAATAGCTTCGGCCAAAAAAATGGATTTGCTTTTCTCTTGTCCACTCTCGTGTTATAATTGAAAGTTATAAGGTATTGCTCTATTATCAGATGTCGCAGC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTTTCT",
+    "minus_10": "TATAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "rRNA",
+      "name": "rrnB_P1_v1"
+    }
+  },
+  {
+    "id": "A_024",
+    "sequence": "ATCTTCCGAAATGCAAAAAAGCGACGGATTATGCATGCATATCTGGAATTGTCTAAAATTAGAGCGGGCCAGAGATATGTTAAAAGTACCCGTAGTGTTA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "ATGCAT",
+    "minus_10": "TAAAAT",
+    "has_up_element": true,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "rRNA",
+      "name": "rrnB_P2_v1"
+    }
+  },
+  {
+    "id": "A_025",
+    "sequence": "CGAAACCTGTAGAATTCAATTGATCTGTGCTTGTCAAAATCTCTATTGTACTCTAAAATTTCTAATCCTCGGAGTGAAGGTCAACCAAACGCACAGCCCC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTCA",
+    "minus_10": "TAAAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "lipoprotein",
+      "name": "lpp_v1"
+    }
+  },
+  {
+    "id": "A_026",
+    "sequence": "ATTTGACACCACCCAAAGGAACTCGTCCTTGTGTCATACTACTTCGCGACTGTTATGTTGGGGGTCGCCGTTCCGAGGTATCCGTGGTCTGGATGCGATG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "GTGTCA",
+    "minus_10": "TATGTT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "galactose",
+      "name": "galP1_v1"
+    }
+  },
+  {
+    "id": "A_027",
+    "sequence": "CTTCAAGGGGCCTGGCAACTATACCACCCGTTGCATCCTATGGATAAAGTACATATAATGCAGAGCGATTAATACCATGGGGGCTGTGCGAAACAGGCAC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGCAT",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "galactose",
+      "name": "galP2_v1"
+    }
+  },
+  {
+    "id": "A_028",
+    "sequence": "AGGGTGCACCACAATTGCGCTCAATCAGACTTGATATTGAATTCTAGGTATTCTATAATTCCTCTTATGCGGAAAAACCGCGCATTGATTTTTATAGTTG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGATA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "recA",
+      "name": "recA_v1"
+    }
+  },
+  {
+    "id": "A_029",
+    "sequence": "CGACCGTAGATCTCAAAAAAATGATCTTCCTCTTTTCGATTTTAGTATACTGTTACACTTTCTTACAGGAGTTCAAAAGGCACATGCAATACCCTTGGAG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TCTTTT",
+    "minus_10": "TACACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "outer membrane",
+      "name": "ompA_v1"
+    }
+  },
+  {
+    "id": "A_030",
+    "sequence": "GACATTGCATAATCCTAGAGTCTATTAGACCTGACGGTTACAGATACCCTTGTTACTGTCTAGAATTCCGTCCGGAAATTACGTGGCCTAATAGAGGAAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "CTGACG",
+    "minus_10": "TACTGT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "arabinose",
+      "name": "araBAD_v1"
+    }
+  },
+  {
+    "id": "A_031",
+    "sequence": "ACCGTACTTTATCCGATGCGATAATTGATATTGTAATAACTATATGGAATCTGAATAATAGAAGACTTTCACCCTTACTTTTGTATAGGGACTCTCATCT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTAA",
+    "minus_10": "AATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "maltose",
+      "name": "malT_v1"
+    }
+  },
+  {
+    "id": "A_032",
+    "sequence": "TAAAATCTCTGGGCGAAAAAATAACTTCTCATGCAACATATAACCACTCCTGTGATACTCGGATAGTCACTATTGGAATAATAACGTAGTATAGTATTAT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "ATGCAA",
+    "minus_10": "GATACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "tRNA-Tyr",
+      "name": "tyrT_v1"
+    }
+  },
+  {
+    "id": "A_033",
+    "sequence": "ATCTCCCCTACAGGGCTCACCGTATGACGCTTCAAATCGCAAGATCTCCGAAATATGTTAGTTTTGTCTTAACTCGGCGATTTTGAAAGACCGTCATTAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTCAAA",
+    "minus_10": "TATGTT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "beta-lactamase",
+      "name": "bla_v1"
+    }
+  },
+  {
+    "id": "A_034",
+    "sequence": "GAAGCAGGGCCTTCGCCGGTGCGTCTCAAGTGGAAAGTTGACTGGACCACCGTTAAACTTGTCAAGCTTACCACTCCTTGTACTAAAACTAATTCTTGCG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TGGAAA",
+    "minus_10": "TAAACT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "CAT",
+      "name": "cat_v1"
+    }
+  },
+  {
+    "id": "A_035",
+    "sequence": "GCACTCGTGGCACGCAAATGCAAGTCATCTTTGTCCAGCCCAACATGAGAGTCTTTAATTAACGTGTGACCTAGGGTATCTAAAAAGATAGCTTAGGTGT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTCC",
+    "minus_10": "TTTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "dnaA",
+      "name": "dnaA_P1_v1"
+    }
+  },
+  {
+    "id": "A_036",
+    "sequence": "AGGTAAGGTAATTTTAAAAAGGGGGCACGGTTATCACCTGACACCTCTTGTGTTAGACTTTCTGACTCCGCATAGCTGGATAAAACACCCTGACCTCGCT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTATCA",
+    "minus_10": "TAGACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "dnaA",
+      "name": "dnaA_P2_v1"
+    }
+  },
+  {
+    "id": "A_037",
+    "sequence": "ATAAATTAAAAGGTTAAAAAATAAGAATCTTTGACTGCCCACGTCAGGTCGGCTACGATAATGTAGTCATTTTGGGTGTACCAGGATAGTTGGTTTAAAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACT",
+    "minus_10": "TACGAT",
+    "has_up_element": true,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "Fis",
+      "name": "fis_v1"
+    }
+  },
+  {
+    "id": "A_038",
+    "sequence": "TTAGCACTCTCACTCTGTATGTCCATAACGTTGACCTCCGTCGAGAATATCTATATAACGGCTCAACACTAGGAGCACGATCCTGCTTCTCATTCATATG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACC",
+    "minus_10": "TATAAC",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "IHF alpha",
+      "name": "ihfA_v1"
+    }
+  },
+  {
+    "id": "A_039",
+    "sequence": "ACGATAGATGGAGCCAAAAAGTAAGGCGGATTGACAGATAGAAAAAAGAGTGTGATACTATCAGTTGAAGTAAATCCAAACTCTATATGACCGTATACTA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "GATACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "sigma70",
+      "name": "rpoD_v1"
+    }
+  },
+  {
+    "id": "A_040",
+    "sequence": "CTTGTAGATACGTGACCAGTTATACAACGGTTTACATGGTGCGGAGACGCTGTTATAATAGATTTACATAAGCACTCTCACGACGAAGGCGAGTCAACGG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTTACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "lac operon",
+      "name": "lacUV5_v2"
+    }
+  },
+  {
+    "id": "A_041",
+    "sequence": "CGGATACTTCGGAAAGTAGATCCTGACTTGTTGACATCGTACGATTCGTAGTATATAATCGTGCTTTATTCACGTCGTGTGAGCCGTGTGGCACCGGCTT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "tac hybrid",
+      "name": "tac_v2"
+    }
+  },
+  {
+    "id": "A_042",
+    "sequence": "CTTGAAGATACATGCTATATTTTGATTCGTTTGACACTTCGAAGTTTTGGTGTTTAACTTTCAGAAGCCGAGACGAACATGGCGCTCAAAGCGAAACCAT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TTAACT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "trp operon",
+      "name": "trp_v2"
+    }
+  },
+  {
+    "id": "A_043",
+    "sequence": "GTTTAGCTGGTGCTTAAAAAGGGATTCTCATTTTCTTAGTATGAAGTTCATGTTATAATTGTTACCAATGGAACGCAGGGGTGGATATCATCCGCGACTG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTTTCT",
+    "minus_10": "TATAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "rRNA",
+      "name": "rrnB_P1_v2"
+    }
+  },
+  {
+    "id": "A_044",
+    "sequence": "TAGTTTCTGGAAGGTAAAAAGCGACGGAATATGCATAATTTTTCGCAATCCAGTAAAATAGTCCGCGGCCCAAATCTATTCCCGAGTTAGATAAAGAGCG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "ATGCAT",
+    "minus_10": "TAAAAT",
+    "has_up_element": true,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "rRNA",
+      "name": "rrnB_P2_v2"
+    }
+  },
+  {
+    "id": "A_045",
+    "sequence": "TGGTCTCATTCCGCGGTTGAGCATGTTCCATTGTCACACAATCCCATCGGTTATAAAATGAGCGTGCTGCTCCGGAAAGAACGAATTCCAATAAGAGAGA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTCA",
+    "minus_10": "TAAAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "lipoprotein",
+      "name": "lpp_v2"
+    }
+  },
+  {
+    "id": "A_046",
+    "sequence": "AATGGAGGCACTTATGTTAGATCCGACAATGTGTCAGCAACGATGACAGTTGTTATGTTGCAGATTCGTTGAACATCTCAGTGAAGGCCAGATCCAGTCT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "GTGTCA",
+    "minus_10": "TATGTT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "galactose",
+      "name": "galP1_v2"
+    }
+  },
+  {
+    "id": "A_047",
+    "sequence": "CCGACCGTTGTCGAACCGGGATAAATCAAATTGCATACTGGGGTTGCAGTCAGTATAATGAAAAAATTCCGGTAACTTCTAGATGACAACTTTTTGGTGT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGCAT",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "galactose",
+      "name": "galP2_v2"
+    }
+  },
+  {
+    "id": "A_048",
+    "sequence": "TTCCGAAAGTGACTGATAAGTATCCTATGTTTGATACATTAAAGAATGGGTGATATAATCGCTTTCTTCAGATCGGCGATGCGAAGCGAGACGCCAGCTA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGATA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "recA",
+      "name": "recA_v2"
+    }
+  },
+  {
+    "id": "A_049",
+    "sequence": "AAGAAAACCATATACAAAAAGTGGGGCGATTCTTTTCGCCCGTAAATTAGTGTTACACTCGCTTCCGAATCGGTAAACCAGACTCGTCAATGTGAAAATG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TCTTTT",
+    "minus_10": "TACACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "outer membrane",
+      "name": "ompA_v2"
+    }
+  },
+  {
+    "id": "A_050",
+    "sequence": "ACTAAAGTCACGATAGTCCTGACTGAGGGGCTGACGGGCCGTCCACATTCTGTTACTGTTCACCAACCGCATCCACATTTGCTTCTACGGAGAAAGAAAG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "CTGACG",
+    "minus_10": "TACTGT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "arabinose",
+      "name": "araBAD_v2"
+    }
+  },
+  {
+    "id": "A_051",
+    "sequence": "TAACCCTTCTCTTATACATTTATATCTACTTTGTAAGTCGCCGATGAGATTAAAATAATGCAAATAATCGCAAAGTTGAGGTAATTTTCAGCATCCCGAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTAA",
+    "minus_10": "AATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "maltose",
+      "name": "malT_v2"
+    }
+  },
+  {
+    "id": "A_052",
+    "sequence": "CTATTGAACACAGCAAAAAAAGAGTGGCGCATGCAAGGCGAGATATACAGTGTGATACTGACGATACTATAGTCCGTAAACTTATGAGAGATCAGCCGTA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "ATGCAA",
+    "minus_10": "GATACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "tRNA-Tyr",
+      "name": "tyrT_v2"
+    }
+  },
+  {
+    "id": "A_053",
+    "sequence": "ACCATCCCTCCTCTGGATTATCCTTGGTCCTTCAAAATATGAGGTAACACGATTATGTTACTTTTATGGTGCTGAATCTCTTAGGATCCAGAGAATCCGG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTCAAA",
+    "minus_10": "TATGTT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "beta-lactamase",
+      "name": "bla_v2"
+    }
+  },
+  {
+    "id": "A_054",
+    "sequence": "ACCAAGACAGTAAGCGAGTAATCTAGCCCGTGGAAAACTGTCAATACTTAATTTAAACTTTAGACAAGAGACTAGAGGAACTGAGACATGTATGACTACT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TGGAAA",
+    "minus_10": "TAAACT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "CAT",
+      "name": "cat_v2"
+    }
+  },
+  {
+    "id": "A_055",
+    "sequence": "GAGCTAAGCCACCGATGTGTTTAGCATGACTTGTCCTGGAAATTCGAAGTTCGTTTAATGATTATTCGTACTTTTCCCTTTATAATGAGAAGCGCGGGCT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTCC",
+    "minus_10": "TTTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "dnaA",
+      "name": "dnaA_P1_v2"
+    }
+  },
+  {
+    "id": "A_056",
+    "sequence": "CAAATAACTTTATTTAAAAAGGGACTGTTCTTATCATGGGGAACTTAGTATGTTAGACTACTTCACTGTCGAGAGTGCCACTTTACGGATAGGAGTTGAG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTATCA",
+    "minus_10": "TAGACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "dnaA",
+      "name": "dnaA_P2_v2"
+    }
+  },
+  {
+    "id": "A_057",
+    "sequence": "AACTTAATACTTCATAAAAAAAGACTGATATTGACTGCCAGAGGGTAAGATGTTACGATCTACAGGGGTACGTACCCACGCAGAGGGGATGTCGTTCGCG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACT",
+    "minus_10": "TACGAT",
+    "has_up_element": true,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "Fis",
+      "name": "fis_v2"
+    }
+  },
+  {
+    "id": "A_058",
+    "sequence": "TCAGGGCAGGTAAGATTTCCGGAACTCGCATTGACCGCTGAACCGTTGCGTGCTATAACTCTTCTCGAGTTCTCATGTGCGTTGCACCACTACATTTCAC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACC",
+    "minus_10": "TATAAC",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "IHF alpha",
+      "name": "ihfA_v2"
+    }
+  },
+  {
+    "id": "A_059",
+    "sequence": "GATTGTATTTGATCGAAAAAAAGAGGACAGTTGACAGCGCTCAACCAAAATGTGATACTCCAGCAAGCCACGAACAGGTGGCTGGGTTCATTCCGGCAAT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "GATACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "sigma70",
+      "name": "rpoD_v2"
+    }
+  },
+  {
+    "id": "A_060",
+    "sequence": "GTCGGTTCACCCATGAATTCGTGCCGGTCCTTTACATGTCTGAGATGCGCGTATATAATTAATTCCGATTTGAAAGCGAGCGTCTCTCAATCACCGAGTC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTTACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "lac operon",
+      "name": "lacUV5_v3"
+    }
+  },
+  {
+    "id": "A_061",
+    "sequence": "TTAGCCCCGGCACTTATGAAATCCTAGCCTTTGACAGCAGGCCAGGTAGCGCTTATAATGGACGATTTTCATACTTAGTCACTCGCTCTTCATTTGACAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "tac hybrid",
+      "name": "tac_v3"
+    }
+  },
+  {
+    "id": "A_062",
+    "sequence": "TTGCAGTAACTAAAGACTAGCTTCAATACTTTGACATACGATCGTAACCTTGTTTAACTGCATATCGTGATGTCTTCAAGCTTTGACGAGGTAAACACAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TTAACT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "trp operon",
+      "name": "trp_v3"
+    }
+  },
+  {
+    "id": "A_063",
+    "sequence": "ATGTTGGATAGTGTTAAAAAAGGGGACTTGTTTTCTGTATAACTATAATATGTTATAATGCGACAAATTACGAACACCAGTCCTTAACGTAGTCCATGCT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTTTCT",
+    "minus_10": "TATAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "rRNA",
+      "name": "rrnB_P1_v3"
+    }
+  },
+  {
+    "id": "A_064",
+    "sequence": "CTTCAGTGCCAGCTCAAAAAACAAATACTGATGCATCTTTACCTCAGGTTGTATAAAATATCATGAGAGTTAGTATAGGAACTTCAGGCTAAAAATACAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "ATGCAT",
+    "minus_10": "TAAAAT",
+    "has_up_element": true,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "rRNA",
+      "name": "rrnB_P2_v3"
+    }
+  },
+  {
+    "id": "A_065",
+    "sequence": "GATGCATAATGGCGTCAAACAAGGGGATCCTTGTCAGATTGTTGCGAAAATTCTAAAATATACAAGTCAAGAAGAACGCTTAAAACATAGACAGACCACA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTCA",
+    "minus_10": "TAAAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "lipoprotein",
+      "name": "lpp_v3"
+    }
+  },
+  {
+    "id": "A_066",
+    "sequence": "CAGCACCTACATTTGGACGTACCACTACATGTGTCATTTCATTGCCTGACTGTTATGTTCACATAGACGGTCAGATGGAGCGGCTGGGAGGCTGTCACCA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "GTGTCA",
+    "minus_10": "TATGTT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "galactose",
+      "name": "galP1_v3"
+    }
+  },
+  {
+    "id": "A_067",
+    "sequence": "CGGGTACGGTTTGTTCTGCACCGTCGTTCCTTGCATGGTTATACATAAAAAATTATAATACGTCCTAAATTGCGGTCGGGCGTCTACCTACTGAGAAGTT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGCAT",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "galactose",
+      "name": "galP2_v3"
+    }
+  },
+  {
+    "id": "A_068",
+    "sequence": "AATGCCAGGTACTGAATTTTATGGGCTTTTTTGATAGTTTCACAGAAGACCGATATAATGTTAATGTTCCGGAGCGCCACCCGATTCCATTTCTGACTGC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGATA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "recA",
+      "name": "recA_v3"
+    }
+  },
+  {
+    "id": "A_069",
+    "sequence": "TGCAGAACGTATCCTAAAAAGGGGATACGGTCTTTTAGCATGATCTGCCCTGTTACACTTCTAAGACGCACGTACGAAGTGACCTTAGCGCAACTCTAAG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TCTTTT",
+    "minus_10": "TACACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "outer membrane",
+      "name": "ompA_v3"
+    }
+  },
+  {
+    "id": "A_070",
+    "sequence": "TTGGTTGGTCTAAACGACTGTACTAAGGCACTGACGTCTAACCAAGGCTATGTTACTGTAGGAGAATAGCTTGGATTGGTATATTTTCGAGATTCGCTCC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "CTGACG",
+    "minus_10": "TACTGT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "arabinose",
+      "name": "araBAD_v3"
+    }
+  },
+  {
+    "id": "A_071",
+    "sequence": "GCCCTACCCTGTACTCTTTTCAGGCGGACGTTGTAATTTACAATCACCTTGTTAATAATTCGTTGACACATATTCAAGCCGTGGCCCCGGTGATTTACTC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTAA",
+    "minus_10": "AATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "maltose",
+      "name": "malT_v3"
+    }
+  },
+  {
+    "id": "A_072",
+    "sequence": "AAGTTACCCTGCGGCAAAAAAAGGCTGCTCATGCAAAATCTATCACCCGATGTGATACTACCACCTGTAGGTCCGTAGCGTCGCCCTTTGCATCATATAC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "ATGCAA",
+    "minus_10": "GATACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "tRNA-Tyr",
+      "name": "tyrT_v3"
+    }
+  },
+  {
+    "id": "A_073",
+    "sequence": "ATCATGCTCGACGCTAAGTGATTCTGGTCGTTCAAAGGCAAGCCCTAACTGAGTATGTTCAAATCGCGAAAATGATTCATAGTTCCGATTAATTGTTTAT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTCAAA",
+    "minus_10": "TATGTT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "beta-lactamase",
+      "name": "bla_v3"
+    }
+  },
+  {
+    "id": "A_074",
+    "sequence": "AATCGCTACAATCAGCCTCCGTTTCGTATGTGGAAATGTGTAGCTCTATTCTCTAAACTTAATAATTGTTCATTTCCTGTTTGGCGTTCAAGGTACGCAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TGGAAA",
+    "minus_10": "TAAACT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "CAT",
+      "name": "cat_v3"
+    }
+  },
+  {
+    "id": "A_075",
+    "sequence": "GTTTTGTCCTAGTTACATTTATTGGTTAGATTGTCCCCAACTAGCTCGAGATTTTTAATCCATGTCGCCACAGTCGCAACGGGGTAAACATTTTGTAAGC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTCC",
+    "minus_10": "TTTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "dnaA",
+      "name": "dnaA_P1_v3"
+    }
+  },
+  {
+    "id": "A_076",
+    "sequence": "CCTGGAGTTACGAAAAAAAAATGGTCTGTATTATCACTCTTATGTAAAAATGTTAGACTTACGCCTTAATAAGATGGTGGCATGTAGGCGTTAATGCTGA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTATCA",
+    "minus_10": "TAGACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "dnaA",
+      "name": "dnaA_P2_v3"
+    }
+  },
+  {
+    "id": "A_077",
+    "sequence": "TGTCTTTGAAGCAATAAAAAGAGGATTATATTGACTTCTGACCTCGAGTGCTCTACGATGCTTGCCACCAGACGGCCTCAATTGCAAAACAGGAAAGAGA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACT",
+    "minus_10": "TACGAT",
+    "has_up_element": true,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "Fis",
+      "name": "fis_v3"
+    }
+  },
+  {
+    "id": "A_078",
+    "sequence": "ACATCGCGGATTAATGTAGAAACGTTGCGTTTGACCCGGCCAAAATTAGGCGTTATAACACCCAAAGTCTGAGTAAGGTTTGGCCCGGGTCGGCCATCCC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACC",
+    "minus_10": "TATAAC",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "IHF alpha",
+      "name": "ihfA_v3"
+    }
+  },
+  {
+    "id": "A_079",
+    "sequence": "TCGACACAATCGTGAAAAAAGTGGTTTGCTTTGACAGAAGACTCAAATCATGTGATACTACGAAACCATAAGGGGTCCTAAGTTTAAGTTACCGTAGCAT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "GATACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "sigma70",
+      "name": "rpoD_v3"
+    }
+  },
+  {
+    "id": "A_080",
+    "sequence": "CCTATCGACTCGATCATCCCTTCAAATTACTTTACATAATGGTAGGGGCCGGCTATAATTTAAGTGCAGTGGTTCACACTTATCAGGTAATGATTTAACG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTTACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "lac operon",
+      "name": "lacUV5_v4"
+    }
+  },
+  {
+    "id": "A_081",
+    "sequence": "CAGACTCTTTGTGGGCCTGGGGACGTCAGTTTGACAAATCCCGGGCACCCTCTTATAATTAAGAGTAACTTCTGCAGAACTCCTAGATTATCACTCGGTT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "tac hybrid",
+      "name": "tac_v4"
+    }
+  },
+  {
+    "id": "A_082",
+    "sequence": "CTGTGCCCTCTGCACGTTTGTGGTGGAGAGTTGACAGAGACTATAATAGTTGTTTAACTCATACCTCAAAAAAACCAGCAACCCCCTAATGCTCAACCCC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TTAACT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "trp operon",
+      "name": "trp_v4"
+    }
+  },
+  {
+    "id": "A_083",
+    "sequence": "ATATGAGTCCAGATCAAAAAACGGATTGGATTTTCTATAAGTTATCAGAATGTTATAATTTAGTTTGTGAGCATCTATGAAAGGCCATGGTTCATCGCTT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTTTCT",
+    "minus_10": "TATAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "rRNA",
+      "name": "rrnB_P1_v4"
+    }
+  },
+  {
+    "id": "A_084",
+    "sequence": "TACAATTGGATGTATAAAAAGAGGTGAATCATGCATTGCGGGGGAAAAGAGTATAAAATGTGGAGCTGTATCTAGCCTTAACCAAAGATTCAAACGACTG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "ATGCAT",
+    "minus_10": "TAAAAT",
+    "has_up_element": true,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "rRNA",
+      "name": "rrnB_P2_v4"
+    }
+  },
+  {
+    "id": "A_085",
+    "sequence": "GCAAACACTTTGTGGAAACTAATCCGAGGCTTGTCACATAGGACTTGCTTCCATAAAATAGATAGGACTCATACCTTCTTACCCAGGAGTTCAATTCGGT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTCA",
+    "minus_10": "TAAAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "lipoprotein",
+      "name": "lpp_v4"
+    }
+  },
+  {
+    "id": "A_086",
+    "sequence": "GCGTGCACTAAAAAGATTCTAATCAAACAGGTGTCATAAAATGCGAATTATGTTATGTTATCATGTTTTTAATTACCGTAAGAGTCATTTTTAACGAGTG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "GTGTCA",
+    "minus_10": "TATGTT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "galactose",
+      "name": "galP1_v4"
+    }
+  },
+  {
+    "id": "A_087",
+    "sequence": "GCCCCGGCACTGAAATCCTGTCGAACCGCGTTGCATCCCTCCAAGCATGGTTATATAATAAAACCTGAGTTTTTACTTCCGGCGTACATCGTTTCTCATG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGCAT",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "galactose",
+      "name": "galP2_v4"
+    }
+  },
+  {
+    "id": "A_088",
+    "sequence": "ACGCGATATTCCGCTGCATTATCGGGTTACTTGATAGAAGCTAAGAGCAATCATATAATGAAGATCAAGCATTAACGCGTGGGAAAACTGTTCGTCTCGG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGATA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "recA",
+      "name": "recA_v4"
+    }
+  },
+  {
+    "id": "A_089",
+    "sequence": "CGTAATTCTAGCTATAAAAAGGAATCTACTTCTTTTGTCAAAAGGCCCAATGTTACACTGCCAGGCCAATGAATAGAACAGTGCAGGGGAGCGACAATAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TCTTTT",
+    "minus_10": "TACACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "outer membrane",
+      "name": "ompA_v4"
+    }
+  },
+  {
+    "id": "A_090",
+    "sequence": "AATGATATGTAGTCGGTCCAACAGAAAGAGCTGACGATCTCTGTTGAACGTGTTACTGTAATGTGAATCGTGGAATAACAAACACGATTCTACTATCTTA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "CTGACG",
+    "minus_10": "TACTGT",
+    "has_up_element": false,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "arabinose",
+      "name": "araBAD_v4"
+    }
+  },
+  {
+    "id": "A_091",
+    "sequence": "TCAATTTGATGAGACTATTAAGTAGCCAACTTGTAAGCGTATCTCCCCGCATCAATAATTCATCGGACCCGCCGATATTCCCCTCCTATTATATTTTCGG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTAA",
+    "minus_10": "AATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "maltose",
+      "name": "malT_v4"
+    }
+  },
+  {
+    "id": "A_092",
+    "sequence": "CACCACTCGAGAGTAAAAAAACAATGTCGTATGCAAGACTACTGCCCTTATGTGATACTATTCCTTAAGGGTACGAATCTAAATATCGGTACCACGCGAA",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "ATGCAA",
+    "minus_10": "GATACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "tRNA-Tyr",
+      "name": "tyrT_v4"
+    }
+  },
+  {
+    "id": "A_093",
+    "sequence": "TAGTAGAGTTTCCCCTTTTGCACCACGTTATTCAAAGTAGTCGGCCATTTACATATGTTTCCGCGACTTTTTTCAAGGTGATCGGTACAGAATGACGATT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTCAAA",
+    "minus_10": "TATGTT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "beta-lactamase",
+      "name": "bla_v4"
+    }
+  },
+  {
+    "id": "A_094",
+    "sequence": "TAACTAAGTAGTTTGGCGTCGGTTAAAATTTGGAAATACTTGAAGTTCCGTGGTAAACTACGCATTCCGAGTGGCTATGCTCGCTCTATTGATACCTGTT",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TGGAAA",
+    "minus_10": "TAAACT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "CAT",
+      "name": "cat_v4"
+    }
+  },
+  {
+    "id": "A_095",
+    "sequence": "GCGTTCGCGATCATGTTGCAAGCAATTATGTTGTCCGTATCTTATAATGGTGCTTTAATAACGTGCGTGTTGAGCAACGGAGGATTACGCGAATTATAGG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGTCC",
+    "minus_10": "TTTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "dnaA",
+      "name": "dnaA_P1_v4"
+    }
+  },
+  {
+    "id": "A_096",
+    "sequence": "TCGGGTATTTAGAGTAAAAAAAAAGAATAATTATCACTATGAATTCGACCTGTTAGACTGGGAAATAAGGATCGAGACTGTAAGAGGGGGGATCTCTAAG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTATCA",
+    "minus_10": "TAGACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "dnaA",
+      "name": "dnaA_P2_v4"
+    }
+  },
+  {
+    "id": "A_097",
+    "sequence": "GCCATTATAATATTAAAAAAGTAGGTGGTATTGACTTCCTTGGTCAAGAACTATACGATTTGAGGATTGACTTTCTTCCAATTAATGCTTCGTCGTTGCG",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACT",
+    "minus_10": "TACGAT",
+    "has_up_element": true,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "Fis",
+      "name": "fis_v4"
+    }
+  },
+  {
+    "id": "A_098",
+    "sequence": "TTGGTATTTTGGGTGTGAATGTCCCATAGTTTGACCACCATGACTGTACGCCGTATAACCCATACACAGAACAGACCCATACTACCCTAAACTTAACGAC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACC",
+    "minus_10": "TATAAC",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "IHF alpha",
+      "name": "ihfA_v4"
+    }
+  },
+  {
+    "id": "A_099",
+    "sequence": "GTGCTTGTTCAAAAGAAAAAAAGGTTCCCTTTGACAAAGATTTATAGTGGTGTGATACTGAAATTCGAACCGACCGGCACCCCAAATACTAATCCAAGTC",
+    "class_label": "A",
+    "class_name": "Natural Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "GATACT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": true,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "source": "literature",
+      "gene": "sigma70",
+      "name": "rpoD_v4"
+    }
+  }
+]

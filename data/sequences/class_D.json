@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "D_000",
+    "sequence": "TTGTATTGGAGTAAAGGCCTTAATTGTGTGTTGACACTTCACAAGATTTGTAGTGTAATGACGCAAAGCTCTAGTTCGGAGGATGGAAATATACTATGGC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_001",
+    "sequence": "ACAACTAAGCTCAAACACGCAGTTTTGTCTTTGACACTGTTCGGGACTTAATTTGTAATCGTTGAGCAACCCTCTAATAGCAATATAGAGAAAGTGAGAG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_002",
+    "sequence": "AAGTCGGCACGACCTCGTACTCCGCTGAATTTGACAGGCATATCTAATAGGGCTGTAATCATCAATCCTAATTCCGTGGCCGTAGTCGAACCACTGGTTT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_003",
+    "sequence": "AAAGTTAACGTATTTCCGGATTGGTATCCCTTGACATTTATGCGCCGGTACCGTGTAATAATTTAGGGACAACTCTTTTGAATTATTGTATAATGTGTCA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_004",
+    "sequence": "GTCCATTTACATTCGAGGTGCTCTTCTGTATTGACAAATTCATTTTAAGAACATGTAATCACCTCCCAATTCTCGACCAGGTCTCCACGTTATACCCCTA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_005",
+    "sequence": "TCTCCGAAGTGCGATTAGTTGGGCAAGTATTTGACAATACCACATAAATGATATGTAATTGATTAGCCGAAAAGCCATGCTGAACCCGAATCACGGCTTA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_006",
+    "sequence": "ATCAAGCTGATACCACGCAGTTGCGCGGTTTTGACATACTACATCTGCCCCTGTGTAATAGGGACTTTTAGTACAATCAGGCACACGAGTATTGCGCAGG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_007",
+    "sequence": "AATAAATGTCTGATTGCATTATAATCTAGCTTGACACCCGGTTTTTGTGCTGGTGTAATTAGTTCATACGACACATGAACAGAGTTTTTGCCTTTAATAT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_008",
+    "sequence": "TACTAGAAGTAGATTCGTGTGTCTGATGTATTGACATAACCGGGCAATAGTTTTGTAATGTATAAGAACAATACGACGCGCGTATCGAGCTTAGGTTATA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_009",
+    "sequence": "CAAGAAGCCGAGGTACCGATCCAATCGCCTTTGACATTTGCTTCAGTTTTATTTGTAATTCAAATCAAAAAGTCCCCGGTGTGTAATATTTTCCACTGAG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_010",
+    "sequence": "TCCTGTTGAAACCGCCCTATCAGTCAGATTTTGACATCTCAGGTCCCCGCTTGTGTAATATTCACACCTGACCTGACACGGCATAAATGCATGATTTGCA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_011",
+    "sequence": "CATGTCTATTCATAGTTCAAACGTATCCTCTTGACAGACACAAGTCAACACGTTGTAATCCCCTAGGAATTGGCATCCCGAGACCTATGCATAGTAATGA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_012",
+    "sequence": "ATTCCTCGCCATTTCGCTCCTCTACGCCATTTGACAAGTGTTCAGCACTTGGTTGTAATTCCTACAGTTTGAGCTACTAAGTTTACAGATGGACTCCTTC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_013",
+    "sequence": "GGGCAAATTAACCTTAAGATCAACCTGGGTTTGACATAGCCCTGACCGAACGATGTAATCATCCTCAGATATCCAATTGCCTTTTTGAAGCACAGGTTTA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_014",
+    "sequence": "GAATGGAGCAGGAATATGAAGGCGTCGAAATTGACATATTATGCATGCAGGTCTGTAATTTCCTCAACCTCGGATTAGCGACGGAATTTGATTGTTATCT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_015",
+    "sequence": "CACCTCCCCTCTCTTTAGAGCCCTCGAAGTTTGACATAGGTCCGCAGACTAATTGTAATAAAGTAGCATATGCTTCTACCCGGATAACCCAGTGACAGTT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_016",
+    "sequence": "CGGTGTTGTTATGTTTCACTTGAGCGGTCATTGACAAAGCCGTGCTTATAAAGTGTAATAACCATACATCTCCTTCCCACTAATTATACGTCATTCAACA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_017",
+    "sequence": "TCTCTTCTCTAGCCTAGCAAGAAGTATTGCTTGACATATAACCGTACTCTATTTGTAATTATACTTGAGGCCTAGCGGCTTAAATAAACTAAAGCTGGGT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_018",
+    "sequence": "TACGGTATCAAAAATACGCCGTGCAGGAATTTGACAGGGCGACGTAACAGCTCTGTAATTTATAATCGATGTCATGCAAGGTTATGTATTCTTTCATAAG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_019",
+    "sequence": "CTGTACATTTTATGCATATATATTACGTAATTGACAATCATTCATCTACGTGTTGTAATCTGTTCGTCTAAGCTTAATACGGATGGTCGTCGGTTGATCG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_020",
+    "sequence": "TCCTCTTGGTTGTGAGATATTTTATCTACATTGACAGCCCTTTCGTTATATGCTGTAATTTTTCAGTGGTGCGAAGTCAGGCTATTTCGATCAGGACTTA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_021",
+    "sequence": "AGAAAAGTCGGCTGGTTTGTTACTTCCTATTTGACAGCCTGTGGGTCGAGCCTTGTAATAGAGGTTGCGTTACGGCGTTAGGCAGGCATGGTTAGTAAGC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_022",
+    "sequence": "AATGTCCGACACGTCACATGCTGAGTACATTTGACATTAGAACTTGGTGTAATTGTAATCCCAGTCGTTTTGCCAGCCATACCTTTTGTAGGCGGGCGAC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_023",
+    "sequence": "CATCCAAAGGCTTTGGATCGTGGTGACATATTGACAGTATTGAAAGATAGTAATGTAATTAAAGTCGTGATTAGCCATTCGGCGCGAGATCACTAGTCGC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_024",
+    "sequence": "GAATTTGCATCAATATTAGCAGATTAACGTTTGACACACAAAGCTAAGGATAGTGTAATAAACGTTAAGGAGTTGCGCTGGCTCTAGCAGATTTCATACG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_025",
+    "sequence": "GACTCTCCTCCCCCTAAAATGGTGTCGAAATTGACAAGACGACGCGATGACTATGTAATTGTTGTAATATCTAAATCTGTCGCAGTACGGAGCTGTTGAC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_026",
+    "sequence": "TACCAAGTTGATTTGTTTAACCATTGTCGTTTGACAATACGTCTAACCCATTCTGTAATACTCAGGCTTTCCTGGCATTAGCGATTAACATTTAATTGAG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_027",
+    "sequence": "TCTTAAGATAATATAAACGCATGACGTAAATTGACAGAACTAGGGGCCTTGGTTGTAATGTATGATAGTCGGAATCTCCTCTAGACCCTTTCTCATCAAC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_028",
+    "sequence": "TGCATGAGAACACACCTGACTCTATATACCTTGACACAGGCAACTTTCTACCATGTAATTGGCAACGTAGATCCAGATGACGTTACTTAATAAGCTCAAC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_029",
+    "sequence": "TGGTGTGATTATCTCTAAAAGTACTAGGGTTTGACAATATGCCTGGGCCTACGTGTAATAAGTATTCCTCGGGCATTCATAAGGATAAAAATGCTGATCG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_030",
+    "sequence": "GGAGAGAGGCTAAGTTCGGAAGCCAACAGGTTGACATAGTTGTTCAGGTAGCATGTAATCTTCGTGTAAAAAAAACTTACGTTCAGCAAACTTTAGTTTT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_031",
+    "sequence": "AATCTGAAGAGACCACCAATGTTGGAAGTATTGACAGGTGTCACTGCTTGCGCTGTAATTGCTAAATGCGGTCTTACGTTGTTTCTTTGGGAGTTGTCCT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_032",
+    "sequence": "CTGTACCTAGCTTAATGAAATACTGATAAATTGACACCGCCACGCGACACAGTTGTAATTCAACTCGATGTCTATACTTACAATTTCGCGCTGAGGCTCA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_033",
+    "sequence": "CCAATACATTTTAACGTACGTAATTGCCGATTGACAGCAATCCTTTAAGGCTCTGTAATAAAGAATAGGATATTTACCACGGTAAGTAGTGATTCAAACT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_034",
+    "sequence": "TAGTCGTTAGTTGTAGCTCAAATAGCCCTTTTGACACTGGTGGGCACCGGAAATGTAATCCTGCACGTTATCGCGCTGATTGATTAGCACAGGAGATTTA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_035",
+    "sequence": "ATTCTGAGAACTGCCAACTATAGATTGATGTTGACAGGAGTAGCATTAGTATTTGTAATAAAAACGGCAAAGCTCGCGATCTGCCGTGCGGGCTACCACA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_036",
+    "sequence": "GCATAGCTCCCCTTAAACTCATGGTTTCTATTGACACCTATACGAAAGTTTAGTGTAATAATAACTTATAATTGAGAAAAATTGAAAAAGTACACTGCGC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_037",
+    "sequence": "GTTCGGTTGCGCTAGCCGCCCCAACGATTTTTGACACCCTCCATTTCACCGCGTGTAATCATATAGAAAGACTCGCAGACCTATTGATTCGCTAATACCA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_038",
+    "sequence": "CTAGCTAGATAATACACTTCACTGTTTAGTTTGACAGGTTATCATCTTAGTATTGTAATAGCTCCAACTACTCTACATAATCTGCTCGAACCAATAGCAT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_039",
+    "sequence": "TGTAAATCGTCGATCAGTGTAACTAGGGTCTTGACAGGATGGTCGCGCTATCCTGTAATACAATGGGCAGTGGTACAAAAATAACGCGCACTCCTGGATT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_040",
+    "sequence": "CCTATAGTTTCTGGTCACTGACGTGGTTGGTTGACAGTACCGTCTTTGACGCCTGTAATGATCCCTTATGCGTTGCGATAGCAATGCGAGAGTAATAGGC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_041",
+    "sequence": "TAAATCGGATTTAATTTTACATTCAGAATCTTGACATTTACGGATTCCCTAGTTGTAATTAGTCTCGAACACTTGCTTTATGGAACTTCGATCCTCTACT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_042",
+    "sequence": "AACACCAGACCATCGTTGTCAACTAATAATTTGACAGCGCTTATCGAAATGACTGTAATTAAGGTGAAGATTGTAGATTAGAAGAGCCGTCATACGCTCA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_043",
+    "sequence": "AAAGAGAATTTGAATGGGTAAAATTTCCGGTTGACATGCTCACATTTGAACCATGTAATAATTTACCATGCTGGAACAATGCCATATAATTTGTTGTATC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_044",
+    "sequence": "GGGAAACTATGGGTGCCGTCTCTGCCGGATTTGACAGTCATAAATCTGTTATGTGTAATCAATTTCTTTAGAGAGTTGATTGGATAAATACACGATTCTT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_045",
+    "sequence": "TCGTACAAATCAAACCGAGGTGTGTGCCTGTTGACACGTTTACTCAGTAATGTTGTAATATTAATGAGAGAAGTACTATGAACCGATCGTCAAAGATACT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_046",
+    "sequence": "TGAATATGCTTGGTCGTGCCAGAGGCGTATTTGACAAGAAACCCGGCGAAAACTGTAATGGAACTGGTAGGTTAAAAACTAGGAGATATCTGCTGAAAAG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_047",
+    "sequence": "GCAGGTCAACGCTGACTATTCTCCTTTACATTGACAAACCACGTGTTTCGGATTGTAATAGATATATCTACGCAAAAGGTTGGAGGAACCATTTTTGGTC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_048",
+    "sequence": "CCGCGTTAATTAATAAGTACCGACTATCAGTTGACAAAGTCGACCTGTCATTGTGTAATTGTCGCTTGTCCCCTAGAATAAATGACTATAACCTAAATCT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_049",
+    "sequence": "GAGCTCGTGTTCTACGTTTCATTTGCAGGATTGACATGACGTGCATCGGTCGTTGTAATGTTAGATGGGAGCTTGTTTTATTATTCGTAGAGAGCCTGAA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_050",
+    "sequence": "GTAGCGTGTGGGATCACCGTTGCATTCTGATTGACATAGTATTTTCCTATTCATGTAATTATAGGGTCTATCAAAGTTATCAGAGATACAGAGCCATAAA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_051",
+    "sequence": "CCCAGCACTGGCGATTTTTTGTATATGATATTGACAATCCTCATTGAACACTTTGTAATCTGCGTAGATCATCCACGTCGTTTCGTATGTTGTAAGTAGT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_052",
+    "sequence": "CTGACTTGTTAGCAATTATGGCGTCGCTACTTGACAATAGCATGGACTTGCAATGTAATCGAGTACGCGAATACAGTGGTGGGCATCTGGGCCGCTTGCC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_053",
+    "sequence": "ATCCATGAGATTAGTCGCAGTGGATCGCTTTTGACACGTGTTCTCCAGATATTTGTAATTGAATGTTTTATGTGACAGTATTTATCTATAGCGGATTAGC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_054",
+    "sequence": "AGGTTGACCGTAAGAGGGTACCAGGGAATATTGACATCTTCTGACTATATGGATGTAATTAGCATACAATGTCAACTTCACTGTCCCACCCTGGCGTTCG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_055",
+    "sequence": "GAATTTTCCATTATCAGATATTTTTAACAATTGACAGCGTCCTTACGCTGAACTGTAATGTAGTTAAAATACACAAAAAGCAACGACTTCCTCGCCTTCG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_056",
+    "sequence": "GTGCTGTCGACACAGATTTGTTTCAGGGTTTTGACAAGAAGGAGTAGCCCGTTTGTAATATTGTACTTCAAAAATCGCACTCGGTAATTATCTTGATAGG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_057",
+    "sequence": "TTGGGCATGCGAGCATTTTAACTGTTGAATTTGACAAGTTGCACCGTAGAACCTGTAATAAAAGGCCGAGTAACAAATCTGTTTAGTAGCCGGCTTTATC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_058",
+    "sequence": "ACTGGACAGTACATGGCTTTATGTAGGAGCTTGACACCCCTAATTTATTCCAATGTAATCTAAACGTCATTGGAGCAAGTCCTGCTCACGTCCAACATAC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_059",
+    "sequence": "AGTTGAATTGACTAAGGGTGCAAGTGCAACTTGACACGACTAGAGAGGCCCAATGTAATCTTCACCTAGGTGCATCCCCGTTAGGAAAGGGTAGTTGAAA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_060",
+    "sequence": "TATAGGTCTTTCGTGGAGGTCGCCCAACACTTGACATGGGTTCAGTACTGACGTGTAATGATGATTTTAGTGGTTCAATTTGGTTGTTTTTCATCTCGTG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_061",
+    "sequence": "CGCAATAACCATTCAGAGAATGGTGCTATCTTGACACGATTCCATGACTGGCCTGTAATAGTTGCGCAAGACCAAGAATCTTCGAGGTAGGGGTAACTTC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_062",
+    "sequence": "GCGACATGTTCTGTTTGAAGTCTAAGACTATTGACAACAACAGCATCTTTAAGTGTAATCGAAAGTTTGTGTGGGTATCGCTCCTACACGAGTGAGCCGC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_063",
+    "sequence": "GCAAGATGTTACCGAGACACAGGCAGGACCTTGACACATAATCCCTCTGTCCATGTAATTTTTACGACCGAAGGAAACTTCTGCCTGCAAGACTGTGGCA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_064",
+    "sequence": "TTACGCGTATAGTCTATCTCAATATTAGATTTGACAAGTGCAGCAGTGTCTTATGTAATAATATAGCTGTTGGTACTTACGTCATGCAACGGATGCAACG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_065",
+    "sequence": "AGTAGGAGATTATTTTGGCCCTTCAATTACTTGACAAGGAGTTGAGACGGTTTTGTAATGATCGACACACAATGTCAATTGGAAGATTGCCTTGTGGAGT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_066",
+    "sequence": "AATAATAGCCATGGGGTCCAACCTCTAGTGTTGACATTGACTGTTAATATCACTGTAATAGCTGCAAGTCAATTACTGAGTGTCGATTCGCAGGGAGTGG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_067",
+    "sequence": "GGGAGGGTAATCCTGTAGATATTCTGGTAATTGACAAACCCTCCGGACGTAGTTGTAATAATCGCTTTATAATCCCTCTATATCTGATACTTCTCAATCA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_068",
+    "sequence": "AGCTTAAGTTAGGAACCTTTCCACGGTAGTTTGACAAATTATTAGAAACCATATGTAATCCTAGCGGTCAATTCTTTGACTTATTAAACGGAACCTTTCG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_069",
+    "sequence": "TATAGCAGACAGTTTTGGTCATTGTCAACCTTGACACCAATGGCTACGTGGTATGTAATACCTGAGAAGCATTGAAAAACCTGTAACTTAAAGATTGGAG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_070",
+    "sequence": "GACTCTGTCGTGGCAATAACTGTTAGGACTTTGACAGGTTTCGTTCTACGACATGTAATCTTAGGCAGACAGGTGGCGTCAACCTACAGTAACATAAGAA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_071",
+    "sequence": "ATGATCTATAATCGCATGTGAATACAATCGTTGACATCTTAGGCAATAGTTTATGTAATGACACAGGACTATTACTTGTTGGCTGACGAGCTGCGAGAAT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_072",
+    "sequence": "CAGTGAGCTGGTTATCAAGATAAGGGGTAGTTGACAATGACTCGAAAGAAAATTGTAATATAGATAACAAAGTCTATCCTAGAAAAGCTGTCCGTATGAT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_073",
+    "sequence": "ATTTACAGTAACGCGCTTTCTTCGTAGCCCTTGACATGGAACAGCCAAATACATGTAATGAAGTGTGCTTGTTAACTAGGAACAATTTTACAGAAATTAA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_074",
+    "sequence": "TTGCCGCCTTGACCGTTATTGTCACCTCTGTTGACACCGTGTTTCACTGCTGCTGTAATACGTACTCTTGGATTTCCCGAGATATGAGGATTTAACGATC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_075",
+    "sequence": "ACTATCTTATGGACGAGTAGTTTACCGCCATTGACAGTTTATCGGAAATAACCTGTAATGATTGGATTAAGCATATGATTTCGTCTGAAAGTCGAGGACC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_076",
+    "sequence": "GTTTAACGTCAATAAGTAGATCACAAGTTATTGACAGTCGATTCCTAATAGATTGTAATCTTGGGGTATCCTGTAGTATTCTAGGAGCAACCTTTGCAGA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_077",
+    "sequence": "CCATGATCCATTACGTTGCCTAGTCCATATTTGACACAAACAAGGATACTGTCTGTAATGAACCAGTAGGATGTGCGCTTTGTGCAATCATGTGAAAAAT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_078",
+    "sequence": "TCCTGCTCGACGCCGCCGGTTATCCGATACTTGACAGGTCAGGAGAAGGGACATGTAATGTGGGCCTCCCCATTTCAATGCTGTAGTACATTAGGGGAAC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_079",
+    "sequence": "CGCTTGGTGTAAAATGAGACACTGAGTCCGTTGACACTAGGTATCAATCTTGGTGTAATCTTGTACCACCAAGCTCATAGATACACGAACGGGTCTTATT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_080",
+    "sequence": "GGTGCTTATAGCTAATCTAATTTATGCCATTTGACAGAAACTATAAACAGGCCTGTAATTCTAACATAAGTTAAATTAGCTTTTTACAATCTATTTATCT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_081",
+    "sequence": "ATGGCAATGTTACGGTAGGCTAAGTGGCTCTTGACACTAAAAAGTAGTGTTATTGTAATTTGCGGACGTTAAATTTAGAATAAAGGATCTTTAGATCCTA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_082",
+    "sequence": "GGGGCAAATGCGCGTAGCGTCGATGCAATCTTGACACATAGGTACATTTAACTTGTAATCTTGTACCAGGGAAAGTAAGTGATATATTCCGTGGTGGTCA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_083",
+    "sequence": "TACGACCATATATTCGCTGTTGCTTTACACTTGACAACACGGTATTTGTTATCTGTAATAAGAGATCAGAAATTGACTAGCAAGAGTGACTATTACGCTT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_084",
+    "sequence": "TTAGTTGTGTATCTGGTTTTTACAGTATAGTTGACAGTCATTACGTTATCCGCTGTAATAGATGCCCCGATCTGGCGAGTTACCTCCATGACAGGTACGG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_085",
+    "sequence": "GACCATAACTCGTACGCGGGCGACGGCAGTTTGACATCCGTACTGACTAGTTCTGTAATCCGATAGAGTATGAGACGGAGCTTACTAATTTAAGTTCGTG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_086",
+    "sequence": "GATCCGTACGTTCGGCTAACCGAATCTAATTTGACAGTGTTCCAATATGCCCCTGTAATGGCACCCGGCGGCATAAATTCTAATTATCGTTAGCTGGCAT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_087",
+    "sequence": "GGACCGGAGCGCGCCTCCAACATACACCCTTTGACATATCCCTGACTACCGAATGTAATTTCACGATATCCATCCAACCCGTTCTGAGACCCTCTCCATG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_088",
+    "sequence": "ACACGGTGCTCGGTGAGGCGGATGAGGCGTTTGACATTGTGCGTTTCGCGTTTTGTAATTTTTCGGTCAACGCTTTTTACTGCGATGAGTTAAATCGATG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_089",
+    "sequence": "TATGTTGTTCGCATTGATATCGTTCTTGAGTTGACATGTTCGCATAAGTTTGATGTAATCGTCCCTAGGGGAAGGGGTTTCCTCAGTTACACTACCGAAG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_090",
+    "sequence": "ACCTGCTCATCGCAAGCAATCTGAGTTCATTTGACAAACCTGAGGCGGGTTGGTGTAATGGAAGTAGCACTAGTTGTACCTATTTTTTTTTTACAGGACG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_091",
+    "sequence": "CTTAACTCTAGGGATATTTAAAAAAAGATTTTGACAAAGGTAGACTTGACGAGTGTAATCTTTGAAACCACATGACATAACCGACACGATAAGTATCAGA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_092",
+    "sequence": "TGACGAAACTTACGATACAAGCAGTGCAATTTGACAAATTCAAAATTTCTTAATGTAATATTTGCTTCAGAAGCATCACTTATATTCGAAAGATGTATGC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_093",
+    "sequence": "TCGGCCCTTGACTTGACATCGTTAACTACATTGACAAGTAACAGGATAAATCATGTAATCTAATAAAAAGACGCAAAGGTTAATATTCTGTACTTGGTTT",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_094",
+    "sequence": "GCGTCTTTTGCAAATTTGGAAATTAATCGGTTGACATAATACCACACTGAGGTTGTAATTTGGAGTGGGTTATAGGAACAATGACTATACAATTGCGGTG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_095",
+    "sequence": "TTCAGTAACAACAAGGCATTATATTCCAGATTGACATTTTCTTCAACTTCTAGTGTAATTCAAGCCCATTTACTCTGTGCCGCAATTGCTTCTAGCTGGG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_096",
+    "sequence": "CATAGGCCAATTCCCTCAAATCATCCGATGTTGACACAGGCAGAAGTGTTTGATGTAATTTTAATCGATATACCTGATCATTCTAAGACTGTAAATATCA",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_097",
+    "sequence": "AGTGCGCTAGCTTTGGTAGAGTGTCCAAACTTGACAGTGAACTGCTAAGAGTATGTAATCAACACCTTATGGGCCTGAGGCTATTATCATGTGTAGATGC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_098",
+    "sequence": "CGATTCTTACTTTTCATACTTGTTATGGGTTTGACATTGTTCAACACCTGCCGTGTAATACTTACATCTGCTCACTTAGACCTAGTCACATGTTCACATC",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  },
+  {
+    "id": "D_099",
+    "sequence": "TTTCCACCAATCCTTCTTCTACCAAACTTGTTGACATCGTTAGCACAAGCACATGTAATCAGAGTTGCGAATGCGAGTTACAGTTCGTTCTCAAAGCCTG",
+    "class_label": "D",
+    "class_name": "Synthetic Broken",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "broken_-10"
+    }
+  }
+]

@@ -1,0 +1,852 @@
+[
+  {
+    "id": "H_000",
+    "sequence": "GGTGTATAGCCCTAGTAGAAAAAAAAGTGGTTGACAAGGAGGCACCGTCCTGTTGTAATCCTCGTTTGGTTAATTCCAGTAGACCCCGGAGGACTCACGC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_001",
+    "sequence": "TGATCCTCGTCTTGTAAAAGAAAATAATCATTGACATGACTTAGATTTACTGTTGTAATCGTTGAGTATCCCTCCGTAAGTAAAGTAAAGGTGGTCTTAC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_002",
+    "sequence": "TTTGAGCTCTTGCATAAAAAAAAATAGGTTTTGACAGACAGAGGTAAATCTTGTGTAATTGTTCATGGGAATCGAGTCCGCCGGTGAGTGAGGCCTAACA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_003",
+    "sequence": "TCACTTATAATCATCAAGAAAAATTATATATTGACACCATGCGTTATCTATGTTGTAATACACAAAGATGTGTACAACCGCCTTAACTTATTGCTTAAAT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_004",
+    "sequence": "GTGCAGACTACCACTAGAGAAAAAGTGATGTTGACATAGTGATTGATCCCGTTTGTAATGAATTCTAACATGGCATTTTCCAGGATTTAAACAAGGTGAC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_005",
+    "sequence": "ATTAGTGCACGTCAAAGAAAAAGATAAACGTTGACAACACCAACTTTTAATTGTGTAATGGCCGTAACTCTCGCGTTATCCGCATGAACAGTGTAAGTAC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_006",
+    "sequence": "TTCGGCATTTCTAATAAAGAAAAGAGGGCGTTGACACGATGTACATGTGTTGTTGTAATACGAAGGGGTGCTGCGACCAAGCTTCTAACCATGATTACGG",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_007",
+    "sequence": "GCGATGGCGCGCTTTAAGAAAAAACCCATTTTGACATATCAATATCTCTCTGTTGTAATAATGGTATATTCACGTTCTGTTGTTAGTTTCTTAGGTGCAC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_008",
+    "sequence": "GAGCTGATACTAATCAAAAAAGAAGGACTCTTGACAGACGGCGCATTCACGTTTGTAATACTCCTAGGCAGAGGATCAAGTCAATGTGCCTCAAGAGGGC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_009",
+    "sequence": "GAAATTTCGCTATACAAAAAAAAGCCCCAATTGACATACCTCAATGTTGCTTGTGTAATCCCCTGTGCTATACATCATATGAATCAAATCGAAGTTATAG",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_010",
+    "sequence": "ATCTGTAAGATAGATCAAAGAGAATTAACATTGACAGGTCGTAAAAGATGTTGTGTAATGTGAAAAACCCAAGATCCCCAGAGTGTCACTGTTATTGTCT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_011",
+    "sequence": "AAATTCTCGTTCCTGAAAAAAACACAAACTTTGACAACAATTTCAAAATCGTTTGTAATGCTGCGTTGCGGTAACCCACTCACGACATCAAGGGTCCTTT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_012",
+    "sequence": "TATTTTTATCGAACTAAACGAAAATGGGAATTGACATTGTCCTCGAATATGTTTGTAATCGTTGATTACGTAACTCTCACCAATGCATCCTACGGCTCTT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_013",
+    "sequence": "ATTTCCGGGGCGGCCACAGGAAAAATCCTGTTGACAGTGTGCGTAAGGCGTGTTGTAATTAGCCGAGGTCTCTTTGGGGGTTAGGAATATGGCCCCCAGT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_014",
+    "sequence": "AGCGTTAGAATGCAAAAAAGAAATACGTTCTTGACATATCTCGGCATTATTGTTGTAATACCGGAGTCTTGCACTTGCGCTTTCTATCCGATAATCTTCA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_015",
+    "sequence": "CGTTCCATTTGAGGCAAACAAAAGGTACTATTGACAATACGTCTAAGAATTGTTGTAATTACTAAGTTATTTTGGCATTTGGGCCACGGTCTGTCTTCGA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_016",
+    "sequence": "TCAAATTAAGATCAAAAAGAAGAGAGCTCCTTGACAACTGCCATCAGTGTTGTTGTAATTCTGCTCGTCCGCCAGAATTTTAGTCCCTCAGGGCAATGGC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_017",
+    "sequence": "GTACAAGTGCACGCCAAAAAATGATATGTATTGACATCCCCAGATACTACTTGTGTAATAGTCAGCCTACACGCCCTGCGCAAGGTATGCTAGACCCAGA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_018",
+    "sequence": "AACCTATGTTTCCGGGAACAAAAACTCCGCTTGACAAGTAAGATATCACTGTTTGTAATAAGGTGGTCCGGTTTCTAGCAGGACCACGCTTTTTGCTGCA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_019",
+    "sequence": "CTTTTTGACAATCAGAAAAGAAGACGTTTCTTGACAGGTGCCGTGTCTCGGTTTGTAATAAGCAAACACATCTTAGTTATTAACCATGGTGGAGGGTCTG",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_020",
+    "sequence": "ACACCCTCCTGCATTGAGAAAAAAAACTTGTTGACACACCCCAGATACCTTGTTGTAATACCCCACGCGAATCCTGAGATGGTCGCACCGTTTTAGAACA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_021",
+    "sequence": "ACTTAATAATCGAAGTGAAAAAAAATGAGTTTGACACCGCTAGTACAGTTTTGTGTAATGGCAAACTCAACCACGCTATTCCTGCCAAGGTATGACCTAA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_022",
+    "sequence": "CTATTCTCTAAAATGAATAAAAAATTAATCTTGACAGAACCATTGATCGCTGTTGTAATCAATCAAGTTCAAGAATCACACGGGATTGCCAACGAGCTTA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_023",
+    "sequence": "CAAACCTCCTCGGAGAAAAAAAGAGAACCTTTGACATTAGAGTGAAACTGGTTTGTAATAGTGTAACATACGTTAGGTGCAAATTGGACAACTACCGTAC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_024",
+    "sequence": "ACTCTAATCGATTATAGAATAAAAAACATTTTGACAAGGGATGCCTAGTGTGTTGTAATACAAGGTAATTCCAAAGCCTTCGGGAACGTTATAACGTCAC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_025",
+    "sequence": "GGGTTCTCGGCCGCAAAGAAAAAAGCCTGGTTGACATTTGAACAGAACGGTGTTGTAATCAGATAATCTTCGATTACTAAAAGAAAACGGCTACAGGAAT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_026",
+    "sequence": "ATTCTTACTTCCCCCAGCAAAAAAACCCAGTTGACAACCAACGTTCTTATTGTTGTAATTTATCTAATACTCCCCATTCTCTGATACGCTGGCTAAATAC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_027",
+    "sequence": "TAAAGAAAAAATGGCAAACAAAAAGTTTCATTGACACATATATGTTATCCGTTTGTAATTAAATAAGTGCGCAAGCATCCCTATTATAACTAGATTAAGG",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_028",
+    "sequence": "TTGTACGGGGGGCTAAAAAAGGAGCTAAATTTGACAGGCTCAGTCTATTATGTTGTAATCGCTTACTAAATCGCATGTCCGACATTTGTCTGTGGGTGCT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_029",
+    "sequence": "AATTCGGTATAAACCATAAAAAAAGGTAATTTGACACATATTAAAGTACGGTTTGTAATTATGTTGCTGCGTGCGAAGCATATTAGACATAGAACCTATC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_030",
+    "sequence": "GTTTGTAATATTGTGGAAAAAAATACTTGCTTGACATGAGGGTAAAATTCTTGTGTAATTAAAAAAAATCATTACACGGAAATGTAGAGATATTGCGGAC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_031",
+    "sequence": "CCCTCCCTTAATCCTGAAAATAAAGTTGCATTGACACGTATCGACTGTTCTTGTGTAATCGTACTCTTTGGCTCTCGATTTTACGGGTCTCTGGTTTGTT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_032",
+    "sequence": "ACCGTTGTTCCATATAAAAAAAAAGAACCCTTGACATATCGAGAAATTCGGTTTGTAATCTCTTCCATGGTCACATGGGTAGATTCAGAGCCAACATTAC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_033",
+    "sequence": "ACATCTTCATTGGTTGAGAAAAATTAGCTGTTGACAATAATACATGACGTTGTTGTAATTGCTGCCTGTATGGCTTCATTCGGCTTCAGCAAAAGAAGCC",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_034",
+    "sequence": "TCGCAGGGTATAGGAAATGAAAAAAGTCTTTTGACAACTTTACCTTATTTGTTTGTAATCTACGCTATACCGCTTGATGTATCTTTTGATCGGTCGGTCT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_035",
+    "sequence": "GTTTTGCCATTGTACAAAAAAAAAATGCACTTGACACCTGCTCCTGTCAAGTTTGTAATAAATCTAATCATGGTACGACGCGAGATCAATGGTTATGAAA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_036",
+    "sequence": "TTGTTTGCCCGAGTTAAAAAAGACCCCCGTTTGACAATTGTCCTCACGATGTTTGTAATCTTTGTTAAGCACATCGAACTTGTTCATACAGAAAATCAAG",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_037",
+    "sequence": "TAGCTACGAGACAGCAAAGACAAAAAAAGATTGACATTTATGGTTAATCGGTTTGTAATTGATTGATCACAGCCAGTTACTTTATGATTCACAAATGTTT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_038",
+    "sequence": "CTACTTGATTTGCTAATAAAAAAATCTGGCTTGACAATAAGTAATAACTCGTTTGTAATCTTAATAACTAGGTATAGGTTCAGTAAATGAATATGAGAGT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_039",
+    "sequence": "ACCGATTCTGCACAAATAAAGGAAACCAGTTTGACACCGGATGAGAATGATGTTGTAATCGTGAGAGTTGGTGTTGAGATTAAAAGACTAACGGTCAATT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_040",
+    "sequence": "GTGCCTTCCTCTCTTGAAAAAAAATGATCTTTGACATTTTTCATTGCAAAGTTTGTAATGTTAAGCGCGGTGTCGTACTCCGATCGAAACGATCCTATAT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_041",
+    "sequence": "TTAGTCCCAGTGACCAAAAAAAAGCCCAAATTGACACGATGGTGAATTAAGTTTGTAATGTATCGATGTGCGTAGACTGCACCAACTACGCAGGTGTCCA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_042",
+    "sequence": "CTCGACTCTTATGAAACGAAAAGAGCCATTTTGACAGGAGCTCGGAAATATGTTGTAATACTGTAGCTCGTTTAATGAGTGCCGCAGCAGGTGTTCGTAG",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_043",
+    "sequence": "ACTCATTTGTATCATAAAAAAACAAGAGTTTTGACAAGTTATTGATTTGATGTTGTAATATGCCTCCGTCGAACGTAGTGCTAACTGCCTCTCTAGCGCA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_044",
+    "sequence": "TTGCACGTAAATAATAAAAAGAAGGCTTCCTTGACATCATGCAGCCGGACTTGTGTAATGCTACGAAAAGTGACTCGCGTTACCAGGCCTGTGCCGACAA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_045",
+    "sequence": "TCCCTGCCTGTAGCCGAACAAAGAACGTTTTTGACAAGGGTGTATAATCTTGTTGTAATTAGAGCTCATTTACGCGCTGTACACCTATAGGTATTGTCGT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_046",
+    "sequence": "CCTAAACCTTTTAATAGAAACAAACAGCAGTTGACACGCGCTCCAGCAGATGTTGTAATGAAGGCAGGACAAGCGTCTTTAGACCGGCTGAATTCAATCT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_047",
+    "sequence": "AGCATCGATGGCCCTACAGAAAAGAAACGATTGACAACTAATCGTTGTCATGTTGTAATTCGACCGTTAGGCCGGGGTAGAGCATTGAGCTTAATTACTA",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_048",
+    "sequence": "GGATCTTTTCCATAGGGTAAAAAATTTCGATTGACAGGTTGTTAAAACGGGTTTGTAATGAGGTGGTCGTTATGCAATAATGAGCCAATCGATAGCATGT",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  },
+  {
+    "id": "H_049",
+    "sequence": "TCGGGAGTTTCGTCTAAGAAAAGATTTAGCTTGACACTGTTGTTGAAAAATGTTGTAATTCCAAGCCTCCCATTAATTCGAGGTTTTCTTATAATCGACG",
+    "class_label": "H",
+    "class_name": "Scrambled Control",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": false,
+    "metadata": {
+      "design": "scrambled_control",
+      "original_class": "E"
+    }
+  }
+]
