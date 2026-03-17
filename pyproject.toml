@@ -9,7 +9,8 @@ description = "Mechanistic Invariance Test for Genomic Language Models"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Bryan Cheng", email = "bcbc7264@gmail.com"}
+    {name = "Bryan Cheng"},
+    {name = "Jasper Zhang"}
 ]
 requires-python = ">=3.9"
 classifiers = [
@@ -48,9 +49,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/bryanc5864/MITproject"
-Repository = "https://github.com/bryanc5864/MITproject"
-Issues = "https://github.com/bryanc5864/MITproject/issues"
+Homepage = "https://github.com/bryanc5864/MechanisticInvarianceTest"
+Repository = "https://github.com/bryanc5864/MechanisticInvarianceTest"
+Issues = "https://github.com/bryanc5864/MechanisticInvarianceTest/issues"
 
 [project.scripts]
 mit-generate = "scripts.generate_sequences:main"

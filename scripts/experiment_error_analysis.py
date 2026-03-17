@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Error analysis experiment.
 
-Addresses critique: "No error analysis — which sequences do models get right vs wrong?"
-
-Analyzes patterns in model failures:
+Analyzes patterns in model successes and failures to understand what
+sequence features predict correct classification. Key questions:
 1. Which compensated sequences does HyenaDNA score correctly (> broken)?
 2. Are failures correlated with GC content, specific background patterns,
    or motif variant properties?

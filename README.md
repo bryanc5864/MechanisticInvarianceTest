@@ -1,194 +1,232 @@
-# MIT Benchmark: Mechanistic Invariance Test for Genomic Language Models
+# Mechanistic Invariance Test for Genomic Language Models
 
-This benchmark evaluates whether genomic language models (GLMs) understand regulatory compensation in E. coli σ70 promoters.
+A benchmark for evaluating whether genomic language models (gLMs) encode mechanistic understanding of bacterial transcriptional regulation, or merely learn shallow statistical associations.
 
-## Overview
+## Abstract
 
-The **Mechanistic Invariance Test (MIT)** probes whether GLMs have learned the mechanistic principle that promoter function can be maintained through compensatory regulatory elements, even when primary motifs are damaged.
+We introduce the **Mechanistic Invariance Test (MIT)**, a benchmark that probes whether gLMs understand regulatory compensation in E. coli σ70 promoters. The core principle: promoter function can be maintained through compensatory regulatory elements even when primary motifs are damaged. A model with true mechanistic understanding should recognize that *broken + compensated ≈ intact*.
 
-### Key Insight
+We evaluate 5 gLMs spanning autoregressive (HyenaDNA, Evo2-1B), masked language model (NT-500M, GROVER), and bidirectional SSM (Caduceus) architectures. Our key finding: while HyenaDNA shows statistically significant compensation sensitivity (CSS=0.630, p=0.004), extended experiments reveal this signal is driven entirely by AT content correlation (r=0.78-0.96), not mechanistic understanding. All tested models fail diagnostic tests for positional encoding, spacing sensitivity, and strand orientation.
 
-In E. coli σ70 promoters:
-- The **-10 box** (consensus: TATAAT) is critical for σ70 recognition
-- A **broken -10 box** (e.g., TGTAAT) dramatically reduces promoter strength
-- However, **compensatory elements** (UP element, extended -10) can restore function
-
-A model that truly understands promoter biology should recognize that:
-> Broken + Compensated ≈ Intact
-
-A model that only memorizes surface-level motifs will not understand this equivalence.
-
-## Sequence Classes
-
-| Class | Name | Description | N |
-|-------|------|-------------|---|
-| A | Natural Intact | Real promoters with strong -10 | 100 |
-| B | Natural Broken | Real promoters with weak -10, no compensation | 100 |
-| C | Synthetic Intact | Consensus -35/-10 elements | 100 |
-| D | Synthetic Broken | Consensus -35, broken -10 | 100 |
-| E | Synthetic Compensated | Broken -10 + UP element + extended -10 | 100 |
-| F | Over-Compensated | Broken -10 + all compensatory elements | 50 |
-| G | Natural Compensated | Real promoters with compensation | 50 |
-| H | Scrambled Control | Same composition as E, scrambled motifs | 50 |
+In contrast, biophysical baselines with ~100 parameters of explicit biological knowledge achieve CSS=1.000 and correctly encode all mechanistic constraints. This demonstrates that the MIT benchmark is solvable, and that current gLMs have not learned equivalent principles despite orders of magnitude more parameters.
 
 ## Key Results
 
-See **[RESULTS.md](RESULTS.md)** for comprehensive benchmark results and analysis.
+| Model | CSS | SCR | Significant? | Interpretation |
+|-------|-----|-----|--------------|----------------|
+| PA-PWM (biophysical) | 1.000 | 0.980 | - | Solves MIT perfectly |
+| RPA-PWM (relative) | 1.000 | 0.920 | - | Relative constraints suffice |
+| HyenaDNA | 0.630 | 0.480 | Yes (p=0.004) | AT-driven, not mechanistic |
+| Evo2-1B | 0.600 | 0.460 | No (FDR p=0.09) | AT-driven |
+| NT-500M | 0.540 | 0.400 | No | Near random |
+| GROVER | 0.520 | 0.520 | No | Near random |
+| Caduceus | 0.490 | 0.420 | No | At chance |
 
-### Summary
+**CSS** = Compensation Sensitivity Score (P(compensated > broken))
+**SCR** = Scramble Control Ratio (P(structured > scrambled))
 
-| Model | CSS | Significant? |
-|-------|-----|--------------|
-| HyenaDNA | **0.630** | **Yes** (p=0.004) |
-| NT-500M | 0.540 | No |
-| Random | 0.500 | No (baseline) |
-| GROVER | 0.460 | No |
-| k-mer | 0.430 | No |
+See **[RESULTS.md](RESULTS.md)** for comprehensive analysis including extended experiments on AT titration, positional sweeps, spacing sensitivity, and strand orientation.
 
-**Key Finding**: HyenaDNA shows statistically significant compensation sensitivity, but extended experiments reveal this is driven by AT content correlation (r=0.73), not mechanistic understanding. The model fails positional, spacing, and strand orientation tests.
+## Biological Background
 
-## Primary Metric: CSS
+In E. coli σ70 promoters:
+- The **-10 box** (consensus: TATAAT) is critical for σ70 recognition
+- A **broken -10 box** (e.g., TGTAAT with T→G mutation) reduces promoter strength >100-fold
+- **Compensatory elements** can restore function:
+  - **UP element**: AT-rich region upstream of -35 (contacts α subunit)
+  - **Extended -10**: TGT triplet immediately upstream of -10
+  - **Optimal spacing**: 17±1 bp between -35 and -10
 
-**Compensation Sensitivity Score (CSS)** measures how often a model scores compensated sequences higher than broken sequences:
+A model encoding mechanistic understanding should:
+1. Recognize that compensated sequences score higher than broken sequences (CSS > 0.5)
+2. Distinguish structured compensation from scrambled composition (SCR > 0.5)
+3. Encode correct positional constraints (UP upstream of -35, spacing = 17bp)
+4. Be strand-aware (promoter elements are directional)
 
-```
-CSS = P(LL(compensated) > LL(broken))
-```
+## Sequence Classes
 
-- **CSS = 0.5**: Model cannot distinguish (random baseline)
-- **CSS > 0.5**: Model recognizes compensation
-- **CSS = 1.0**: Perfect compensation sensitivity
+| Class | Name | N | Description |
+|-------|------|---|-------------|
+| A | Natural Intact | 100 | Real promoters with strong -10 box |
+| B | Natural Broken | 100 | Real promoters with mutated -10, no compensation |
+| C | Synthetic Intact | 100 | Consensus -35 (TTGACA) and -10 (TATAAT) |
+| D | Synthetic Broken | 100 | Consensus -35, broken -10 (TGTAAT) |
+| E | Synthetic Compensated | 100 | Broken -10 + UP element + extended -10 |
+| F | Over-Compensated | 50 | Broken -10 + all compensatory elements |
+| G | Natural Compensated | 50 | Real promoters with compensation |
+| H | Scrambled Control | 50 | Same composition as E, scrambled motifs |
+
+**Total: 650 sequences**
 
 ## Installation
 
+### Requirements
+- Python 3.9+
+- PyTorch 2.0+ with CUDA support
+- NVIDIA GPU with 8GB+ memory (for gLM inference)
+
+### Setup
+
 ```bash
 # Clone repository
-git clone https://github.com/bryanc5864/MITproject.git
-cd MITproject
+git clone https://github.com/bryanc5864/MechanisticInvarianceTest.git
+cd DOT-ICL
 
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # Linux/Mac
+# or: venv\Scripts\activate  # Windows
 
-# Install package (recommended)
+# Install package
 pip install -e .
 
 # Or install dependencies directly
 pip install -r requirements.txt
-
-# Optional: Install evo2 for Evo2 model
-pip install evo2
 ```
 
-## Usage
+### Model-Specific Dependencies
 
-### 1. Generate Sequences
+**Evo2-1B** (requires separate environment due to transformer-engine):
+```bash
+pip install evo2 transformer-engine flash-attn
+```
+
+**Caduceus** (requires mamba-ssm):
+```bash
+pip install mamba-ssm==2.2.4 causal-conv1d==1.5.0.post8
+```
+
+## Quick Start
+
+### Full Reproducibility (Single Command)
 
 ```bash
+# Run complete experiment pipeline
+python scripts/run_all_experiments.py --gpu=1
+
+# Results saved to:
+# - data/results/metrics.json (all metrics)
+# - data/results/*.json (per-model scores)
+# - figures/*.png (visualizations)
+# - logs/<timestamp>/experiment.log (full log)
+```
+
+### Step-by-Step Reproduction
+
+```bash
+# 1. Generate benchmark sequences (650 sequences, 8 classes)
 python scripts/generate_sequences.py --output data/sequences/
-```
 
-This generates 650 sequences across 8 classes.
-
-### 2. Run Inference
-
-```bash
-# Run baseline models (fast)
+# 2. Run baseline models (CPU, fast)
 python scripts/run_inference.py \
     --sequences data/sequences/all_sequences.json \
     --models kmer,pwm,random \
     --output data/results/
 
-# Run GLMs (requires GPU)
+# 3. Run gLM inference (GPU required)
 python scripts/run_inference.py \
     --sequences data/sequences/all_sequences.json \
-    --models dnabert2,nt_500m,grover \
+    --models hyenadna,grover,nt_500m \
     --output data/results/ \
     --gpu 0
-```
 
-### 3. Compute Metrics
-
-```bash
+# 4. Compute metrics
 python scripts/compute_metrics.py \
     --results data/results/ \
     --output data/results/metrics.json
-```
 
-### 4. Analyze Results
-
-```bash
+# 5. Generate figures and analysis
 python scripts/analyze_results.py \
     --metrics data/results/metrics.json \
     --output figures/
 ```
 
-## Models Supported
+### Extended Experiments
 
-| Model | Type | Size | GPU Memory |
-|-------|------|------|------------|
-| Evo2-1B | Autoregressive | 2GB | ~4GB |
-| DNABERT-2 | Masked LM | 230MB | ~2GB |
-| Nucleotide Transformer 500M | Masked LM | 1GB | ~3GB |
-| HyenaDNA-medium | Autoregressive | 500MB | ~2GB |
-| GROVER | Masked LM | ~500MB | ~2GB |
-| Caduceus | Masked LM | ~300MB | ~2GB |
-| k-mer baseline | Statistical | - | CPU |
-| PWM baseline | Statistical | - | CPU |
+```bash
+# Biophysical model comparison (PA-PWM, RPA-PWM, Thermo)
+python scripts/run_biophysical_comparison.py
+
+# RPA-PWM: Fair baseline with relative constraints only
+python scripts/rpa_pwm.py
+
+# Diagnostic experiments
+python scripts/experiment_at_titration.py --model hyenadna
+python scripts/experiment_positional_sweep.py --model hyenadna
+python scripts/experiment_spacing.py --model hyenadna
+python scripts/experiment_strand.py --model hyenadna
+
+# Extended validation experiments
+python scripts/experiment_dinucleotide_control.py
+python scripts/experiment_error_analysis.py
+python scripts/experiment_negative_mes.py
+python scripts/experiment_mpra_validation.py
+```
+
+## Models Evaluated
+
+| Model | Type | Architecture | Scoring Method |
+|-------|------|--------------|----------------|
+| HyenaDNA-medium | Autoregressive | Hyena | Log-likelihood |
+| Evo2-1B | Autoregressive | StripedHyena | Log-likelihood |
+| NT-500M | Masked LM | Transformer | Pseudo-log-likelihood |
+| GROVER | Masked LM | Transformer | Mean embedding |
+| Caduceus | Bidirectional | Mamba SSM | Pseudo-log-likelihood |
+| PA-PWM | Biophysical | PWM | Position-aware scoring |
+| RPA-PWM | Biophysical | PWM | Relative position scoring |
+| k-mer | Statistical | - | TF-IDF |
+
+## Metrics
+
+| Metric | Definition | Interpretation |
+|--------|------------|----------------|
+| **CSS** | P(LL_compensated > LL_broken) | >0.5 = recognizes compensation |
+| **SCR** | P(LL_structured > LL_scrambled) | >0.5 = recognizes structure |
+| **MES** | Cohen's d (intact vs broken) | Effect size of motif discrimination |
+| **CM** | (LL_comp - LL_broken) / (LL_intact - LL_broken) | Fraction of recovery |
 
 ## Project Structure
 
 ```
-MITproject/
+DOT-ICL/
 ├── mit_benchmark/
 │   ├── sequences/
-│   │   ├── generator.py      # Sequence generation
-│   │   ├── motifs.py         # Promoter motif definitions
-│   │   └── natural.py        # Natural promoter data
+│   │   ├── generator.py      # Sequence generation for all 8 classes
+│   │   ├── motifs.py         # σ70 promoter motif definitions
+│   │   └── natural.py        # Natural promoter data from RegulonDB
 │   ├── models/
 │   │   ├── base.py           # Abstract model interface
-│   │   ├── autoregressive.py # Evo2, HyenaDNA wrappers
-│   │   ├── masked_lm.py      # DNABERT-2, NT, GROVER, Caduceus
-│   │   └── baselines.py      # k-mer, PWM baselines
-│   ├── evaluation/
-│   │   ├── metrics.py        # CSS, MES, CIR, CM, SCR
-│   │   └── analysis.py       # Statistical tests, plotting
-│   └── utils/
-│       └── config.py         # Configuration
+│   │   ├── autoregressive.py # HyenaDNA, Evo2 wrappers
+│   │   ├── masked_lm.py      # NT, GROVER, Caduceus wrappers
+│   │   ├── biophysical.py    # PA-PWM, Thermodynamic models
+│   │   └── baselines.py      # k-mer, PWM, random baselines
+│   └── evaluation/
+│       ├── metrics.py        # CSS, MES, SCR, CM implementations
+│       └── analysis.py       # Statistical tests, visualization
 ├── scripts/
-│   ├── generate_sequences.py
-│   ├── run_inference.py
-│   ├── compute_metrics.py
-│   └── analyze_results.py
+│   ├── run_all_experiments.py    # Full pipeline
+│   ├── run_inference.py          # Model inference
+│   ├── run_biophysical_comparison.py
+│   ├── rpa_pwm.py                # Fair baseline
+│   └── experiment_*.py           # Extended experiments
 ├── data/
-│   ├── sequences/            # Generated sequences
-│   └── results/              # Model predictions
-├── figures/                  # Generated plots
-├── requirements.txt
-└── README.md
+│   ├── sequences/            # Generated benchmark sequences
+│   └── results/              # Model predictions and metrics
+├── figures/                  # Generated visualizations
+├── RESULTS.md               # Comprehensive results documentation
+└── requirements.txt
 ```
-
-## Metrics Reference
-
-| Metric | Description | Range | Interpretation |
-|--------|-------------|-------|----------------|
-| CSS | Compensation Sensitivity Score | [0, 1] | >0.5 = recognizes compensation |
-| MES | Motif Effect Size (Cohen's d) | (-∞, ∞) | Higher = better motif discrimination |
-| CIR | Context Independence Ratio | [0, ∞) | ~1 = consistent across contexts |
-| CM | Compensation Magnitude | (-∞, ∞) | 1 = full recovery |
-| SCR | Scramble Control Ratio | [0, 1] | >0.5 = recognizes structure |
 
 ## Citation
 
-If you use this benchmark, please cite:
-
 ```bibtex
-@software{mit_benchmark,
-  title={MIT Benchmark: Mechanistic Invariance Test for Genomic Language Models},
-  year={2024},
+@article{mit_benchmark_2026,
+  title={Mechanistic Invariance Test for Genomic Language Models},
+  author={Cheng, Bryan and Zhang, Jasper},
+  year={2026}
 }
 ```
 
 ## License
 
-MIT License
+MIT License - see [LICENSE](LICENSE) for details.

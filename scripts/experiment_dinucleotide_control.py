@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Dinucleotide frequency control experiment.
 
-Addresses critique: "Only controlled for AT content"
-
+Distinguishes mononucleotide (AT%) from dinucleotide from positional effects
+by generating sequences with matched compositions at different levels.
 This experiment generates sequences with matched dinucleotide frequencies
 but different motif positions, distinguishing whether models respond to:
 1. Mononucleotide (AT%) composition

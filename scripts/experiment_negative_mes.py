@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """Negative MES investigation.
 
-Addresses critique: "Models score intact LOWER than broken — this is
-counter-intuitive and unexplained."
-
 Investigates why gLMs assign higher likelihood to TGTAAT (broken -10)
-than TATAAT (intact -10) by:
+than TATAAT (intact -10), which is counter-intuitive given the functional
+importance of the intact consensus. Analysis approach:
 
 1. Counting genome-wide frequency of both hexamers in E. coli
 2. Checking if TGTAAT is more common than TATAAT in training data

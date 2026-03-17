@@ -982,9 +982,9 @@ def main():
     # 4. Biophysical comparison with ablations (CPU)
     run_biophysical_comparison()
 
-    # 5. Critique-addressing experiments (CPU-only parts)
+    # 5. Extended validation experiments (CPU-only parts)
     logger.info("\n" + "="*80)
-    logger.info("RUNNING CRITIQUE-ADDRESSING EXPERIMENTS")
+    logger.info("RUNNING EXTENDED VALIDATION EXPERIMENTS")
     logger.info("="*80)
 
     try:

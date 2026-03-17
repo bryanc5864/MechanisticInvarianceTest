@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 """MPRA cross-reference validation experiment.
 
-Addresses critique: "No experimental validation — compensated sequences
-assumed functional."
-
-Cross-references model predictions with published MPRA data to test whether:
+Validates compensatory element function against experimental data by
+cross-referencing model predictions with published MPRA studies. Tests whether:
 1. Model scores correlate with experimentally measured expression
 2. The compositional heuristic (AT%) predicts real expression
 3. Compensatory elements provide measurable rescue in real data
