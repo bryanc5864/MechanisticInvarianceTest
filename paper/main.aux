@@ -1,0 +1,269 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{benegas2023dna}
+\citation{avsec2021effective}
+\citation{ji2021dnabert}
+\citation{ji2021dnabert,dalla2023nucleotide,zhou2023dnabert2}
+\citation{nguyen2023hyenadna,schiff2024caduceus}
+\citation{browning2004regulation,harley1987analysis}
+\citation{ross1993third}
+\citation{barne1997region}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{browning2004regulation}
+\citation{harley1987analysis}
+\citation{ross1993third}
+\citation{barne1997region}
+\citation{tierrafria2022regulondb}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces MIT sequence classes. Classes A--B use natural \textit  {E.\ coli} promoters from RegulonDB; C--H are synthetic with controlled element placement. The primary comparison for testing compensation sensitivity is Class D (broken, no compensation) versus Class E (broken with correctly positioned compensation).}}{2}{table.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:classes}{{1}{2}{MIT sequence classes. Classes A--B use natural \textit {E.\ coli} promoters from RegulonDB; C--H are synthetic with controlled element placement. The primary comparison for testing compensation sensitivity is Class D (broken, no compensation) versus Class E (broken with correctly positioned compensation)}{table.caption.1}{}}
+\newlabel{tab:classes@cref}{{[table][1][]1}{[1][2][]2}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Preliminaries}{2}{section.2}\protected@file@percent }
+\newlabel{sec:prelim}{{2}{2}{Preliminaries}{section.2}{}}
+\newlabel{sec:prelim@cref}{{[section][2][]2}{[1][2][]2}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}The MIT Benchmark}{2}{section.3}\protected@file@percent }
+\newlabel{sec:benchmark}{{3}{2}{The MIT Benchmark}{section.3}{}}
+\newlabel{sec:benchmark@cref}{{[section][3][]3}{[1][2][]2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Sequence Design}{2}{subsection.3.1}\protected@file@percent }
+\citation{nguyen2023hyenadna}
+\citation{nguyen2024evo2}
+\citation{sanabria2024grover}
+\citation{dalla2023nucleotide}
+\citation{schiff2024caduceus}
+\citation{gu2023mamba}
+\citation{salazar2020masked}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Evaluation Metrics}{3}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:metrics}{{3.2}{3}{Evaluation Metrics}{subsection.3.2}{}}
+\newlabel{sec:metrics@cref}{{[subsection][2][3]3.2}{[1][3][]3}{}{}{}}
+\newlabel{eq:css}{{1}{3}{Evaluation Metrics}{equation.1}{}}
+\newlabel{eq:css@cref}{{[equation][1][]1}{[1][3][]3}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{3}{section.4}\protected@file@percent }
+\newlabel{sec:experiments}{{4}{3}{Experiments}{section.4}{}}
+\newlabel{sec:experiments@cref}{{[section][4][]4}{[1][3][]3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Models Evaluated}{3}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Primary Results}{3}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:results}{{4.2}{3}{Primary Results}{subsection.4.2}{}}
+\newlabel{sec:results@cref}{{[subsection][2][4]4.2}{[1][3][]3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Extended Mechanistic Probing}{3}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:extended}{{4.3}{3}{Extended Mechanistic Probing}{subsection.4.3}{}}
+\newlabel{sec:extended@cref}{{[subsection][3][4]4.3}{[1][3][]3}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}AT Content Titration}{3}{subsubsection.4.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {MIT benchmark overview.} (a) Promoter architecture showing -35 box, -10 box, UP element, and extended -10 positions. (b) CSS across models; asterisk indicates $p_{\text  {FDR}} < 0.05$. Abbreviations: PA=PA-PWM, RPA=RPA-PWM, Thm=Thermodynamic. (c) SCR measuring positional awareness; all gLMs near chance (0.5). (d) CSS vs.\ SCR: biophysical models (orange) achieve both high CSS and SCR; gLMs (blue) show only compositional sensitivity.}}{4}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:overview}{{1}{4}{\textbf {MIT benchmark overview.} (a) Promoter architecture showing -35 box, -10 box, UP element, and extended -10 positions. (b) CSS across models; asterisk indicates $p_{\text {FDR}} < 0.05$. Abbreviations: PA=PA-PWM, RPA=RPA-PWM, Thm=Thermodynamic. (c) SCR measuring positional awareness; all gLMs near chance (0.5). (d) CSS vs.\ SCR: biophysical models (orange) achieve both high CSS and SCR; gLMs (blue) show only compositional sensitivity}{figure.caption.2}{}}
+\newlabel{fig:overview@cref}{{[figure][1][]1}{[1][3][]4}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces MIT results. Only HyenaDNA achieves significant CSS after FDR correction. All gLMs show SCR near or below 0.5 (range: 0.40--0.52), indicating no positional awareness regardless of architecture.}}{4}{table.caption.3}\protected@file@percent }
+\newlabel{tab:main_results}{{2}{4}{MIT results. Only HyenaDNA achieves significant CSS after FDR correction. All gLMs show SCR near or below 0.5 (range: 0.40--0.52), indicating no positional awareness regardless of architecture}{table.caption.3}{}}
+\newlabel{tab:main_results@cref}{{[table][2][]2}{[1][3][]4}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}Positional Ablation}{4}{subsubsection.4.3.2}\protected@file@percent }
+\citation{harley1987analysis,murakami2002structural}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces AT-LL correlation across models. All show strong positive correlation between AT content and log-likelihood.}}{5}{table.caption.4}\protected@file@percent }
+\newlabel{tab:at_titration}{{3}{5}{AT-LL correlation across models. All show strong positive correlation between AT content and log-likelihood}{table.caption.4}{}}
+\newlabel{tab:at_titration@cref}{{[table][3][]3}{[1][3][]5}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Positional ablation. Evo2-1B and Caduceus score UP at \textit  {wrong} position (70) \textit  {higher} than correct (15).}}{5}{table.caption.5}\protected@file@percent }
+\newlabel{tab:positional}{{4}{5}{Positional ablation. Evo2-1B and Caduceus score UP at \textit {wrong} position (70) \textit {higher} than correct (15)}{table.caption.5}{}}
+\newlabel{tab:positional@cref}{{[table][4][]4}{[1][4][]5}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3}Spacing and Strand Sensitivity}{5}{subsubsection.4.3.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Spacing sensitivity (left) and strand orientation (right). HyenaDNA peaks at 14bp instead of 17bp and scores forward orientation \textit  {lower} than reverse complement (44\% accuracy).}}{5}{table.caption.6}\protected@file@percent }
+\newlabel{tab:spacing_strand}{{5}{5}{Spacing sensitivity (left) and strand orientation (right). HyenaDNA peaks at 14bp instead of 17bp and scores forward orientation \textit {lower} than reverse complement (44\% accuracy)}{table.caption.6}{}}
+\newlabel{tab:spacing_strand@cref}{{[table][5][]5}{[1][5][]5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Biophysical Model Comparison}{5}{subsection.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Mechanistic probing.} (a) AT titration: LL increases with AT\% ($r=0.78$). (b) Positional sweep: removing UP ($\Delta $$\approx $3.7) matters more than misplacing it ($\Delta $$\approx $0.5). (c) Spacing: HyenaDNA peaks at 14bp; PA-PWM at 17bp. (d) Strand: forward scores lower than RC.}}{6}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:results}{{2}{6}{\textbf {Mechanistic probing.} (a) AT titration: LL increases with AT\% ($r=0.78$). (b) Positional sweep: removing UP ($\Delta $$\approx $3.7) matters more than misplacing it ($\Delta $$\approx $0.5). (c) Spacing: HyenaDNA peaks at 14bp; PA-PWM at 17bp. (d) Strand: forward scores lower than RC}{figure.caption.7}{}}
+\newlabel{fig:results@cref}{{[figure][2][]2}{[1][5][]6}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Biophysical models achieve high CSS \textit  {and} high SCR; gLMs achieve neither. RPA-PWM uses only relative constraints (no hardcoded positions).}}{6}{table.caption.8}\protected@file@percent }
+\newlabel{tab:biophysical}{{6}{6}{Biophysical models achieve high CSS \textit {and} high SCR; gLMs achieve neither. RPA-PWM uses only relative constraints (no hardcoded positions)}{table.caption.8}{}}
+\newlabel{tab:biophysical@cref}{{[table][6][]6}{[1][5][]6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{6}{section.5}\protected@file@percent }
+\newlabel{sec:discussion}{{5}{6}{Discussion}{section.5}{}}
+\newlabel{sec:discussion@cref}{{[section][5][]5}{[1][5][]6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}What gLMs Have Learned}{6}{subsection.5.1}\protected@file@percent }
+\citation{jumper2021highly}
+\citation{alipanahi2015predicting,avsec2021bpnet}
+\citation{lee2011discriminative}
+\citation{ji2021dnabert,dalla2023nucleotide}
+\citation{nguyen2023hyenadna,schiff2024caduceus}
+\citation{hewitt2019structural}
+\citation{meng2022locating}
+\citation{novakovsky2023obtaining}
+\citation{brewster2012lac,kinney2010using}
+\citation{ross1993third,barne1997region}
+\bibdata{references}
+\bibcite{alipanahi2015predicting}{{1}{2015}{{Alipanahi et~al.}}{{Alipanahi, Delong, Weirauch, and Frey}}}
+\bibcite{avsec2021effective}{{2}{2021{a}}{{Avsec et~al.}}{{Avsec, Agarwal, Visentin, Ledsam, Grabska-Barwinska, Taylor, Assael, Jumper, Kohli, and Kelley}}}
+\bibcite{avsec2021bpnet}{{3}{2021{b}}{{Avsec et~al.}}{{Avsec, Weilert, Shrikumar, Krueger, Alexandari, Dalal, Fropf, McAnany, Gagneur, Kundaje, and Zeitlinger}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Towards Deeper Mechanistic Understanding}{7}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Related Work}{7}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{7}{section.7}\protected@file@percent }
+\bibcite{barne1997region}{{4}{1997}{{Barne et~al.}}{{Barne, Bown, Busby, and Minchin}}}
+\bibcite{benegas2023dna}{{5}{2023}{{Benegas et~al.}}{{Benegas, Batra, and Song}}}
+\bibcite{benjamini1995controlling}{{6}{1995}{{Benjamini \& Hochberg}}{{Benjamini and Hochberg}}}
+\bibcite{blattner1997complete}{{7}{1997}{{Blattner et~al.}}{{Blattner, Plunkett~III, Bloch, Perna, Burland, Riley, et~al.}}}
+\bibcite{brewster2012lac}{{8}{2012}{{Brewster et~al.}}{{Brewster, Jones, and Phillips}}}
+\bibcite{browning2004regulation}{{9}{2004}{{Browning \& Busby}}{{Browning and Busby}}}
+\bibcite{cohen1988statistical}{{10}{1988}{{Cohen}}{{}}}
+\bibcite{dalla2023nucleotide}{{11}{2023}{{Dalla-Torre et~al.}}{{Dalla-Torre, Gonzalez, Mendoza-Revilla, Carranza, Grzywaczewski, Ober, Merdji, Lober, Perez, Lopez-Rojas, Lang, Lopez-Rojas, et~al.}}}
+\bibcite{efron1993bootstrap}{{12}{1993}{{Efron \& Tibshirani}}{{Efron and Tibshirani}}}
+\bibcite{elhage2021mathematical}{{13}{2021}{{Elhage et~al.}}{{Elhage, Nanda, Olsson, Henighan, Joseph, Mann, Askell, Bai, Chen, Conerly, et~al.}}}
+\bibcite{estrem1998identification}{{14}{1998}{{Estrem et~al.}}{{Estrem, Gaal, Ross, and Gourse}}}
+\bibcite{gu2023mamba}{{15}{2023}{{Gu \& Dao}}{{Gu and Dao}}}
+\bibcite{harley1987analysis}{{16}{1987}{{Harley \& Reynolds}}{{Harley and Reynolds}}}
+\bibcite{hewitt2019structural}{{17}{2019}{{Hewitt \& Manning}}{{Hewitt and Manning}}}
+\bibcite{ji2021dnabert}{{18}{2021}{{Ji et~al.}}{{Ji, Zhou, Liu, and Davuluri}}}
+\bibcite{jumper2021highly}{{19}{2021}{{Jumper et~al.}}{{Jumper, Evans, Pritzel, Green, Figurnov, Ronneberger, Tunyasuvunakool, Bates, {\v {Z}}{\'\i }dek, Potapenko, et~al.}}}
+\bibcite{kinney2010using}{{20}{2010}{{Kinney et~al.}}{{Kinney, Murugan, Callan, and Cox}}}
+\bibcite{lee2011discriminative}{{21}{2011}{{Lee et~al.}}{{Lee, Karchin, and Beer}}}
+\bibcite{meng2022locating}{{22}{2022}{{Meng et~al.}}{{Meng, Bau, Andonian, and Belinkov}}}
+\bibcite{murakami2002structural}{{23}{2002}{{Murakami et~al.}}{{Murakami, Masuda, Campbell, Muzzin, and Darst}}}
+\bibcite{nguyen2023hyenadna}{{24}{2023}{{Nguyen et~al.}}{{Nguyen, Poli, Faizi, Thomas, Birber, Massaroli, Patel, Dao, Ermon, and R{\'e}}}}
+\bibcite{nguyen2024evo2}{{25}{2024}{{Nguyen et~al.}}{{Nguyen, Poli, Durrant, Thomas, Kang, Sullivan, Ng, Lewis, Patel, Lou, et~al.}}}
+\bibcite{novakovsky2023obtaining}{{26}{2023}{{Novakovsky et~al.}}{{Novakovsky, Dexter, Liber, Tanveer, Bhola, Shendure, and Mostafavi}}}
+\bibcite{ross1993third}{{27}{1993}{{Ross et~al.}}{{Ross, Gosink, Salomon, Igarashi, Zou, Ishihama, Severinov, and Gourse}}}
+\bibcite{salazar2020masked}{{28}{2020}{{Salazar et~al.}}{{Salazar, Liang, Nguyen, and Kirchhoff}}}
+\bibcite{sanabria2024grover}{{29}{2024}{{Sanabria et~al.}}{{Sanabria, Hirsch, and Poetsch}}}
+\bibcite{schiff2024caduceus}{{30}{2024}{{Schiff et~al.}}{{Schiff, Kao, Gokaslan, Dao, Gu, and Kuleshov}}}
+\bibcite{schneider2017grch38}{{31}{2017}{{Schneider et~al.}}{{Schneider, Graves-Lindsay, Howe, Bouk, Chen, Kitts, Murphy, Pruitt, Thibaud-Nissen, Albracht, et~al.}}}
+\bibcite{tierrafria2022regulondb}{{32}{2022}{{Tierrafr{\'\i }a et~al.}}{{Tierrafr{\'\i }a, Rioualen, Salgado, Lara, Gama-Castro, Lally, et~al.}}}
+\bibcite{wang2023interpretability}{{33}{2023}{{Wang et~al.}}{{Wang, Variengien, Conmy, Shlegeris, and Steinhardt}}}
+\bibcite{zhou2023dnabert2}{{34}{2023}{{Zhou et~al.}}{{Zhou, Ji, Li, Dutta, Davuluri, and Liu}}}
+\bibstyle{iclr2026_conference}
+\citation{estrem1998identification}
+\citation{blattner1997complete}
+\citation{tierrafria2022regulondb}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Extended Implementation Details}{10}{appendix.A}\protected@file@percent }
+\newlabel{app:methods}{{A}{10}{Extended Implementation Details}{appendix.A}{}}
+\newlabel{app:methods@cref}{{[section][1][]A}{[1][10][]10}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Sequence Generation}{10}{subsection.A.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Sequence architecture specification. Spacing between -35 box end (position 35) and -10 box start (position 53) is 17 bp, within the optimal 17$\pm $1 bp range.}}{10}{table.caption.12}\protected@file@percent }
+\newlabel{tab:seq_layout}{{7}{10}{Sequence architecture specification. Spacing between -35 box end (position 35) and -10 box start (position 53) is 17 bp, within the optimal 17$\pm $1 bp range}{table.caption.12}{}}
+\newlabel{tab:seq_layout@cref}{{[table][7][]7}{[1][10][]10}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Model Inference Details}{10}{subsection.A.2}\protected@file@percent }
+\citation{efron1993bootstrap}
+\citation{benjamini1995controlling}
+\citation{cohen1988statistical}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Baseline Models}{11}{subsection.A.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.4}Computational Environment}{11}{subsection.A.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.5}Statistical Analysis}{11}{subsection.A.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Complete Experimental Results}{12}{appendix.B}\protected@file@percent }
+\newlabel{app:results}{{B}{12}{Complete Experimental Results}{appendix.B}{}}
+\newlabel{app:results@cref}{{[section][2][]B}{[1][11][]12}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1}Full Model Comparison}{12}{subsection.B.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Complete metrics for all evaluated models with FDR-corrected $p$-values.}}{12}{table.caption.13}\protected@file@percent }
+\newlabel{tab:full_metrics}{{8}{12}{Complete metrics for all evaluated models with FDR-corrected $p$-values}{table.caption.13}{}}
+\newlabel{tab:full_metrics@cref}{{[table][8][]8}{[1][11][]12}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2}Full AT Titration Results}{12}{subsection.B.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Complete AT titration experiment ($n=30$ per condition). Standard deviations in parentheses.}}{12}{table.caption.14}\protected@file@percent }
+\newlabel{tab:full_at}{{9}{12}{Complete AT titration experiment ($n=30$ per condition). Standard deviations in parentheses}{table.caption.14}{}}
+\newlabel{tab:full_at@cref}{{[table][9][]9}{[1][12][]12}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.3}Full Positional Sweep Results}{13}{subsection.B.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Complete positional sweep ($n=30$ per position). UP element placed at indicated position.}}{13}{table.caption.15}\protected@file@percent }
+\newlabel{tab:full_positional}{{10}{13}{Complete positional sweep ($n=30$ per position). UP element placed at indicated position}{table.caption.15}{}}
+\newlabel{tab:full_positional@cref}{{[table][10][]10}{[1][12][]13}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.4}Full Spacing Sensitivity Results}{13}{subsection.B.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Complete spacing sensitivity experiment ($n=50$ per spacing).}}{13}{table.caption.16}\protected@file@percent }
+\newlabel{tab:full_spacing}{{11}{13}{Complete spacing sensitivity experiment ($n=50$ per spacing)}{table.caption.16}{}}
+\newlabel{tab:full_spacing@cref}{{[table][11][]11}{[1][13][]13}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.5}Full Strand Orientation Results}{14}{subsection.B.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Complete strand orientation experiment ($n=50$ per condition) for HyenaDNA.}}{14}{table.caption.17}\protected@file@percent }
+\newlabel{tab:full_strand}{{12}{14}{Complete strand orientation experiment ($n=50$ per condition) for HyenaDNA}{table.caption.17}{}}
+\newlabel{tab:full_strand@cref}{{[table][12][]12}{[1][13][]14}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Strand orientation comparison across models ($n=50$ per condition). All models show strand-blindness.}}{14}{table.caption.18}\protected@file@percent }
+\newlabel{tab:strand_all_models}{{13}{14}{Strand orientation comparison across models ($n=50$ per condition). All models show strand-blindness}{table.caption.18}{}}
+\newlabel{tab:strand_all_models@cref}{{[table][13][]13}{[1][14][]14}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}Biophysical Model Details}{14}{appendix.C}\protected@file@percent }
+\newlabel{app:biophysical}{{C}{14}{Biophysical Model Details}{appendix.C}{}}
+\newlabel{app:biophysical@cref}{{[section][3][]C}{[1][14][]14}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.1}Position-Aware PWM (PA-PWM)}{14}{subsection.C.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.2}Thermodynamic Model}{15}{subsection.C.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.3}Position-Scanning Model}{15}{subsection.C.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.4}Biophysical Model Comparison}{15}{subsection.C.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Detailed biophysical model results compared to gLMs. RPA-PWM uses only relative biological constraints (no hardcoded positions).}}{15}{table.caption.19}\protected@file@percent }
+\newlabel{tab:biophysical_full}{{14}{15}{Detailed biophysical model results compared to gLMs. RPA-PWM uses only relative biological constraints (no hardcoded positions)}{table.caption.19}{}}
+\newlabel{tab:biophysical_full@cref}{{[table][14][]14}{[1][15][]15}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Effect Size Analysis}{16}{appendix.D}\protected@file@percent }
+\newlabel{app:effects}{{D}{16}{Effect Size Analysis}{appendix.D}{}}
+\newlabel{app:effects@cref}{{[section][4][]D}{[1][15][]16}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Complete effect size hierarchy for HyenaDNA.}}{16}{table.caption.20}\protected@file@percent }
+\newlabel{tab:effect_sizes}{{15}{16}{Complete effect size hierarchy for HyenaDNA}{table.caption.20}{}}
+\newlabel{tab:effect_sizes@cref}{{[table][15][]15}{[1][15][]16}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {E}Per-Class Log-Likelihood Distributions}{16}{appendix.E}\protected@file@percent }
+\newlabel{app:distributions}{{E}{16}{Per-Class Log-Likelihood Distributions}{appendix.E}{}}
+\newlabel{app:distributions@cref}{{[section][5][]E}{[1][16][]16}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces HyenaDNA log-likelihood statistics by sequence class.}}{16}{table.caption.21}\protected@file@percent }
+\newlabel{tab:class_ll}{{16}{16}{HyenaDNA log-likelihood statistics by sequence class}{table.caption.21}{}}
+\newlabel{tab:class_ll@cref}{{[table][16][]16}{[1][16][]16}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {F}Limitations}{16}{appendix.F}\protected@file@percent }
+\newlabel{app:limitations}{{F}{16}{Limitations}{appendix.F}{}}
+\newlabel{app:limitations@cref}{{[section][6][]F}{[1][16][]16}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {G}Broader Impacts}{17}{appendix.G}\protected@file@percent }
+\newlabel{app:impacts}{{G}{17}{Broader Impacts}{appendix.G}{}}
+\newlabel{app:impacts@cref}{{[section][7][]G}{[1][17][]17}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {H}Additional Visualizations}{17}{appendix.H}\protected@file@percent }
+\newlabel{app:figures}{{H}{17}{Additional Visualizations}{appendix.H}{}}
+\newlabel{app:figures@cref}{{[section][8][]H}{[1][17][]17}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Effect magnitudes and model comparison.} (a) Effect sizes on log scale showing AT content dominates. (b) MES comparison between natural and synthetic sequences. (c) CSS vs.\ SCR scatter with model type coloring.}}{17}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:app_effects}{{3}{17}{\textbf {Effect magnitudes and model comparison.} (a) Effect sizes on log scale showing AT content dominates. (b) MES comparison between natural and synthetic sequences. (c) CSS vs.\ SCR scatter with model type coloring}{figure.caption.22}{}}
+\newlabel{fig:app_effects@cref}{{[figure][3][]3}{[1][17][]17}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Per-Model Detailed Analysis}{17}{appendix.I}\protected@file@percent }
+\newlabel{app:permodel}{{I}{17}{Per-Model Detailed Analysis}{appendix.I}{}}
+\newlabel{app:permodel@cref}{{[section][9][]I}{[1][17][]17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {I.1}HyenaDNA Analysis}{17}{subsection.I.1}\protected@file@percent }
+\citation{schneider2017grch38}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Comprehensive metrics summary.} (a) Metrics heatmap across all five gLMs and biophysical baselines (PA-PWM CSS$=$1.00, SCR$=$0.98). (b) CSS grouped by architecture type. (c) Compensation benefit by AT content. (d) CSS vs.\ model parameters showing PA-PWM ($\sim $100 params) achieves highest CSS.}}{18}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:app_summary}{{4}{18}{\textbf {Comprehensive metrics summary.} (a) Metrics heatmap across all five gLMs and biophysical baselines (PA-PWM CSS$=$1.00, SCR$=$0.98). (b) CSS grouped by architecture type. (c) Compensation benefit by AT content. (d) CSS vs.\ model parameters showing PA-PWM ($\sim $100 params) achieves highest CSS}{figure.caption.23}{}}
+\newlabel{fig:app_summary@cref}{{[figure][4][]4}{[1][17][]18}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {I.2}GROVER Analysis}{18}{subsection.I.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {I.3}Evo2-1B Analysis}{19}{subsection.I.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {I.4}Caduceus Analysis}{19}{subsection.I.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {I.5}NT-500M Analysis}{19}{subsection.I.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {I.6}Baseline Model Analysis}{20}{subsection.I.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {J}Extended Ablation Studies}{20}{appendix.J}\protected@file@percent }
+\newlabel{app:ablations}{{J}{20}{Extended Ablation Studies}{appendix.J}{}}
+\newlabel{app:ablations@cref}{{[section][10][]J}{[1][20][]20}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {J.1}Sequence Length Sensitivity}{20}{subsection.J.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces CSS and SCR at different sequence lengths.}}{20}{table.caption.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {J.2}Background Composition Sensitivity}{20}{subsection.J.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {18}{\ignorespaces CSS at different background AT compositions.}}{20}{table.caption.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {J.3}Motif Strength Variations}{21}{subsection.J.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {19}{\ignorespaces CSS with different motif strengths.}}{21}{table.caption.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {J.4}UP Element Composition Variations}{21}{subsection.J.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {20}{\ignorespaces CSS with different UP element compositions.}}{21}{table.caption.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {K}Theoretical Analysis}{21}{appendix.K}\protected@file@percent }
+\newlabel{app:theory}{{K}{21}{Theoretical Analysis}{appendix.K}{}}
+\newlabel{app:theory@cref}{{[section][11][]K}{[1][21][]21}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {K.1}Why Compositional Learning is Easier}{21}{subsection.K.1}\protected@file@percent }
+\citation{ji2021dnabert}
+\citation{zhou2023dnabert2}
+\citation{dalla2023nucleotide}
+\citation{sanabria2024grover}
+\citation{nguyen2023hyenadna}
+\citation{schiff2024caduceus}
+\citation{hewitt2019structural}
+\citation{meng2022locating}
+\citation{elhage2021mathematical,wang2023interpretability}
+\@writefile{toc}{\contentsline {subsection}{\numberline {K.2}Information-Theoretic Perspective}{22}{subsection.K.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {L}Extended Related Work}{22}{appendix.L}\protected@file@percent }
+\newlabel{app:related}{{L}{22}{Extended Related Work}{appendix.L}{}}
+\newlabel{app:related@cref}{{[section][12][]L}{[1][22][]22}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {L.1}Genomic Language Models}{22}{subsection.L.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {L.2}Mechanistic Interpretability in NLP}{22}{subsection.L.2}\protected@file@percent }
+\citation{kinney2010using}
+\citation{brewster2012lac}
+\citation{ross1993third}
+\citation{barne1997region}
+\@writefile{toc}{\contentsline {subsection}{\numberline {L.3}Biophysical Models of Transcription}{23}{subsection.L.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {M}Example Sequences}{23}{appendix.M}\protected@file@percent }
+\newlabel{app:examples}{{M}{23}{Example Sequences}{appendix.M}{}}
+\newlabel{app:examples@cref}{{[section][13][]M}{[1][23][]23}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {M.1}Class C: Synthetic Intact}{23}{subsection.M.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {M.2}Class D: Synthetic Broken}{23}{subsection.M.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {M.3}Class E: Synthetic Compensated}{23}{subsection.M.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {M.4}Class H: Scrambled Control}{23}{subsection.M.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {N}Future Directions}{24}{appendix.N}\protected@file@percent }
+\newlabel{app:future}{{N}{24}{Future Directions}{appendix.N}{}}
+\newlabel{app:future@cref}{{[section][14][]N}{[1][23][]24}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {N.1}Architectural Innovations}{24}{subsection.N.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {N.2}Training Objectives}{24}{subsection.N.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {N.3}Evaluation Extensions}{24}{subsection.N.3}\protected@file@percent }
+\gdef \@abspage@last{24}

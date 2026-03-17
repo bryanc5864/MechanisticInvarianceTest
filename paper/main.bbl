@@ -1,0 +1,260 @@
+\begin{thebibliography}{34}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alipanahi et~al.(2015)Alipanahi, Delong, Weirauch, and
+  Frey]{alipanahi2015predicting}
+Babak Alipanahi, Andrew Delong, Matthew~T. Weirauch, and Brendan~J. Frey.
+\newblock Predicting the sequence specificities of dna- and rna-binding
+  proteins by deep learning.
+\newblock \emph{Nature Biotechnology}, 33\penalty0 (8):\penalty0 831--838,
+  2015.
+
+\bibitem[Avsec et~al.(2021{\natexlab{a}})Avsec, Agarwal, Visentin, Ledsam,
+  Grabska-Barwinska, Taylor, Assael, Jumper, Kohli, and
+  Kelley]{avsec2021effective}
+{\v{Z}}iga Avsec, Vikram Agarwal, Daniel Visentin, Joseph~R. Ledsam, Agnieszka
+  Grabska-Barwinska, Kyle~R. Taylor, Yannis Assael, John Jumper, Pushmeet
+  Kohli, and David~R. Kelley.
+\newblock Effective gene expression prediction from sequence by integrating
+  long-range interactions.
+\newblock \emph{Nature Methods}, 18\penalty0 (10):\penalty0 1196--1203,
+  2021{\natexlab{a}}.
+
+\bibitem[Avsec et~al.(2021{\natexlab{b}})Avsec, Weilert, Shrikumar, Krueger,
+  Alexandari, Dalal, Fropf, McAnany, Gagneur, Kundaje, and
+  Zeitlinger]{avsec2021bpnet}
+{\v{Z}}iga Avsec, Melanie Weilert, Avanti Shrikumar, Sabrina Krueger, Amr
+  Alexandari, Khyati Dalal, Robin Fropf, Charles McAnany, Julien Gagneur,
+  Anshul Kundaje, and Julia Zeitlinger.
+\newblock Base-resolution models of transcription-factor binding reveal soft
+  motif syntax.
+\newblock \emph{Nature Genetics}, 53\penalty0 (3):\penalty0 354--366,
+  2021{\natexlab{b}}.
+
+\bibitem[Barne et~al.(1997)Barne, Bown, Busby, and Minchin]{barne1997region}
+Karen~A. Barne, Jacqueline~A. Bown, Stephen J.~W. Busby, and Stephen~D.
+  Minchin.
+\newblock Region 2.5 of the escherichia coli rna polymerase $\sigma^{70}$
+  subunit is responsible for the recognition of the `extended -10' motif at
+  promoters.
+\newblock \emph{The EMBO Journal}, 16\penalty0 (13):\penalty0 4034--4040, 1997.
+
+\bibitem[Benegas et~al.(2023)Benegas, Batra, and Song]{benegas2023dna}
+Gonzalo Benegas, Sanjit~S. Batra, and Yun~S. Song.
+\newblock Dna language models are powerful predictors of genome-wide variant
+  effects.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 120\penalty0
+  (44):\penalty0 e2311219120, 2023.
+
+\bibitem[Benjamini \& Hochberg(1995)Benjamini and
+  Hochberg]{benjamini1995controlling}
+Yoav Benjamini and Yosef Hochberg.
+\newblock Controlling the false discovery rate: a practical and powerful
+  approach to multiple testing.
+\newblock \emph{Journal of the Royal Statistical Society: Series B
+  (Methodological)}, 57\penalty0 (1):\penalty0 289--300, 1995.
+
+\bibitem[Blattner et~al.(1997)Blattner, Plunkett~III, Bloch, Perna, Burland,
+  Riley, et~al.]{blattner1997complete}
+Frederick~R. Blattner, Guy Plunkett~III, Craig~A. Bloch, Nicole~T. Perna,
+  Valerie Burland, Monica Riley, et~al.
+\newblock The complete genome sequence of escherichia coli k-12.
+\newblock \emph{Science}, 277\penalty0 (5331):\penalty0 1453--1462, 1997.
+
+\bibitem[Brewster et~al.(2012)Brewster, Jones, and Phillips]{brewster2012lac}
+Robert~C. Brewster, Daniel~L. Jones, and Rob Phillips.
+\newblock Tuning promoter strength through rna polymerase binding site design
+  in escherichia coli.
+\newblock \emph{PLoS Computational Biology}, 8\penalty0 (12):\penalty0
+  e1002811, 2012.
+
+\bibitem[Browning \& Busby(2004)Browning and Busby]{browning2004regulation}
+Douglas~F. Browning and Stephen J.~W. Busby.
+\newblock The regulation of bacterial transcription initiation.
+\newblock \emph{Nature Reviews Microbiology}, 2\penalty0 (1):\penalty0 57--65,
+  2004.
+
+\bibitem[Cohen(1988)]{cohen1988statistical}
+Jacob Cohen.
+\newblock \emph{Statistical Power Analysis for the Behavioral Sciences}.
+\newblock Lawrence Erlbaum Associates, 2nd edition, 1988.
+
+\bibitem[Dalla-Torre et~al.(2023)Dalla-Torre, Gonzalez, Mendoza-Revilla,
+  Carranza, Grzywaczewski, Ober, Merdji, Lober, Perez, Lopez-Rojas, Lang,
+  Lopez-Rojas, et~al.]{dalla2023nucleotide}
+Hugo Dalla-Torre, Liam Gonzalez, Javier Mendoza-Revilla, Nicolas~Lopez
+  Carranza, Adam~Henryk Grzywaczewski, Francesco Ober, Wassim Merdji, Matthieu
+  Lober, Florian Perez, Arturo Lopez-Rojas, Bernardo Lang, Jose~Juan
+  Lopez-Rojas, et~al.
+\newblock The nucleotide transformer: Building and evaluating robust foundation
+  models for human genomics.
+\newblock \emph{bioRxiv}, 2023.
+
+\bibitem[Efron \& Tibshirani(1993)Efron and Tibshirani]{efron1993bootstrap}
+Bradley Efron and Robert~J. Tibshirani.
+\newblock \emph{An Introduction to the Bootstrap}.
+\newblock Chapman \& Hall/CRC, 1993.
+
+\bibitem[Elhage et~al.(2021)Elhage, Nanda, Olsson, Henighan, Joseph, Mann,
+  Askell, Bai, Chen, Conerly, et~al.]{elhage2021mathematical}
+Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Nicholas Joseph, Ben
+  Mann, Amanda Askell, Yuntao Bai, Anna Chen, Tom Conerly, et~al.
+\newblock A mathematical framework for transformer circuits.
+\newblock \emph{Transformer Circuits Thread}, 2021.
+
+\bibitem[Estrem et~al.(1998)Estrem, Gaal, Ross, and
+  Gourse]{estrem1998identification}
+Steven~T. Estrem, Tamas Gaal, Wilma Ross, and Richard~L. Gourse.
+\newblock Identification of an up element consensus sequence for bacterial
+  promoters.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 95\penalty0
+  (17):\penalty0 9761--9766, 1998.
+
+\bibitem[Gu \& Dao(2023)Gu and Dao]{gu2023mamba}
+Albert Gu and Tri Dao.
+\newblock Mamba: Linear-time sequence modeling with selective state spaces.
+\newblock \emph{arXiv preprint arXiv:2312.00752}, 2023.
+
+\bibitem[Harley \& Reynolds(1987)Harley and Reynolds]{harley1987analysis}
+Calvin~B. Harley and Robert~P. Reynolds.
+\newblock Analysis of e. coli promoter sequences.
+\newblock \emph{Nucleic Acids Research}, 15\penalty0 (5):\penalty0 2343--2361,
+  1987.
+
+\bibitem[Hewitt \& Manning(2019)Hewitt and Manning]{hewitt2019structural}
+John Hewitt and Christopher~D. Manning.
+\newblock A structural probe for finding syntax in word representations.
+\newblock \emph{Proceedings of NAACL-HLT}, pp.\  4129--4138, 2019.
+
+\bibitem[Ji et~al.(2021)Ji, Zhou, Liu, and Davuluri]{ji2021dnabert}
+Yanrong Ji, Zhihan Zhou, Han Liu, and Ramana~V. Davuluri.
+\newblock Dnabert: pre-trained bidirectional encoder representations from
+  transformers model for dna-language in genome.
+\newblock \emph{Bioinformatics}, 37\penalty0 (15):\penalty0 2112--2120, 2021.
+
+\bibitem[Jumper et~al.(2021)Jumper, Evans, Pritzel, Green, Figurnov,
+  Ronneberger, Tunyasuvunakool, Bates, {\v{Z}}{\'\i}dek, Potapenko,
+  et~al.]{jumper2021highly}
+John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov,
+  Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin
+  {\v{Z}}{\'\i}dek, Anna Potapenko, et~al.
+\newblock Highly accurate protein structure prediction with alphafold.
+\newblock \emph{Nature}, 596\penalty0 (7873):\penalty0 583--589, 2021.
+
+\bibitem[Kinney et~al.(2010)Kinney, Murugan, Callan, and Cox]{kinney2010using}
+Justin~B. Kinney, Anand Murugan, Curtis~G. Callan, and Edward~C. Cox.
+\newblock Using deep sequencing to characterize the biophysical mechanism of a
+  transcriptional regulatory sequence.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 107\penalty0
+  (20):\penalty0 9158--9163, 2010.
+
+\bibitem[Lee et~al.(2011)Lee, Karchin, and Beer]{lee2011discriminative}
+Dongwon Lee, Rachel Karchin, and Michael~A. Beer.
+\newblock Discriminative prediction of mammalian enhancers from dna sequence.
+\newblock \emph{Genome Research}, 21\penalty0 (12):\penalty0 2167--2180, 2011.
+
+\bibitem[Meng et~al.(2022)Meng, Bau, Andonian, and Belinkov]{meng2022locating}
+Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov.
+\newblock Locating and editing factual associations in gpt.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  35:\penalty0 17359--17372, 2022.
+
+\bibitem[Murakami et~al.(2002)Murakami, Masuda, Campbell, Muzzin, and
+  Darst]{murakami2002structural}
+Katsuhiko~S. Murakami, Shoko Masuda, Elizabeth~A. Campbell, Oriana Muzzin, and
+  Seth~A. Darst.
+\newblock Structural basis of transcription initiation: an rna polymerase
+  holoenzyme-dna complex.
+\newblock \emph{Science}, 296\penalty0 (5571):\penalty0 1285--1290, 2002.
+
+\bibitem[Nguyen et~al.(2023)Nguyen, Poli, Faizi, Thomas, Birber, Massaroli,
+  Patel, Dao, Ermon, and R{\'e}]{nguyen2023hyenadna}
+Eric Nguyen, Michael Poli, Marjan Faizi, Armin Thomas, Callum Birber, Stefano
+  Massaroli, Aman Patel, Tri Dao, Stefano Ermon, and Christopher R{\'e}.
+\newblock Hyenadna: Long-range genomic sequence modeling at single nucleotide
+  resolution.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36, 2023.
+
+\bibitem[Nguyen et~al.(2024)Nguyen, Poli, Durrant, Thomas, Kang, Sullivan, Ng,
+  Lewis, Patel, Lou, et~al.]{nguyen2024evo2}
+Eric Nguyen, Michael Poli, Matthew~G. Durrant, Armin~W. Thomas, Brian Kang,
+  Jeremy Sullivan, Madelena~Y. Ng, Ashley Lewis, Aman Patel, Aaron Lou, et~al.
+\newblock Sequence modeling and design from molecular to genome scale with evo.
+\newblock \emph{Science}, 386\penalty0 (6723):\penalty0 eado9336, 2024.
+
+\bibitem[Novakovsky et~al.(2023)Novakovsky, Dexter, Liber, Tanveer, Bhola,
+  Shendure, and Mostafavi]{novakovsky2023obtaining}
+Gherman Novakovsky, Nick Dexter, Julien Liber, Farhana Tanveer, Rajesh Bhola,
+  Jay Shendure, and Sara Mostafavi.
+\newblock Obtaining genetics insights from deep learning via explainable
+  artificial intelligence.
+\newblock \emph{Nature Reviews Genetics}, 24\penalty0 (2):\penalty0 125--137,
+  2023.
+
+\bibitem[Ross et~al.(1993)Ross, Gosink, Salomon, Igarashi, Zou, Ishihama,
+  Severinov, and Gourse]{ross1993third}
+Wilma Ross, Karen~K. Gosink, Jonathan Salomon, Katsuhiko Igarashi, Chao Zou,
+  Akira Ishihama, Konstantin Severinov, and Richard~L. Gourse.
+\newblock A third recognition element in bacterial promoters: Dna binding by
+  the alpha subunit of rna polymerase.
+\newblock \emph{Science}, 262\penalty0 (5138):\penalty0 1407--1413, 1993.
+
+\bibitem[Salazar et~al.(2020)Salazar, Liang, Nguyen, and
+  Kirchhoff]{salazar2020masked}
+Julian Salazar, Davis Liang, Toan~Q. Nguyen, and Katrin Kirchhoff.
+\newblock Masked language model scoring.
+\newblock \emph{Proceedings of the 58th Annual Meeting of the Association for
+  Computational Linguistics}, pp.\  2699--2712, 2020.
+
+\bibitem[Sanabria et~al.(2024)Sanabria, Hirsch, and
+  Poetsch]{sanabria2024grover}
+Melissa Sanabria, Anna Hirsch, and Johannes Poetsch.
+\newblock Grover: A genus-level large language model for genomics.
+\newblock \emph{bioRxiv}, 2024.
+
+\bibitem[Schiff et~al.(2024)Schiff, Kao, Gokaslan, Dao, Gu, and
+  Kuleshov]{schiff2024caduceus}
+Yair Schiff, Chia-Hsiang Kao, Aaron Gokaslan, Tri Dao, Albert Gu, and Volodymyr
+  Kuleshov.
+\newblock Caduceus: Bi-directional equivariant long-range dna sequence
+  modeling.
+\newblock \emph{arXiv preprint arXiv:2403.03234}, 2024.
+
+\bibitem[Schneider et~al.(2017)Schneider, Graves-Lindsay, Howe, Bouk, Chen,
+  Kitts, Murphy, Pruitt, Thibaud-Nissen, Albracht, et~al.]{schneider2017grch38}
+Valerie~A. Schneider, Tina Graves-Lindsay, Kerstin Howe, Nathan Bouk,
+  Hsiu-Chuan Chen, Paul~A. Kitts, Terence~D. Murphy, Kim~D. Pruitt,
+  Fran{\c{c}}oise Thibaud-Nissen, Derek Albracht, et~al.
+\newblock Evaluation of grch38 and de novo haploid genome assemblies
+  demonstrates the enduring quality of the reference assembly.
+\newblock \emph{Genome Research}, 27\penalty0 (5):\penalty0 849--864, 2017.
+
+\bibitem[Tierrafr{\'\i}a et~al.(2022)Tierrafr{\'\i}a, Rioualen, Salgado, Lara,
+  Gama-Castro, Lally, et~al.]{tierrafria2022regulondb}
+V{\'\i}ctor~H. Tierrafr{\'\i}a, Claire Rioualen, Heladia Salgado, Paloma Lara,
+  Socorro Gama-Castro, Patrick Lally, et~al.
+\newblock Regulondb 11.0: Comprehensive high-throughput datasets on
+  transcriptional regulation in escherichia coli k-12.
+\newblock \emph{Microbial Genomics}, 8\penalty0 (5):\penalty0 000833, 2022.
+
+\bibitem[Wang et~al.(2023)Wang, Variengien, Conmy, Shlegeris, and
+  Steinhardt]{wang2023interpretability}
+Kevin Wang, Alexandre Variengien, Arthur Conmy, Buck Shlegeris, and Jacob
+  Steinhardt.
+\newblock Interpretability in the wild: a circuit for indirect object
+  identification in gpt-2 small.
+\newblock \emph{arXiv preprint arXiv:2211.00593}, 2023.
+
+\bibitem[Zhou et~al.(2023)Zhou, Ji, Li, Dutta, Davuluri, and
+  Liu]{zhou2023dnabert2}
+Zhihan Zhou, Yanrong Ji, Weijian Li, Pratik Dutta, Ramana Davuluri, and Han
+  Liu.
+\newblock Dnabert-2: Efficient foundation model and benchmark for multi-species
+  genome.
+\newblock \emph{arXiv preprint arXiv:2306.15006}, 2023.
+
+\end{thebibliography}
