@@ -38,7 +38,7 @@
 \title{The Mechanistic Invariance Test: \\ Genomic Language Models Fail to Learn \\ Positional Regulatory Logic}
 
 \author{Bryan Cheng$^{*}$, Jasper Zhang$^{*}$ \\
-Great Neck South High School \\
+William A. Shine Great Neck South High School \\
 \texttt{\{bcbc7264@gmail.com, jasperzhang1001@gmail.com\}} \\
 $^{*}$Equal contribution
 }
@@ -179,7 +179,7 @@ To isolate factors driving model predictions, we conduct four experiments varyin
 
 We test whether models respond to nucleotide composition by varying background AT content from 30\% to 80\% while holding motifs constant (\Cref{tab:at_titration}).
 
-\begin{table}[h]
+\begin{table}[ht]
 \caption{AT-LL correlation across models. All show strong positive correlation between AT content and log-likelihood.}
 \label{tab:at_titration}
 \vskip 0.05in
@@ -204,7 +204,7 @@ Log-likelihood increases monotonically with AT content across all architectures 
 
 We compare sequences with UP elements at the correct position (15, upstream of -35), wrong position (70, downstream of -10), or absent (\Cref{tab:positional}).
 
-\begin{table}[h]
+\begin{table}[ht]
 \caption{Positional ablation. Evo2-1B and Caduceus score UP at \textit{wrong} position (70) \textit{higher} than correct (15).}
 \label{tab:positional}
 \vskip 0.05in
@@ -229,7 +229,7 @@ Evo2-1B and Caduceus score UP at the \textbf{wrong position higher} than correct
 
 The optimal -35/-10 spacing is 17$\pm$1 bp \citep{harley1987analysis,murakami2002structural}. We vary spacing from 12--25 bp (\Cref{tab:spacing_strand}, left): HyenaDNA peaks at 14 bp rather than 17 bp. For strand orientation (\Cref{tab:spacing_strand}, right), forward scores \textit{lower} than RC variants---44\% accuracy (22/50, binomial $p = 0.24$ vs.\ 50\%), indistinguishable from chance. All tested models are effectively strand-blind (44--50\% accuracy).
 
-\begin{table}[h]
+\begin{table}[ht]
 \caption{Spacing sensitivity (left) and strand orientation (right). HyenaDNA peaks at 14bp instead of 17bp and scores forward orientation \textit{lower} than reverse complement (44\% accuracy).}
 \label{tab:spacing_strand}
 \vskip 0.05in
@@ -279,7 +279,7 @@ To demonstrate that our tests are solvable, we implement position-aware biophysi
 
 \textbf{Ablation analysis} isolates which components matter: PA-PWM-NoComp (removing UP/extended -10 scoring) yields CSS $= 0.00$ because broken and compensated sequences become indistinguishable; PA-PWM-NoPos (scanning anywhere) yields CSS $= 0.63$, SCR $= 0.56$---matching HyenaDNA's CSS and approaching gLM-level SCR. This confirms both compensation logic \textit{and} positional encoding are necessary; removing either reduces performance to gLM level.
 
-\begin{table}[h]
+\begin{table}[ht]
 \caption{Biophysical models achieve high CSS \textit{and} high SCR; gLMs achieve neither. RPA-PWM uses only relative constraints (no hardcoded positions).}
 \label{tab:biophysical}
 \vskip 0.05in
@@ -331,8 +331,8 @@ All code, data, and logs are available at \url{https://github.com/bryanc5864/Mec
 
 This work evaluates gLM mechanistic understanding using synthetic bacterial sequences. No human subjects or biosecurity concerns. Our findings on model limitations are relevant for responsible deployment in scientific applications.
 
-\bibliography{references}
 \bibliographystyle{iclr2026_conference}
+\bibliography{references}
 
 \newpage
 \appendix
@@ -793,7 +793,7 @@ H & Scrambled control & 50 & $-$141.36 & 4.45 & [$-$142.63, $-$140.09] \\
 \section{Additional Visualizations}
 \label{app:figures}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \begin{center}
 \includegraphics[width=0.9\textwidth]{figures/fig3_mechanistic.pdf}
 \end{center}
@@ -801,7 +801,7 @@ H & Scrambled control & 50 & $-$141.36 & 4.45 & [$-$142.63, $-$140.09] \\
 \label{fig:app_effects}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \begin{center}
 \includegraphics[width=0.9\textwidth]{figures/fig4_summary.pdf}
 \end{center}
@@ -1084,42 +1084,50 @@ Our biophysical baselines build on decades of quantitative promoter modeling:
 We provide representative sequences from each class to illustrate the benchmark design. Note: positions 0--57 shown; full sequences are 100 bp with random background extending to position 99.
 
 \subsection{Class C: Synthetic Intact}
+{\small
 \begin{verbatim}
-Position:  0         1         2         3         4         5
-           0123456789012345678901234567890123456789012345678901234567
-Sequence:  GCATGCATGCATGCAAGCTGACGTACTTGACAGCATGCATGCATGCTGTTATAAT
-Elements:                               ~~~~~~                ~~~~~~
-                                        -35box                -10box
+Pos:  0         1         2         3         4         5
+      0123456789012345678901234567890123456789012345678901234567
+Seq:  GCATGCATGCATGCAAGCTGACGTACTTGACAGCATGCATGCATGCTGTTATAAT
+                                  ~~~~~~                ~~~~~~
+                                  -35box                -10box
 \end{verbatim}
+}
 
 \subsection{Class D: Synthetic Broken}
+{\small
 \begin{verbatim}
-Position:  0         1         2         3         4         5
-           0123456789012345678901234567890123456789012345678901234567
-Sequence:  GCATGCATGCATGCAAGCTGACGTACTTGACAGCATGCATGCATGCTGTTGTAAT
-Elements:                               ~~~~~~                ~~~~~~
-                                        -35box                -10box*
-                                                              *broken
+Pos:  0         1         2         3         4         5
+      0123456789012345678901234567890123456789012345678901234567
+Seq:  GCATGCATGCATGCAAGCTGACGTACTTGACAGCATGCATGCATGCTGTTGTAAT
+                                  ~~~~~~                ~~~~~~
+                                  -35box              -10box*
+                                                      *broken
 \end{verbatim}
+}
 
 \subsection{Class E: Synthetic Compensated}
+{\small
 \begin{verbatim}
-Position:  0         1         2         3         4         5
-           0123456789012345678901234567890123456789012345678901234567
-Sequence:  GCATGCATGCATGCAAAAAAAARNTACTTGACAGCATGCATGCATGTTGTTGTAAT
-Elements:               ~~~~~~~~~       ~~~~~~             ~~~~~~~~~
-                        UP-element      -35box             ext -10box
+Pos:  0         1         2         3         4         5
+      0123456789012345678901234567890123456789012345678901234567
+Seq:  GCATGCATGCATGCAAAAAAAARNTACTTGACAGCATGCATGCATGTTGTTGTAAT
+                  ~~~~~~~~~  ~~~~~~             ~~~~~~~~~
+                  UP-element -35box           ext -10box
 \end{verbatim}
+}
 
 \subsection{Class H: Scrambled Control}
+{\small
 \begin{verbatim}
-Position:  0         1         2         3         4         5
-           0123456789012345678901234567890123456789012345678901234567
-Sequence:  GCATGCATGCATGCAAGCTGACGTACTTGACAGCATAAAAAAARNTGTTGTTGTAAT
-Elements:                               ~~~~~~    ~~~~~~~~~   ~~~~~~
-                                        -35box    UP-wrong    -10box
-                                                  position
+Pos:  0         1         2         3         4         5
+      01234567890123456789012345678901234567890123456789012345678
+Seq:  GCATGCATGCATGCAAGCTGACGTACTTGACAGCATAAAAAAARNTGTTGTTGTAAT
+                                  ~~~~~~    ~~~~~~~~~   ~~~~~~
+                                  -35box    UP-wrong    -10box
+                                            position
 \end{verbatim}
+}
 
 Note: Class H has the same nucleotide composition as Class E but with UP element at the wrong position (after -35 instead of before).
 

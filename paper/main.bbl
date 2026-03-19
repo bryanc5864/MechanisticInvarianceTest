@@ -83,16 +83,16 @@ Jacob Cohen.
 \newblock \emph{Statistical Power Analysis for the Behavioral Sciences}.
 \newblock Lawrence Erlbaum Associates, 2nd edition, 1988.
 
-\bibitem[Dalla-Torre et~al.(2023)Dalla-Torre, Gonzalez, Mendoza-Revilla,
-  Carranza, Grzywaczewski, Ober, Merdji, Lober, Perez, Lopez-Rojas, Lang,
-  Lopez-Rojas, et~al.]{dalla2023nucleotide}
+\bibitem[Dalla-Torre et~al.(2025)Dalla-Torre, Gonzalez, Mendoza-Revilla,
+  Carranza, Grzywaczewski, Oteri, Dallago, Trop, de~Almeida, Sirelkhatim,
+  Richard, Skwark, Beguir, Lopez, and Pierrot]{dalla2023nucleotide}
 Hugo Dalla-Torre, Liam Gonzalez, Javier Mendoza-Revilla, Nicolas~Lopez
-  Carranza, Adam~Henryk Grzywaczewski, Francesco Ober, Wassim Merdji, Matthieu
-  Lober, Florian Perez, Arturo Lopez-Rojas, Bernardo Lang, Jose~Juan
-  Lopez-Rojas, et~al.
-\newblock The nucleotide transformer: Building and evaluating robust foundation
+  Carranza, Adam~Henryk Grzywaczewski, Francesco Oteri, Christian Dallago, Evan
+  Trop, Bernardo~P. de~Almeida, Hassan Sirelkhatim, Guillaume Richard, Marcin
+  Skwark, Karim Beguir, Marie Lopez, and Thomas Pierrot.
+\newblock Nucleotide transformer: building and evaluating robust foundation
   models for human genomics.
-\newblock \emph{bioRxiv}, 2023.
+\newblock \emph{Nature Methods}, 22\penalty0 (2):\penalty0 287--297, 2025.
 
 \bibitem[Efron \& Tibshirani(1993)Efron and Tibshirani]{efron1993bootstrap}
 Bradley Efron and Robert~J. Tibshirani.
@@ -108,7 +108,7 @@ Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Nicholas Joseph, Ben
 
 \bibitem[Estrem et~al.(1998)Estrem, Gaal, Ross, and
   Gourse]{estrem1998identification}
-Steven~T. Estrem, Tamas Gaal, Wilma Ross, and Richard~L. Gourse.
+Shawn~T. Estrem, Tamas Gaal, Wilma Ross, and Richard~L. Gourse.
 \newblock Identification of an up element consensus sequence for bacterial
   promoters.
 \newblock \emph{Proceedings of the National Academy of Sciences}, 95\penalty0
@@ -146,7 +146,7 @@ John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov,
 \newblock \emph{Nature}, 596\penalty0 (7873):\penalty0 583--589, 2021.
 
 \bibitem[Kinney et~al.(2010)Kinney, Murugan, Callan, and Cox]{kinney2010using}
-Justin~B. Kinney, Anand Murugan, Curtis~G. Callan, and Edward~C. Cox.
+Justin~B. Kinney, Anand Murugan, Curtis~G. Callan, Jr., and Edward~C. Cox.
 \newblock Using deep sequencing to characterize the biophysical mechanism of a
   transcriptional regulatory sequence.
 \newblock \emph{Proceedings of the National Academy of Sciences}, 107\penalty0
@@ -171,25 +171,31 @@ Katsuhiko~S. Murakami, Shoko Masuda, Elizabeth~A. Campbell, Oriana Muzzin, and
   holoenzyme-dna complex.
 \newblock \emph{Science}, 296\penalty0 (5571):\penalty0 1285--1290, 2002.
 
-\bibitem[Nguyen et~al.(2023)Nguyen, Poli, Faizi, Thomas, Birber, Massaroli,
-  Patel, Dao, Ermon, and R{\'e}]{nguyen2023hyenadna}
-Eric Nguyen, Michael Poli, Marjan Faizi, Armin Thomas, Callum Birber, Stefano
-  Massaroli, Aman Patel, Tri Dao, Stefano Ermon, and Christopher R{\'e}.
+\bibitem[Nguyen et~al.(2023)Nguyen, Poli, Faizi, Thomas, Wornow, Birch-Sykes,
+  Massaroli, Patel, Rabideau, Bengio, Ermon, R{\'e}, and
+  Baccus]{nguyen2023hyenadna}
+Eric Nguyen, Michael Poli, Marjan Faizi, Armin Thomas, Michael Wornow, Callum
+  Birch-Sykes, Stefano Massaroli, Aman Patel, Clayton Rabideau, Yoshua Bengio,
+  Stefano Ermon, Christopher R{\'e}, and Stephen Baccus.
 \newblock Hyenadna: Long-range genomic sequence modeling at single nucleotide
   resolution.
 \newblock \emph{Advances in Neural Information Processing Systems}, 36, 2023.
 
-\bibitem[Nguyen et~al.(2024)Nguyen, Poli, Durrant, Thomas, Kang, Sullivan, Ng,
-  Lewis, Patel, Lou, et~al.]{nguyen2024evo2}
-Eric Nguyen, Michael Poli, Matthew~G. Durrant, Armin~W. Thomas, Brian Kang,
-  Jeremy Sullivan, Madelena~Y. Ng, Ashley Lewis, Aman Patel, Aaron Lou, et~al.
+\bibitem[Nguyen et~al.(2024)Nguyen, Poli, Durrant, Kang, Katrekar, Li, Bartie,
+  Thomas, King, Brixi, Sullivan, Ng, Lewis, Lou, Ermon, Baccus,
+  Hernandez-Boussard, R{\'e}, Hsu, and Hie]{nguyen2024evo2}
+Eric Nguyen, Michael Poli, Matthew~G. Durrant, Brian Kang, Dhruva Katrekar,
+  David~B. Li, Liam~J. Bartie, Armin~W. Thomas, Samuel~H. King, Garyk Brixi,
+  Jeremy Sullivan, Madelena~Y. Ng, Ashley Lewis, Aaron Lou, Stefano Ermon,
+  Stephen~A. Baccus, Tina Hernandez-Boussard, Christopher R{\'e}, Patrick~D.
+  Hsu, and Brian~L. Hie.
 \newblock Sequence modeling and design from molecular to genome scale with evo.
 \newblock \emph{Science}, 386\penalty0 (6723):\penalty0 eado9336, 2024.
 
-\bibitem[Novakovsky et~al.(2023)Novakovsky, Dexter, Liber, Tanveer, Bhola,
-  Shendure, and Mostafavi]{novakovsky2023obtaining}
-Gherman Novakovsky, Nick Dexter, Julien Liber, Farhana Tanveer, Rajesh Bhola,
-  Jay Shendure, and Sara Mostafavi.
+\bibitem[Novakovsky et~al.(2023)Novakovsky, Dexter, Libbrecht, Wasserman, and
+  Mostafavi]{novakovsky2023obtaining}
+Gherman Novakovsky, Nick Dexter, Maxwell~W. Libbrecht, Wyeth~W. Wasserman, and
+  Sara Mostafavi.
 \newblock Obtaining genetics insights from deep learning via explainable
   artificial intelligence.
 \newblock \emph{Nature Reviews Genetics}, 24\penalty0 (2):\penalty0 125--137,
@@ -212,9 +218,10 @@ Julian Salazar, Davis Liang, Toan~Q. Nguyen, and Katrin Kirchhoff.
 
 \bibitem[Sanabria et~al.(2024)Sanabria, Hirsch, and
   Poetsch]{sanabria2024grover}
-Melissa Sanabria, Anna Hirsch, and Johannes Poetsch.
-\newblock Grover: A genus-level large language model for genomics.
-\newblock \emph{bioRxiv}, 2024.
+Melissa Sanabria, Jonas Hirsch, and Anna~R. Poetsch.
+\newblock Dna language model grover learns sequence context in the human
+  genome.
+\newblock \emph{Nature Machine Intelligence}, 6:\penalty0 911--923, 2024.
 
 \bibitem[Schiff et~al.(2024)Schiff, Kao, Gokaslan, Dao, Gu, and
   Kuleshov]{schiff2024caduceus}
@@ -222,7 +229,8 @@ Yair Schiff, Chia-Hsiang Kao, Aaron Gokaslan, Tri Dao, Albert Gu, and Volodymyr
   Kuleshov.
 \newblock Caduceus: Bi-directional equivariant long-range dna sequence
   modeling.
-\newblock \emph{arXiv preprint arXiv:2403.03234}, 2024.
+\newblock \emph{Proceedings of the 41st International Conference on Machine
+  Learning}, 235:\penalty0 43632--43648, 2024.
 
 \bibitem[Schneider et~al.(2017)Schneider, Graves-Lindsay, Howe, Bouk, Chen,
   Kitts, Murphy, Pruitt, Thibaud-Nissen, Albracht, et~al.]{schneider2017grch38}
@@ -247,14 +255,16 @@ Kevin Wang, Alexandre Variengien, Arthur Conmy, Buck Shlegeris, and Jacob
   Steinhardt.
 \newblock Interpretability in the wild: a circuit for indirect object
   identification in gpt-2 small.
-\newblock \emph{arXiv preprint arXiv:2211.00593}, 2023.
+\newblock \emph{Proceedings of the International Conference on Learning
+  Representations}, 2023.
 
-\bibitem[Zhou et~al.(2023)Zhou, Ji, Li, Dutta, Davuluri, and
+\bibitem[Zhou et~al.(2024)Zhou, Ji, Li, Dutta, Davuluri, and
   Liu]{zhou2023dnabert2}
 Zhihan Zhou, Yanrong Ji, Weijian Li, Pratik Dutta, Ramana Davuluri, and Han
   Liu.
 \newblock Dnabert-2: Efficient foundation model and benchmark for multi-species
   genome.
-\newblock \emph{arXiv preprint arXiv:2306.15006}, 2023.
+\newblock \emph{Proceedings of the International Conference on Learning
+  Representations}, 2024.
 
 \end{thebibliography}
