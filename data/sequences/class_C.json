@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "C_000",
+    "sequence": "GAAATGTACAAGAAGGAGTATGCATCAATGTTGACATGTGGAACAAAAGCCAATATAATCTGGGTTAACAATTCGCTCAAGAGTCATGAAAGTCACTGTT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_001",
+    "sequence": "ATGGAGACCTTAGATTCGGATGTGACATTTTTGACAATTACGATCAGTACTGCTATAATAAGATTAAGAATGCTTAACCCTGTACCTAACCAATCTGATT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_002",
+    "sequence": "TTTACACACTATCCTTGGACTGGTAGGTATTTGACATAGGCGGTAGACGCCTATATAATTTTCATGGTGATCGTAAAGAGGAGACTTACAATGATGCAAT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_003",
+    "sequence": "TGTGAACTTTTAAATTCGATTTTTATCTTTTTGACAATCCTAAACTTAGCTGTTATAATCTCGGCGAGATGGTGCAGCCTGCCCCCACTGTGCGACCGGC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_004",
+    "sequence": "CACTTAAGGCTTGAAAACTACGAGCAGATTTTGACAATCTGTGTTGGGTGTTCTATAATAACACGAAGGACGCACTGGTTCACTTTCTGGAACACGCACA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_005",
+    "sequence": "GACGAGACACACTCTTAAAGTCGTGTTAAATTGACAAGTATTAACGTCGAGGATATAATCCCGCTTATGTGCTTATGCCTATTATACGCATAATCTGAAT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_006",
+    "sequence": "ATCTGGCTAAGCGCGCTCGAAAAAGTAACTTTGACAAAGATGGATCTGCCAATTATAATAGCTATGTAGCCTTCGGTTAAGAAAACGCAGGCGTTGGTCG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_007",
+    "sequence": "GTTAACTGCAGGTGCAACCAATTGTTGAATTTGACACACCGTCGCTTGCCCTCTATAATCTGTAGTCGATGAAGGATTCATCGGATTAGCTGTTATCTGT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_008",
+    "sequence": "CCGTCAGCGGCCAGGATATGTCGTTCAGGTTTGACAGACTCGGTTTCCGTTAATATAATGTCGTATCCAGGTAATGATACAAATTGACCGGCATACCAGG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_009",
+    "sequence": "TCTGAGGTAGCTCTGCGGGTGTGTGCCGTATTGACAGTTATCTTCATATTTTTTATAATGGGTTAAATGTAATTCCATCCATACGTTCTACACCTACCTT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_010",
+    "sequence": "AGGTCCAATCGGGATAAGATAATCATATAATTGACAACAATGTCTGAGTATTGTATAATCTAAGAAGGCTGCGAGTGTTACACCCACGCATATAATTGGG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_011",
+    "sequence": "CACGTTTTGCGAGAATCTGTTTTGGATTAATTGACACAGATACCCTTGAAAGGTATAATACCGCGACGACAAACATACGGTTATAATTGGGCAACTGTTA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_012",
+    "sequence": "TAGGCCCCAGAGTCTTTAAAGTGATCTTCTTTGACAACCAAGCCATATTGGCGTATAATCAAATCGGAACCGACCCCGTGAAGCTGTTCGACTGCGTCCT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_013",
+    "sequence": "TGTTGGGCCCAATCAAATATTTACTACATTTTGACACCTCGCTCTCTTCCCGTTATAATGATTCTATACTACCAAGATCATTGTACTGAGCAAATGTGAC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_014",
+    "sequence": "CACTCATGAGAACGACGATAGGTGCCGTAATTGACACAGTATCGGTATCCAAATATAATACTTCACTTTCTCCTGTTAGTGCAGCGCGCATCTATTAGCT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_015",
+    "sequence": "GTAGTAATCCGGGTCTGGCGAATCCGAACTTTGACATCAGTCCAGTTGTGTGATATAATTGGACTGGTTATGCGCTTGATCTAAAACGCTTTAGGACGGA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_016",
+    "sequence": "TAGTGTGTAAGGGTCGCGCTCTGCAACCAGTTGACACGCCAAACCGATACGCTTATAATGTACACTGCGTCTTTCCGAGAGTATGATCTCTTAGGAACCC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_017",
+    "sequence": "GGCGATTCCTGGCTCGTGTTGACTTTGTGATTGACATAACAGCTTTTAAACGGTATAATTGGGAAGATCCAGCCTTAAGCTTTTCCGCCACAGTGAGGAG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_018",
+    "sequence": "GGACGATAGTCTTCATCGTAGGTTTATATTTTGACAAGATCTGCTTCAAACAATATAATTTGAGAACAAATTCTAGGAACCGTGCATCGAAATGCGCGGA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_019",
+    "sequence": "ATTACGAGAGGGACGAAGAGTCGCACTTCTTTGACATATACTTTGCTCTTCGGTATAATTAAACGGGTACATTATCTTAAAAGGATCAATAGCTTCGGCC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_020",
+    "sequence": "AGACATTTGCCTTGTCCACTCTCGTTGTGATTGACATAAGGTATTGCTCTATTTATAATTGTCGCAGCATCTTCCGAAATGCACCTCGGATTGCATATCT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_021",
+    "sequence": "GGAATTGTCTAGAGCGGGCCAGAGATATGTTTGACATACCCGTAGTGTTACGATATAATTAGAATTCAATTGATCTGTGCAAATCTCTATTGTACTCTTC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_022",
+    "sequence": "TAATCCTCGGAGTGAAGGTCAACCAAACGCTTGACACCATTTGACACCACCCATATAATCTCGTCCTTTACTACTTCGCGACTCAGGGGGTCGCCGTTCC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_023",
+    "sequence": "GAGGTATCCGTGGTCTGGATGCGATGCTTCTTGACACCTGGCAACTATACCACTATAATATGGATAAAGTACAGCAGAGCGATTAATACCATGGGGGCTG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_024",
+    "sequence": "TGCGAAACAGGCACAGGGTGCACCACAATTTTGACAAATCAGACTTGAATTCTTATAATTCTCCTCTTATGCGGAAAAACCGCGCATTGATTTTTATAGT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_025",
+    "sequence": "TGCGACCGTAGATCTCATTTCGCAGACAATTTGACAAATCATCATAGAGATAGTATAATGAGGACAAGAGTTCAACTACTATTATAGAGCTGACGTAATG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_026",
+    "sequence": "CTCAAAGGGTGTGCGGTCATTCACGGTTTATTGACATAAAAATGGGCGAGGACTATAATTGAGTTAACCGCTTAGGATGTTAATATTATAAGGACCCGCA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_027",
+    "sequence": "AGTAGATACCATTGTTCCCTAACGTATTTATTGACAAGCGCGCTATTAACACTTATAATAGACATGATTGGCTAAATAGCTAACTGTCAAATGAACCGTA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_028",
+    "sequence": "CAAAGTGATCAACGGATACCTACTAATTATTTGACAAATCATTCACAGTCAGATATAATACCGAAAATGGTTTTCGCTGCACATTATGTTTAGATTATAT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_029",
+    "sequence": "TCTTAGTGTAGTGGATTCCCAAAGATAAGTTTGACATTTCTCACAATTTGATGTATAATGATTTCTTAGTTAGTATATATAGGTCAAAAAACTTTCCGAC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_030",
+    "sequence": "TGGAATCCTAACTGTAGGCATATAAAAGTTTTGACAACCCGGAAACATCCCGATATAATCAAATGACGTGGTTCGTCTCATGGTTGGATATTTACTCTGT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_031",
+    "sequence": "ATTACCCACTTGGCCAGTTTGACGCCCCGATTGACACATTTATCCCGATATCTTATAATTTTTGACGATTAATTACTGATGGAACGATGCATTGCCAGTT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_032",
+    "sequence": "GGACATTATGGAATCTGCCCACGTCAGGTCTTGACAGTAGTCATTTTGGGTGTTATAATATAGTTGGTTTAAAATTAGCACTCTCACTCTGTATGTCCAT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_033",
+    "sequence": "AACGTCCGTCGAGAATATCTAGGCTCAACATTGACAGCACGATCCTGCTTCTCTATAATATGACGATAGATGGAGCCGCAGGCGGAGATAGAAAAAAGAG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_034",
+    "sequence": "CACATCAGTTGAAGTAAATCCAAACTCTATTTGACAGTATACTACTTGTAGATTATAATCCAGTTATACAACGGTGGTGCGGAGACGCTGTAGATTTACA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_035",
+    "sequence": "TAAGCACTCTCACGACGAAGGCGAGTCAACTTGACATACTTCGGAAAGTAGATTATAATTTGTCGTACGATTCGTAGTACGTGCTTTATTCACGTCGTGT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_036",
+    "sequence": "GAGCCGTGTGGCACCGGCTTCTTGAAGATATTGACAATATTTTGATTCGTCTTTATAATTTTGGTGGTTCAGAAGCCGAGACGAACATGGCGCTCAAAGC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_037",
+    "sequence": "GAAACCATGTTTAGCTGGTGCTTCGCTTCTTTGACAATGAAGTTCAGGTTGTTTATAATGGAACGCAGGGGTGGATATCATCCGCGACTGTAGTTTCTGG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_038",
+    "sequence": "AAGGTCTTCCGGAATAATTTTTCGCAATCCTTGACACGCGGCCCAAATCTATTTATAATTTAGATAAAGAGCGTGGTCTCATTCCGCGGTTGAGCATGTT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_039",
+    "sequence": "CCACACAATCCCATCGGTTAGAGCGTGCTGTTGACAAAAGAACGAATTCCAATTATAATGAAATGGAGGCACTTATGTTAGATCCGACAATGCAACGATG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_040",
+    "sequence": "ACAGTTTGGCAGATTCGTTGAACATCTCAGTTGACACCAGATCCAGTCTCCGATATAATTCGAACCGGGATAAATCAAAACTGGGGTTGCAGTCAGGAAA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_041",
+    "sequence": "AAATTCCGGTAACTTCTAGATGACAACTTTTTGACATTTCCGAAAGTGACTGATATAATTCCTATGTCATTAAAGAATGGGTGACGCTTTCTTCAGATCG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_042",
+    "sequence": "GCGATGCGAAGCGAGACGCCAGCTAAAGAATTGACAATACTTGTTCGGCGATCTATAATAAATTAGGATCGCTTCCGAATCGGTAAACCAGACTCGTCAA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_043",
+    "sequence": "TGTGAAAATGACTAAAGTCACGATAGTCCTTTGACAGGGGGGCCGTCCACATTTATAATACCAACCGCATCCACATTTGCTTCTACGGAGAAAGAAAGTA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_044",
+    "sequence": "ACCCTTCTCTTATACATTTATATCTACTGTTTGACATGAGATTAAGCAAATAATATAATAGTTGAGGTAATTTTCAGCATCCCGAACTATTGAACACAGC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_045",
+    "sequence": "AATTATGGCGCGGCGAGATATACAGTGGGATTGACATATAGTCCGTAAACTTATATAATATCAGCCGTAACCATCCCTCCTCTGGATTATCCTTGGTCCA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_046",
+    "sequence": "TATGAGGTAACACGATACTTTTATGGTGCTTTGACACTTAGGATCCAGAGAATTATAATCAAGACAGTAAGCGAGTAATCTAGCCCGACTGTCAATACTT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_047",
+    "sequence": "AATTTTAGACAAGAGACTAGAGGAACTGAGTTGACAATGACTACTGAGCTAAGTATAATATGTGTTTAGCATGACTGGAAATTCGAAGTTCGGATTATTC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_048",
+    "sequence": "GTACTTTTCCCTTTATAATGAGAAGCGCGGTTGACAATAACTTTATTTCCCACTATAATGGTTGCTATGCTGGGACCCTCCGAGATCTATTGACCAGGAC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_049",
+    "sequence": "AGTTGAACCGCTGTCCTTGGATAGCCTCGATTGACAGATAGCCAGAGGGTAAGTATAATACAGGGGTACGTACCCACGCAGAGGGGATGTCGTTCGCGTC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_050",
+    "sequence": "AGGGCAGGTAAGATTTCCGGAACTCGCAGCTTGACAGTTGCGTGCTCTTCTCGTATAATCATGTGCGTTGCACCACTACATTTCACGATTGTATTTGATC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_051",
+    "sequence": "GGATGGACAGGCGCTCAACCAAAAGGACCATTGACACACGAACAGGTGGCTGGTATAATTCCGGCAATGTCGGTTCACCCATGAATTCGTGCCGGTCCTG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_052",
+    "sequence": "TCTGAGATGCGCGTATAATTCCGATTTGAATTGACACGTCTCTCAATCACCGATATAATGCCCCGGCACTTATGAAATCCTAGCCTGCAGGCCAGGTAGC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_053",
+    "sequence": "GCTGGACGATTTTCATACTTAGTCACTCGCTTGACATTTGACAATTGCAGTAATATAATACTAGCTTCAATACTTACGATCGTAACCTTGCGCATATCGT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_054",
+    "sequence": "GATGTCTTCAAGCTTTGACGAGGTAAACACTTGACATGGATAGTGTTGACTGTTATAATATCCATACCTGACATAGTGAAGACTAGTGAGTGGTCCTTTG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_055",
+    "sequence": "ATTCGTCGCGTAGTACTGAACAGTGCAGTATTGACACGTCTAATAATGCGTAGTATAATAGAAACTCAGTACTATCTTGCTGATTTGCAACGGCTAATGT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_056",
+    "sequence": "ACAAAGTCTTGAGGCTGAACTGTCAAAGACTTGACAATGTCAGAGCCCTTATTTATAATGCAGCTCATTCACCTATCCAGGTAAGAATCACTGTGGATTA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_057",
+    "sequence": "TCTGTATTACGTGAGATACTAGCTTCAGATTTGACACGTTACTTCTCCGTATCTATAATTATTATGTACGCAGAGATAACTGTATACAGAACCGAGGGCG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_058",
+    "sequence": "TTTTATCATCTAAGCTGGCTGACCGCATATTTGACAGTCCATAACTTACCATGTATAATAACAAAGACCCGACTCCACCATTCGCCTTGAGTCGTTAGCC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_059",
+    "sequence": "TCAAGGATAAGCGAGACGTTCATCCCCTTATTGACATCTAGAACTTATTACTCTATAATGATTCGCAAATTCGTCCGAAATATGGTGCGAGGTAACTAAA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_060",
+    "sequence": "CTCCGTGTAATGTTGCGGAGTAGCCCTAAATTGACAGTACATTCCCTTGTCGATATAATAAGTATTAATGAAAAGTTTATACATTTCAGTAGAGAAACTG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_061",
+    "sequence": "TAAGGCGCTACCAAATAAATGGACACGCTCTTGACACGATCACGAACGATTATTATAATAGGATGCCGCCATAACGAAAAGTCGAGAATTTAGCACTGTA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_062",
+    "sequence": "CTCCCCAGTCGCAGCAGGGGCTGCCTGCTCTTGACATCACCCGAGGTACCACCTATAATTCCGTAGCGTCGCCCTTTGCATCATATACATCATGCTCGAC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_063",
+    "sequence": "GCTAAGTGATTCTGGTCGGGCAAGCCCTAATTGACAAAATCGCGAAAATGATTTATAATTCCGATTAATTGTTTATAATCGCTACAATCAGCCTCCGTTT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_064",
+    "sequence": "CGTATGTGTGTAGCTCTATTCTCTAATAATTTGACATTTCCTGTTTGGCGTTCTATAATCGCAAGTTTTGTCCTAGTTACATTTATTGGTTAGACCAACT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_065",
+    "sequence": "AGCTCGAGATTCCATGTCGCCACAGTCGCATTGACATAAACATTTTGTAAGCCTATAATTTACGAAAATTTTCTGTACTCTTATGTAAAAAGCTTACGCC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_066",
+    "sequence": "TTAATAAGATGGTGGCATGTAGGCGTTAATTTGACAGTCTTTGAAGCAATCCATATAATCTGACCTCGAGTGCTCGCTTGCCACCAGACGGCCTCAATTG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_067",
+    "sequence": "CAAAACAGGAAAGAGAACATCGCGGATTAATTGACAAACGTTGCGTCGGCCAATATAATGCGTACCCAAAGTCTGAGTAAGGTTTGGCCCGGGTCGGCCA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_068",
+    "sequence": "TCCCTCGACACAATCGTGACGTTGTTTTGCTTGACACTCAAATCATTAACGAATATAATAGGGGTCCTAAGTTTAAGTTACCGTAGCATCCTATCGACTC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_069",
+    "sequence": "GATCATCCCTTCAAATTACTAATGGTAGGGTTGACATTAAGTGCAGTGGTTCATATAATTCAGGTAATGATTTAACGCAGACTCTTTGTGGGCCTGGGGA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_070",
+    "sequence": "CGTCAGTAATCCCGGGCACCCTCTTAAGAGTTGACACTGCAGAACTCCTAGATTATAATTCGGTTCTGTGCCCTCTGCACGTTTGTGGTGGAGAGGAGAC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_071",
+    "sequence": "TATAATAGTCTGCATACCTCAAAAAAACCATTGACACCCTAATGCTCAACCCCTATAATGTCCAGATCTTGCTCACTCTATCGTCCGGGATGCCAAGACG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_072",
+    "sequence": "TCGCATCATCCGAGGACTGCTGTGTGAATGTTGACATGACTCAACTCAGCGACTATAATTCTGCGGGGGAAAAGAGTAGTGGAGCTGTATCTAGCCTTAA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_073",
+    "sequence": "CCAAAGATTCAAACGACTGGCAAACACTTTTTGACAACTAATCCGAGGCCATATATAATGCTTCCAAGATAGGACTCATACCTTCTTACCCAGGAGTTCA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_074",
+    "sequence": "ATTCGGTGCGTGCACTAAAAAGATTCTAATTTGACAGTAAAATGCGAATTAGCTATAATGTTTTTAATTACCGTAAGAGTCATTTTTAACGAGTGGCCCC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_075",
+    "sequence": "GGCACTGAAATCCTGTCGAACCGCGCCCTCTTGACATGGTTAAAAACCTGAGTTATAATTTCCGGCGTACATCGTTTCTCATGACGCGATATTCCGCTGC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_076",
+    "sequence": "ATTATCGGGTTACGAAGCTAAGAGCAATCATTGACACAAGCATTAACGCGTGGTATAATTGTTCGTCTCGGCGTAATTCTAGCTATAGCTGTACTGTAAT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_077",
+    "sequence": "CCAGCAGTCTTCAATCTCAGATATTAAACGTTGACAAAGAGTTGGTCCAATTTTATAATAGATTTAACACGAAGTAACACCCCATGCAACGTAGTTATGT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_078",
+    "sequence": "GGTGCGTCTCCGGCGAGTAGTCTTGACCAATTGACAAGTGTGCATCAGTGAGGTATAATAAGAAAGTTAATCTAAACCGATATCACGTTTTACTTTGATA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_079",
+    "sequence": "CCCGAACAAAGTCTTTCCGGCATCGACATTTTGACATAATGGGGACGAGTTATTATAATACTACTGCCCTTAGTCATTCCTTAAGGGTACGAATCTAAAT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_080",
+    "sequence": "ATCGGTACCACGCGAATAGTAGAGTTTCCCTTGACACACCACGTTAGTAGTCGTATAATTACATCCGCGACTTTTTTCAAGGTGATCGGTACAGAATGAC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_081",
+    "sequence": "GATTTAACTAAGTAGTTTGGCGTCGGTTAATTGACACTTGAAGTTCCGTGGACTATAATCGAGTGGCTATGCTCGCTCTATTGATACCTGTTGCGTTCGC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_082",
+    "sequence": "GATCATGTTGCAAGCAATTATGGTATCTTATTGACATGCAACGTGCGTGTTGATATAATGAGGATTACGCGAATTATAGGTCGGGTATTTAGAGTAAAAG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_083",
+    "sequence": "TATGCGCTACTGTGCGGGTCGAATAACTTGTTGACACTCAACGGATTGACGTGTATAATAAAGAGCCATAACTCATATCTCGGTGGTATCCTTGGTCAAG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_084",
+    "sequence": "AACTATTGAGGATTGACTTTCTTCCAATTATTGACACGTCGTTGCGTTGGTATTATAATTGTGAATGTCCCATAGTACCATGACTGTACGCCGCCATACA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_085",
+    "sequence": "CAGAACAGACCCATACTACCCTAAACTTAATTGACAGCTTGTTCAAAAGTAGCTATAATAAGATTTATAGTGGATGGAAATTCGAACCGACCGGCACCCC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_086",
+    "sequence": "AAATACTAATCCAAGTCTCTGCGACTATAGTTGACAGCTTATAAGATTTTTCGTATAATGGAAGTGTCGTTATCTCAAAAGTTCGGCAGGAAAAATTATG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_087",
+    "sequence": "ATGACGCAGGTCGCATTATATGTTTATCGTTTGACATTAATCTAAATACTGAATATAATTTAGTTGCATTGAAAAGATTATCGACGCACAAGGATACGTA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_088",
+    "sequence": "TACAGATCTTAAAATCGATTTGAGGGAGCTTTGACAGAATAGCCTTCAGTAATTATAATTCTGACCGGTCGCGGTGAATAGTTACTTTCATTTATAATGC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_089",
+    "sequence": "ATCGGATTACAAGTAATTGCCCTGCATATGTTGACATGGCATGTAAGAATGTTTATAATGAAAGTACGAGTCGGAATGGTACTACCCATTTGACTATAGC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_090",
+    "sequence": "GTCACTAGTTGTATGTGTCTCCTCTTCAGATTGACAGTTAACTACCAATACATTATAATCTTACTTCGGATGGGTATATCACACCACGTCATTTTACCTC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_091",
+    "sequence": "GCAAACGCAGCTCCCATTGAGAACCGTGGATTGACACCCGAGCGCATGAGGCTTATAATATATCGACTACTAATCGACCTTGATATGTGGCCCGGTAACA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_092",
+    "sequence": "GGCTGCCGTTTTAGGCCTTACGACCACCACTTGACATACACTATTCATCAACTTATAATTAGTTGAGTATGCATGGTTGAGTAACGGAGTACTACGCATC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_093",
+    "sequence": "GATTTGATGGGACGACTACCTCCAATAGCCTTGACAGATTCGGATTAAAGATATATAATCTCGCTCGCAAGTCCGTCTTCTCTTGGCGCGAAAGGCTGTC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_094",
+    "sequence": "AACTCAGCTACACCTTGCGGAAGTTATCTCTTGACAAACCGCGTTTCTCTTAGTATAATCGCGCGCTTACGAAAACGCAATCTTTTATATACGTAAACAT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_095",
+    "sequence": "TTTCCAGGGTCTAACAGTGTAATAAATAAATTGACAAGTACTTGTAAACTGATTATAATCATACAGGAAAGTCCCGGCCGGTAAAAAAAGGCATTAATCC",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_096",
+    "sequence": "GTAGGCCTACAATAACCAAAGTGTGCAATGTTGACACTCTTACCACGTTTTGATATAATACATTCTATGTTGTCTGAGTCCTCAGCGCCTTCTCGCATGG",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_097",
+    "sequence": "CCTAACGACCGAACCTGTAAATAGAACCTGTTGACAGGCGGAAGCAGGGCTCATATAATCCAGTCTGCAGAGGCTCCATTCAATGCACCCATGTAAATCA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_098",
+    "sequence": "GTCCTACGAAGAAACTCAACTTTGTGTGCGTTGACACCGTCGCGACCACGACGTATAATTATCTGCGCAGCGCGTATCCTGCCGGTTGACTCGCATAAAT",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  },
+  {
+    "id": "C_099",
+    "sequence": "CTTTTATATTCAGATATGTTCGCTGAACCATTGACAGATTCCGAATTGCTGCCTATAATAATCAAGCATTAGATTAGTTGCAGACTAACACTAGTTGTAA",
+    "class_label": "C",
+    "class_name": "Synthetic Intact",
+    "minus_35": "TTGACA",
+    "minus_10": "TATAAT",
+    "has_up_element": false,
+    "has_extended_10": false,
+    "is_natural": false,
+    "is_broken": false,
+    "is_compensated": false,
+    "metadata": {
+      "design": "consensus"
+    }
+  }
+]

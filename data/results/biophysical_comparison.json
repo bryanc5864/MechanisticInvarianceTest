@@ -1,0 +1,37 @@
+{
+  "PA-PWM": {
+    "css": 1.0,
+    "scr": 0.96,
+    "broken_mean": 14.159500000000001,
+    "compensated_mean": 18.650000000000006,
+    "scrambled_mean": 16.717
+  },
+  "PA-PWM-NoComp": {
+    "css": 0.0,
+    "scr": 0.0,
+    "broken_mean": 14.0,
+    "compensated_mean": 14.0,
+    "scrambled_mean": 14.0
+  },
+  "PA-PWM-NoPos": {
+    "css": 0.7,
+    "scr": 0.58,
+    "broken_mean": 18.9385,
+    "compensated_mean": 19.871499999999997,
+    "scrambled_mean": 19.5055
+  },
+  "Thermo": {
+    "css": 0.96,
+    "scr": 0.75,
+    "broken_mean": 20.645,
+    "compensated_mean": 24.57,
+    "scrambled_mean": 22.155
+  },
+  "Scan": {
+    "css": 0.42,
+    "scr": 0.46,
+    "broken_mean": 3.734,
+    "compensated_mean": 0.630799999999999,
+    "scrambled_mean": 5.0238
+  }
+}

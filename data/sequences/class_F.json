@@ -1,0 +1,902 @@
+[
+  {
+    "id": "F_000",
+    "sequence": "GATTCGCCACAGCAAAAAAAAAAGACCTTTTTGACTATCATCCTTACTTCTGTTGTAATTCTAAATAGTAGAAGAGTTGTTAATTGATTGTGATTGGTCT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_001",
+    "sequence": "GCTAATAACTTTGGGAAAAAAAGATCACGCTTGACAGTATTTACTACCACTGTTGTAATATATCCCCAAGCCGGAGACAGTGCCACTAAGATGTATAGAT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAGA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_002",
+    "sequence": "ACATGTCCAAATTAAAAAAAAACGAAAAGATTGACAGGTGATGAGTTAGATGTTGTAATAAAAGAATACGTTTTGTGCCTACACTTCAGCTATGATAGGA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAACG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_003",
+    "sequence": "TGTGCTTAATGAACTAAAAAAAAAACAAATTTGACAAGCTCATAACAGATTGTTGTAATCCCTGGCTAGCTTATAGCCCCGCCATCATAAGGATGTGTAT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAAA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_004",
+    "sequence": "AGATTATAAAACTCAAAAAAAGGAGCTCTTTTGACAGATCGTCGGCACTGTGTTGTAATCGTTTGCGTCTCATCAACGATGATTTATCCGGTGCATGGCT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGGA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_005",
+    "sequence": "CTTTTCAGATATACAAAAAAAAGAGGCGTGTTGATATTTGGAACCAGGATTGTTGTAATGTTCAAATCCATACCTGGATCCATACTCATAAATTCGTCGA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAGA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_006",
+    "sequence": "TCGATTTTTATTTATAAAAAAGCGTAGCCGTTGACTCGCGTTAAATCGATTGTTGTAATACTTCCCCGTGTTGAGTTGACAGGTTATATCTCCGTAGTGT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGCG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_007",
+    "sequence": "CTTACTGTGCGATTAAAAAAAACGAAAAAATTGATAATACGTGAAAAGGCTGTTGTAATTAGTACATAATGCAAGTTCTCTTAGGTATAACTAATGAGTA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAACG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_008",
+    "sequence": "AATAATTTATCTTAAAAAAAAGAAGTGGTATTGACTGCTAGATTGTACTCTGTTGTAATGGTTGTAGCGCTTGCTTTTGAACCACCTGCTGTTCCGTGGG",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGAA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_009",
+    "sequence": "CCCTGTAGACGAGACAAAAAAGAGGCTGTCTTGACTCCTACGCAACCGTCTGTTGTAATTTGAATGACTCACCTTCCAATTGATTCTTCATGTCTGACGC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_010",
+    "sequence": "CCCCCAGGGAGTTGTAAAAAAAGGAACTGGTTGACAGAGAAGAGAAGAGCTGTTGTAATTCCCTATAAAGACTCCATCAACGTTTGCAGGGGGCTAGCGG",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAGG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_011",
+    "sequence": "TATATGCACTCGAATAAAAAAATACGTATGTTGACTGTACCAACAGTACGTGTTGTAATTCCTTGCCTTTTCCGACATTGCCGTATTAACACAAAACAGC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAATA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_012",
+    "sequence": "CACACGATCTACCAAAAAAAAGTATCCGATTTGACTAATTGATACAAACTTGTTGTAATAGCTTATGACTGCTGAAAGATACGCTACCCTACAACTACCT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGTA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_013",
+    "sequence": "ACTTCATACCCTTGCAAAAAAAAGTTGAGCTTGACACGAAATATTTATACTGTTGTAATTGAAAGCGCTCAATCTGAGGACAACTTACTACTGAGAGGCC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_014",
+    "sequence": "ATAGACTTCAAGTATAAAAAAGCGCGCGCCTTGACTGTGTTGTGGAGCATTGTTGTAATCTCATGTCACTCCGCTCTCATAAGAAATGCTTACTAATTTC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGCG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_015",
+    "sequence": "GAAGTACAAAGGGCTAAAAAAGAGGGTAGCTTGACAACGCTGTTACTTTCTGTTGTAATCACCTTTCCCAAATACTCGCTTGTGCGCGGTAAAAAGTCGA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_016",
+    "sequence": "AACGACGAATCACCAAAAAAAGGGGTTAGATTGACTCGAAGAGGCTTGATTGTTGTAATTACAACCCCGGACCTATAGGTAGTCCCTAAAGTTTTGCCTA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGGG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_017",
+    "sequence": "GATAGAACTCGCTATAAAAAAGCGAATGACTTGATACCTCCAATCTTAATTGTTGTAATCGAGGATACGACTTTTTAGTAATTGTAGTAAAATAATAGCC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGCG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_018",
+    "sequence": "GTCATGTCAAACTAGAAAAAAACGACCAACTTGACTGGAGGGCCTAGCGTTGTTGTAATACAATGGCTGGCGGGAATAGCGTTTCAGATCTGGAAAGTAC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAACG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_019",
+    "sequence": "TTAAAGAATTTCTCAAAAAAAACACTTCATTTGATAGGTCCCAGTTCAAGTGTTGTAATGTTGCTCCTCACTCTTGAATCTTGGCAGAGTGACAGATGCA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAACA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_020",
+    "sequence": "TAGATCGAGCATTGGAAAAAAGTAGCCTGTTTGATACCCTAAGACGATAATGTTGTAATTGCACGCTGTACCAATTATTATTACCTAAATCGTTTTATGA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGTA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_021",
+    "sequence": "AGCTTTGGATCCGTTAAAAAAAAGAAGTATTTGATATCTTGAATATACGCTGTTGTAATAACCGGGGAAGGTTAAAACCAACACAAATAACAACTCCACT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_022",
+    "sequence": "GAATCTGAACTGTGTAAAAAAGAGAGCATGTTGACAACACGCTCGTGTTATGTTGTAATGTCCCCAGTGCGTATTGTGCGCACGTTATTTACCGAGCGCC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_023",
+    "sequence": "GATTCTGGCCTTGTTAAAAAAAAAGAATGCTTGACAGGATATTTGCACTATGTTGTAATTTGCAACTGGATCATGTGGCTGTAATATGACGTGGACGCAT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAAA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_024",
+    "sequence": "ATAACTAATTGTATAAAAAAAGGGATTCATTTGACAAATAGATTGAAATGTGTTGTAATTGTTCAAATATAGGGGCTCGGTCATTCTCAGCGAGTGTAAA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGGG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_025",
+    "sequence": "CACAAGTCGGAATCTAAAAAAAGGCAAGCCTTGATACCACCGGACCTGCCTGTTGTAATAAATACTATTGATATGTATTCCATCTTGCACAAATTTTCGG",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAGG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_026",
+    "sequence": "AAAGCGAATGACATCAAAAAAAAGAGCTGATTGATAAGATTCACTGTAATTGTTGTAATTGTGGATCGGATGGATTCTAGCATAGTATGGACTATCAAAC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_027",
+    "sequence": "AAGATGTGTTTCTATAAAAAAGGGTTAGTCTTGACATTTGATAGGTGTGGTGTTGTAATTAGTAAGGCCAAACGTGTTACTAAATGACAGTCATTAAACG",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGGG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_028",
+    "sequence": "CCGCCGTACTCAGTAAAAAAAGGGCGATTGTTGACTACCGTGAGCCTTTCTGTTGTAATGTCCAATAGTCACTGGGCGCCATAATCAGGTTAATGAAAGA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGGG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_029",
+    "sequence": "AGCCGTTTAATTTGTAAAAAAGGAAAATCGTTGACTTCAGTATTTAGATATGTTGTAATCTATGTTTTACAACTAAATAAAGTGTTCCCGGTCGGCTTTG",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGGA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_030",
+    "sequence": "TTACGCGCGCAAGTGAAAAAAAAGAAATTGTTGACTTATGAGTATCTCCTTGTTGTAATAAGTCGCTGCTTTGCTCCGAGTCGGCTTACCGGGGGTCCAA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_031",
+    "sequence": "AGCATATCGGCGACCAAAAAAGGAGAGTAATTGACTAGCCCGCGAAAGTCTGTTGTAATAACCCGTATTGTCTGGAGTCGTGGTTTTCACGGCTGCTTCC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGGA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_032",
+    "sequence": "TCGACTGTATATTCAAAAAAAAGAGATATCTTGACTCTAGAACCGAAGAATGTTGTAATCTTTAAAACCTCCCTTATTGTGTGCAACTATACGAGGATTC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAGA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_033",
+    "sequence": "GCCACCCCACGACATAAAAAAAAGCAAAAGTTGATACTGGTGTTCATGTGTGTTGTAATTCGACATATAATGTTCAAAACTCCAATTCAAGTGGCATTCG",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_034",
+    "sequence": "AGTGTCGGAGAGCAAAAAAAAGTGCCCGAATTGACTAACCGTGTGTTCTTTGTTGTAATTCGCGGTCTATGTTGCCATTGGAGATCTCCGCTCACCACTC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGTG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_035",
+    "sequence": "ATAATAGAATCTCTAAAAAAAATGGATGGTTTGACACCCGATGCCTCCGCTGTTGTAATTGCATCGTCGTATACTCGCTCGGGCAGCAGAGTTCACTCTC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAATG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_036",
+    "sequence": "ACGATCTGGCTTAATAAAAAAAGAGCTACATTGATAACTACAATTCCTATTGTTGTAATCAGAAAAATCTAATGAAAAGTCAAGGTTATCCTGAGGGGTA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAGA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_037",
+    "sequence": "CCTATTTGAATTCCAAAAAAAATAAATTTATTGACTTCGGAAAGACGGAGTGTTGTAATAAACCCGTATCATACATTCTGTTACCGTTCAAAGCCTTATC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAATA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_038",
+    "sequence": "ATAGTACCTAACGCCAAAAAAGGGACACATTTGATACGCTAAATGAAATATGTTGTAATCCAGGTTCAAACGTTGTGTGATTAATGCCGTGGAAATTATG",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGGG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_039",
+    "sequence": "TCCTGCACACGTCCAAAAAAAGTACACTCGTTGACTGGGGTCGACAGTATTGTTGTAATGAGGTCCACGATCGAAATCCATCCTAACACATCAAAATACA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGTA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_040",
+    "sequence": "TATAATGAACAACTAAAAAAAGTAGCGCCTTTGATAAACAATCTGAACAGTGTTGTAATTGAAACTATGTAATAGACCTACAATAATTACGTCAAATAAC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGATA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGTA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_041",
+    "sequence": "CTCTCTGACCATTTGAAAAAAGCGAAAATATTGACTGTGTTGAATACATGTGTTGTAATTATGCAAAACTAGGCGCCGTCGTATGGATCTGGACCCTGTA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGCG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_042",
+    "sequence": "CCGACAAGAACTGTCAAAAAAGAGAGACCTTTGACTCCGCTCAATTCCGTTGTTGTAATTCTTCGCTCATATTCTAAACTGCCGGACCAACTTGGTTCAT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_043",
+    "sequence": "CGGTGATGCAAGTCGAAAAAAAAGTGGCGCTTGACTACATATAGCCCGGTTGTTGTAATTTAATTGATCAGAGTAAAGAATGTGAGTCTTCCCACTCCCC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_044",
+    "sequence": "ATGGTGATTAACACAAAAAAAAGATATGCTTTGACACCAGATCGCATTTGTGTTGTAATAGTTCGATTCGCTAGGGTGAGTGTTCAGCGTGATCTTCTAT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAGA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_045",
+    "sequence": "AACCATTGCCATTGCAAAAAAGAATCAGCATTGACACGTCATAACACTGATGTTGTAATGGAAGCGGTTGCTGGCTACTGACGGCAATAAGCTCGATAGC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGAA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_046",
+    "sequence": "AACAACCGAAGTCTCAAAAAAAAGCAGTAATTGACATTTCAAACCTTACTTGTTGTAATCTATAAACATCCGCTGTACATATAAAATACTTATATTTAGG",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAAAG",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_047",
+    "sequence": "AATATTGGCGCAACTAAAAAAGGATACCAGTTGACATGAAAGGGGGTAACTGTTGTAATTCCAGATTACGGCAGTCCTCGACTGGGTTTAAGCCGATCCC",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACA",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGGA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_048",
+    "sequence": "ATAATTAGCATGATAAAAAAAATATTTATTTTGACTATTGGTTGAAGTTCTGTTGTAATCATGCGCATAGATAGATAAATGCCTCTACCAATCCCAGACT",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAATA",
+      "strong_35": true
+    }
+  },
+  {
+    "id": "F_049",
+    "sequence": "TTTGCAATAACTATTAAAAAAGAGGGAAAATTGACTCGAACAAACACTTATGTTGTAATCTACCACGTGAGAAGTCAAATCAGGGGCAATGACCTGAGAA",
+    "class_label": "F",
+    "class_name": "Synthetic Over-Compensated",
+    "minus_35": "TTGACT",
+    "minus_10": "TGTAAT",
+    "has_up_element": true,
+    "has_extended_10": true,
+    "is_natural": false,
+    "is_broken": true,
+    "is_compensated": true,
+    "metadata": {
+      "design": "over_compensated",
+      "up_element": "AAAAAAGAG",
+      "strong_35": true
+    }
+  }
+]
