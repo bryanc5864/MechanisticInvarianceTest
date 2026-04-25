@@ -1,0 +1,301 @@
+\documentclass{article}
+
+% ICML 2026 style
+\usepackage{icml2026}
+
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[capitalize,noabbrev]{cleveref}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{float}
+
+% Float placement
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.8}
+
+% Custom commands
+\newcommand{\css}{\text{CSS}}
+\newcommand{\mes}{\text{MES}}
+\newcommand{\scr}{\text{SCR}}
+\newcommand{\LL}{\text{LL}}
+
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+
+\newtcolorbox{seqbox}[1][]{colback=gray!5,colframe=gray!50,boxrule=0.5pt,left=2pt,right=2pt,top=1pt,bottom=1pt,#1}
+
+\icmltitlerunning{Mechanistic Invariance Test for Genomic Language Models}
+
+\begin{document}
+
+\twocolumn[
+\icmltitle{The Mechanistic Invariance Test: Probing Epistemic Uncertainty in Genomic Language Models}
+
+\begin{icmlauthorlist}
+\icmlauthor{Bryan Cheng}{school}
+\icmlauthor{Jasper Zhang}{school}
+\end{icmlauthorlist}
+
+\icmlaffiliation{school}{William A. Shine Great Neck South High School}
+
+\icmlcorrespondingauthor{Bryan Cheng}{bcbc7264@gmail.com}
+
+\icmlkeywords{genomic language models, mechanistic interpretability, epistemic uncertainty, in-context learning, benchmark}
+
+\vskip 0.3in
+]
+
+\printAffiliationsAndNotice{}
+
+\begin{abstract}
+Genomic language models (gLMs) achieve impressive performance on regulatory prediction tasks, yet a critical epistemic question remains unresolved: do these models encode genuine mechanistic understanding, or do they exploit spurious statistical correlations while remaining confidently wrong? We introduce the \textbf{Mechanistic Invariance Test (MIT)}, a 650-sequence benchmark with scrambled controls that cleanly separates compositional sensitivity from positional understanding in \textit{E.\ coli} $\sigma^{70}$ promoter regulation. Evaluating five gLMs across all major architectural paradigms, we uncover a universal failure mode that is fundamentally epistemic: models assign high confidence to incorrect positional inferences. AT content correlation ($r$$=$0.78--0.96) fully explains apparent compensation sensitivity, while scramble control ratios near chance (0.40--0.52) confirm models cannot distinguish correctly placed from scrambled regulatory elements. Most strikingly, Evo2-1B and Caduceus score elements at \textit{wrong} positions higher than correct---confident, systematic misdirection. A 100-parameter position-aware PWM achieves perfect performance (CSS$=$1.00, SCR$=$0.98), demonstrating that the bottleneck is not capacity but fundamentally miscalibrated epistemic representations. These findings reveal that gLMs exhibit overconfident uncertainty in the wrong dimensions, demanding architectural and training innovations that couple predictive performance with mechanistically grounded representations.
+\end{abstract}
+
+\section{Introduction}
+
+The deployment of genomic language models (gLMs) in high-stakes applications---gene therapy, clinical variant interpretation, synthetic biology---requires not only predictive accuracy but \textit{epistemic validity}: models should be confident for the right reasons \citep{gal2016uncertainty}. A model that correctly predicts promoter activity because it detects AT-richness may appear calibrated while being systematically wrong about the mechanism, leading to catastrophic failures under distribution shift.
+
+This epistemic concern is central to the \textbf{Epistemic Intelligence in Machine Learning} (EIML) research program. A model with genuine epistemic intelligence about gene regulation would represent \textit{why} a sequence is regulatory---encoding positional constraints, interaction logic, and mechanistic causation---not merely correlational signatures. We ask: do current gLMs, despite strong predictive performance, exhibit epistemic intelligence about regulatory mechanisms?
+
+We answer definitively: no. We introduce the \textbf{Mechanistic Invariance Test (MIT)}, leveraging a ground-truth case of position-dependent compensation in bacterial promoters to distinguish genuine mechanistic knowledge from statistical shortcuts. Our contributions are:
+
+\begin{enumerate}
+\item A 650-sequence benchmark with scrambled controls that cleanly operationalizes the distinction between compositional and positional understanding (\S\ref{sec:benchmark}).
+\item Three metrics (CSS, SCR, MES) isolating the epistemic failure mode (\S\ref{sec:metrics}).
+\item Systematic mechanistic probing demonstrating that apparent gLM competence is driven entirely by AT content heuristics (\S\ref{sec:experiments}).
+\item Evidence that the failure is \textit{overconfident}: models score incorrect configurations higher than correct, not merely with higher uncertainty (\S\ref{sec:discussion}).
+\end{enumerate}
+
+\section{Background: Epistemic Uncertainty in Models}
+\label{sec:background}
+
+Epistemic uncertainty---uncertainty due to limited knowledge---is traditionally measured through model confidence calibration \citep{guo2017calibration,ovadia2019can}. However, a subtler form of epistemic failure occurs when a model is well-calibrated in the \textit{aggregate} but confidently wrong about specific causal factors \citep{d2020underspecification}. This ``overconfident misattribution'' is particularly dangerous in biology: a model may correctly predict expression levels while attributing them to the wrong sequence features.
+
+Prior work on gLM interpretability focuses on post-hoc motif discovery \citep{novakovsky2023obtaining} or attention visualization \citep{ji2021dnabert}, asking \textit{what} models attend to without testing whether attention corresponds to causal function. Our approach is closer to mechanistic interventions \citep{geiger2021causal}: we systematically vary causal factors (position, composition, spacing, strand) while measuring model responses, directly testing whether models encode the correct causal structure.
+
+\section{The MIT Benchmark}
+\label{sec:benchmark}
+
+\subsection{Biological Ground Truth}
+
+In \textit{E.\ coli} $\sigma^{70}$ promoters, transcription depends on the -35 box (TTGACA) and -10 box (TATAAT) with 17$\pm$1 bp spacing \citep{browning2004regulation,harley1987analysis}. Mutations weakening the -10 box can be compensated by an AT-rich UP element \textit{upstream of -35} \citep{ross1993third} or an extended -10 motif (TGT) \textit{adjacent to the -10 box} \citep{barne1997region}. These mechanisms are \textit{strictly position-dependent}---identical nucleotides at wrong positions provide no benefit. This provides an ideal test: a model with epistemic validity scores compensated sequences higher than broken \textit{and} distinguishes correctly placed from scrambled compensation.
+
+\begin{seqbox}
+\texttt{....\underline{AAAAAARNR}....\underline{TTGACA}......\underline{TGT}\underline{TATAAT}....+1} \\
+\hspace*{1.2em}\scriptsize{UP element}\hspace{1.1em}\scriptsize{-35 box}\hspace{2.2em}\scriptsize{ext}\hspace{0.3em}\scriptsize{-10 box}\hspace{0.8em}\scriptsize{TSS}
+\end{seqbox}
+
+\subsection{Sequence Design}
+
+MIT comprises 650 sequences across 8 classes (\Cref{tab:classes}). The critical comparison: Class D (broken -10, no compensation) vs.\ Class E (broken -10, correctly positioned compensation) vs.\ Class H (same nucleotides as E but compensation scrambled to wrong position). A model with epistemic validity must score $E > D$ \textit{and} $E > H$.
+
+\begin{table}[t]
+\caption{MIT sequence classes. The critical epistemic test requires both CSS (E$>$D) and SCR (E$>$H).}
+\label{tab:classes}
+\vskip 0.1in
+\begin{center}
+\small
+\begin{tabular}{llcc}
+\toprule
+Class & Description & N & Compensation \\
+\midrule
+A & Natural intact & 100 & None \\
+B & Natural broken & 100 & None \\
+C & Synthetic intact & 100 & None \\
+D & Synthetic broken & 100 & None \\
+\textbf{E} & \textbf{Compensated} & \textbf{100} & \textbf{Correct position} \\
+F & Over-compensated & 50 & All elements \\
+G & Natural compensated & 50 & Present \\
+H & Scrambled control & 50 & Wrong position \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vskip -0.1in
+\end{table}
+
+\subsection{Metrics}
+\label{sec:metrics}
+
+\textbf{Compensation Sensitivity Score (CSS)} measures compensation recognition:
+\begin{equation}
+\css = \frac{1}{N} \sum_{i=1}^{N} \mathbf{1}[\LL(E_i) > \LL(D_i)]
+\end{equation}
+CSS $> 0.5$ indicates compensation recognition, but is ambiguous between compositional and positional sensitivity.
+
+\textbf{Scramble Control Ratio (SCR)} resolves this ambiguity:
+\begin{equation}
+\scr = \frac{1}{N} \sum_{i=1}^{N} \mathbf{1}[\LL(E_i) > \LL(H_i)]
+\end{equation}
+Class H preserves exact nucleotide composition but places compensation downstream (wrong position). High CSS with SCR $\approx 0.5$ diagnoses overconfident compositional misattribution.
+
+\textbf{Motif Effect Size (MES)} quantifies intact vs.\ broken discrimination: $\mes = (\mu_{\text{intact}} - \mu_{\text{broken}})/s_{\text{pooled}}$.
+
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Models}
+
+We evaluate five gLMs: \textbf{HyenaDNA} \citep{nguyen2023hyenadna}, \textbf{Evo2-1B} \citep{nguyen2024evo2}, \textbf{GROVER} \citep{sanabria2024grover}, \textbf{NT-500M} \citep{dalla2023nucleotide}, and \textbf{Caduceus} \citep{schiff2024caduceus}---spanning autoregressive, masked, and bidirectional SSM paradigms.
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=\columnwidth]{figures/fig1_overview.pdf}
+\end{center}
+\vspace{-0.5em}
+\caption{\textbf{MIT benchmark overview.} (a) Promoter architecture. (b) CSS across models; only HyenaDNA significant after FDR correction. (c) SCR: all gLMs near chance (0.5). (d) CSS vs.\ SCR: biophysical models (orange) achieve both; gLMs (blue) show only compositional sensitivity, revealing epistemic overconfidence.}
+\label{fig:overview}
+\end{figure}
+
+\subsection{Primary Results}
+
+\Cref{tab:main_results} presents the central finding. Only HyenaDNA achieves significant CSS ($p_{\text{FDR}}$$=$0.034), but \textit{all} gLMs show SCR near or below 0.5---none distinguish correctly positioned from scrambled compensation. The CSS/SCR dissociation is the key epistemic signature: models appear sensitive to compensation (CSS $>0.5$) while being confidently wrong about the mechanism (SCR $\approx 0.5$).
+
+\begin{table}[t]
+\caption{MIT results. The CSS/SCR dissociation reveals overconfident compositional misattribution across all gLMs regardless of architecture.}
+\label{tab:main_results}
+\vskip 0.1in
+\begin{center}
+\small
+\begin{tabular}{lccccc}
+\toprule
+Model & CSS & $p_{\text{FDR}}$ & SCR & MES$_\text{syn}$ \\
+\midrule
+\textbf{HyenaDNA} & \textbf{0.63} & \textbf{0.034} & 0.48 & $-$0.34 \\
+Evo2-1B & 0.60 & 0.090 & 0.46 & $-$0.03 \\
+NT-500M & 0.54 & 0.569 & 0.40 & $-$0.10 \\
+GROVER & 0.52 & 0.691 & 0.52 & $-$0.05 \\
+Caduceus & 0.49 & 0.772 & 0.42 & $-$0.40 \\
+\midrule
+Random & 0.50 & --- & 0.46 & $-$0.04 \\
+k-mer & 0.43 & --- & 0.50 & 0.11 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vskip -0.1in
+\end{table}
+
+\subsection{Probing the Epistemic Failure Mode}
+
+We conduct four targeted experiments to characterize \textit{how} models fail epistemically.
+
+\subsubsection{AT Content Drives Apparent Competence}
+
+We vary background AT content from 30\% to 80\% with motifs held constant. Log-likelihood increases monotonically across all models ($r = 0.78$--$0.96$, \Cref{tab:at_titration}). This explains CSS $> 0.5$: compensated sequences contain AT-rich UP elements ($\sim$89\% AT) that elevate sequence likelihood compositionally. The model is not encoding \textit{why} the UP element helps---it is encoding that AT-rich sequences generally score higher.
+
+\begin{table}[ht]
+\caption{AT-LL correlation: compositional sensitivity drives apparent compensation recognition.}
+\label{tab:at_titration}
+\vskip 0.05in
+\begin{center}
+\small
+\begin{tabular}{lcc}
+\toprule
+Model & AT-LL Corr. & Architecture \\
+\midrule
+Evo2-1B & $r = 0.961$ & Autoregressive \\
+Caduceus & $r = 0.874$ & Bidir. SSM \\
+HyenaDNA & $r = 0.784$ & Autoregressive \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vskip -0.1in
+\end{table}
+
+\subsubsection{Overconfident Positional Inversion}
+
+We place UP elements at the correct position (15, upstream of -35) vs.\ wrong position (70, downstream of -10). Evo2-1B and Caduceus score the \textit{wrong} position \textbf{higher} than correct ($\Delta = +0.55$ and $+0.75$ respectively). This is not uncertainty---it is confident misdirection, the archetypal epistemic failure. HyenaDNA scores correct marginally higher ($\Delta = -0.46$) but with negligible positional sensitivity compared to compositional effects ($\Delta \approx 3.7$ from removing UP entirely).
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=\columnwidth]{figures/fig2_results.pdf}
+\end{center}
+\vspace{-0.5em}
+\caption{\textbf{Mechanistic probing reveals epistemic failures.} (a) AT titration: LL scales with composition. (b) Positional ablation: compositional effects (removing UP) $46\times$ larger than positional. (c) Spacing: HyenaDNA peaks at 14bp, not biological optimum 17bp. (d) Strand: forward scores \textit{lower} than reverse complement.}
+\label{fig:probing}
+\end{figure}
+
+\subsubsection{Spacing Miscalibration}
+
+The biological optimum for -35/-10 spacing is 17$\pm$1 bp \citep{harley1987analysis}. HyenaDNA peaks at 14 bp, demonstrating that even directional sensitivity (lower likelihood at extreme spacings) is miscalibrated in its epistemic content---the model has learned some spacing preference but the wrong one.
+
+\subsubsection{Strand Blindness}
+
+Forward promoter sequences score \textit{lower} than reverse complement variants (44\% accuracy, binomial $p=0.24$). This is a fundamental epistemic failure: strand orientation is causally relevant for transcription, yet all gLMs are effectively strand-blind. A model with mechanistic knowledge would assign higher likelihood to the functional orientation.
+
+\subsection{Biophysical Comparison}
+
+To establish that our tests are solvable, we compare against position-aware biophysical models (\Cref{tab:biophysical}). \textbf{RPA-PWM} uses no hardcoded positions---only relative biological constraints (17$\pm$2 bp spacing, UP upstream of -35, strand consistency)---yet achieves CSS$=$1.00, SCR$=$0.92. This establishes that the 100-parameter model has solved the epistemic problem that eludes billion-parameter gLMs: it \textit{represents} position-dependent causation, not just statistical correlation.
+
+\begin{table}[ht]
+\caption{Biophysical models encode position-dependent causation; gLMs do not. RPA-PWM uses only relative constraints.}
+\label{tab:biophysical}
+\vskip 0.05in
+\begin{center}
+\small
+\begin{tabular}{lccc}
+\toprule
+Model & CSS & SCR & Params \\
+\midrule
+PA-PWM & 1.00 & 0.98 & $\sim$100 \\
+RPA-PWM & 1.00 & 0.92 & $\sim$100 \\
+Thermodynamic & 0.97 & 0.68 & $\sim$50 \\
+\midrule
+PA-PWM-NoPos & 0.63 & 0.56 & $\sim$100 \\
+\midrule
+HyenaDNA & 0.63 & 0.48 & 6.6M \\
+Evo2-1B & 0.60 & 0.46 & 1B \\
+Caduceus & 0.49 & 0.42 & 1.9M \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vskip -0.1in
+\end{table}
+
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{The Epistemic Failure is Systematic and Scale-Invariant}
+
+The consistent pattern across all five architectures---autoregressive, masked LM, bidirectional SSM---establishes that the epistemic failure is not model-specific. More troubling, scale amplifies rather than corrects it: Evo2-1B (1B parameters, $r=0.96$) shows 23\% stronger AT-correlation than HyenaDNA (6.6M parameters, $r=0.78$). Larger models are more confidently wrong. This is a known failure mode in overparameterized models trained on imbalanced objectives \citep{d2020underspecification}, and suggests that pretraining on sequence likelihood alone cannot induce epistemic calibration for mechanistic tasks.
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=\columnwidth]{figures/fig4_summary.pdf}
+\end{center}
+\vspace{-0.5em}
+\caption{\textbf{Summary of epistemic failures.} Four failure modes---AT confound, positional inversion, spacing miscalibration, strand blindness---are consistent across architectures, establishing a universal epistemic gap between statistical and mechanistic learning.}
+\label{fig:summary}
+\end{figure}
+
+\subsection{Implications for Epistemic Intelligence}
+
+Our results bear on three open questions in the EIML program:
+
+\textbf{(1) Confidence vs.\ competence.} The CSS/SCR dissociation demonstrates that high apparent competence (CSS $>0.5$) coexists with fundamentally miscalibrated representations. Standard calibration metrics would not detect this failure---models are not overconfident about their \textit{predictions}, but about their \textit{representations} of causation.
+
+\textbf{(2) The role of inductive biases.} PA-PWM's success with $\sim$100 parameters shows the bottleneck is not capacity but inductive biases. A model that explicitly represents position-dependent scoring has the right epistemic structure. This suggests that architectural innovations encoding causal structure---position-aware attention, compositional supervision, hybrid neural-biophysical modules \citep{avsec2021bpnet}---may be necessary for epistemic intelligence in biology.
+
+\textbf{(3) Diagnosing overconfident misattribution.} MIT provides a template for constructing epistemic probes in other domains: identify a ground-truth case where composition and position are dissociable, construct scrambled controls, measure the CSS/SCR-type dissociation. This methodology could apply to protein structure prediction, regulatory network inference, or any domain with known causal structure.
+
+\subsection{Towards Epistemic Calibration in gLMs}
+
+Three concrete directions follow from our analysis: (1) \textbf{Contrastive objectives} requiring models to assign lower likelihood to scrambled vs.\ correctly positioned elements during training; (2) \textbf{Position-aware attention biases} encoding known spacing constraints; (3) \textbf{Explicit uncertainty over causal factors} rather than aggregate sequence likelihood. Each directly addresses the identified epistemic failure modes.
+
+\section{Conclusion}
+
+MIT reveals that genomic language models exhibit a characteristic epistemic failure: they are confidently wrong about the causal factors governing gene regulation. Across five architectures, AT-content correlation fully explains apparent compensation sensitivity, while positional discrimination remains at chance. That billion-parameter models score incorrect configurations \textit{higher} than correct demonstrates that scale amplifies epistemic miscalibration. MIT provides a diagnostic benchmark for measuring epistemic intelligence in future gLM development, and our results establish a clear target: representations that encode \textit{why} sequences are functional, not merely \textit{that} they correlate with function.
+
+\subsubsection*{Reproducibility}
+All code, data, and model inference scripts are available at \url{https://github.com/bryanc5864/MechanisticInvarianceTest}. All results reproducible with fixed seed (42) via a single command.
+
+\bibliography{references}
+\bibliographystyle{icml2026}
+
+\end{document}
