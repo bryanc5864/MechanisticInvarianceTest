@@ -1,0 +1,24 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Epistemic Intelligence: Framework}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Aleatory vs. Epistemic Uncertainty in Biology}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Overconfident Misattribution}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Mechanistic Invariance as an Epistemic Test}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{The MIT Benchmark}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Biological Ground Truth}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Sequence Design}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Evaluation Metrics}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Experiments}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Models Evaluated}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Primary Results}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Probing the Epistemic Failure}{section.4}% 13
+\BOOKMARK [3][-]{subsubsection.4.3.1}{AT Content: Spurious Confidence}{subsection.4.3}% 14
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Positional Inversion: Confident Misdirection}{subsection.4.3}% 15
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Spacing: Miscalibrated Preferences}{subsection.4.3}% 16
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Strand Blindness: Missing Causal Dimension}{subsection.4.3}% 17
+\BOOKMARK [2][-]{subsection.4.4}{Biophysical Baseline: Epistemic Intelligence is Achievable}{section.4}% 18
+\BOOKMARK [1][-]{section.5}{Discussion}{}% 19
+\BOOKMARK [2][-]{subsection.5.1}{Scale Amplifies Epistemic Miscalibration}{section.5}% 20
+\BOOKMARK [2][-]{subsection.5.2}{Connections to the EIML Program}{section.5}% 21
+\BOOKMARK [2][-]{subsection.5.3}{Towards Epistemic Calibration}{section.5}% 22
+\BOOKMARK [1][-]{section.6}{Related Work}{}% 23
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 24

@@ -1,0 +1,204 @@
+\begin{thebibliography}{27}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alipanahi et~al.(2015)Alipanahi, Delong, Weirauch, and
+  Frey]{alipanahi2015predicting}
+Alipanahi, B., Delong, A., Weirauch, M.~T., and Frey, B.~J.
+\newblock Predicting the sequence specificities of dna- and rna-binding
+  proteins by deep learning.
+\newblock \emph{Nature Biotechnology}, 33\penalty0 (8):\penalty0 831--838,
+  2015.
+
+\bibitem[Avsec et~al.(2021)Avsec, Weilert, Shrikumar, Krueger, Alexandari,
+  Dalal, Fropf, McAnany, Gagneur, Kundaje, and Zeitlinger]{avsec2021bpnet}
+Avsec, {\v{Z}}., Weilert, M., Shrikumar, A., Krueger, S., Alexandari, A.,
+  Dalal, K., Fropf, R., McAnany, C., Gagneur, J., Kundaje, A., and Zeitlinger,
+  J.
+\newblock Base-resolution models of transcription-factor binding reveal soft
+  motif syntax.
+\newblock \emph{Nature Genetics}, 53\penalty0 (3):\penalty0 354--366, 2021.
+
+\bibitem[Barne et~al.(1997)Barne, Bown, Busby, and Minchin]{barne1997region}
+Barne, K.~A., Bown, J.~A., Busby, S. J.~W., and Minchin, S.~D.
+\newblock Region 2.5 of the escherichia coli rna polymerase $\sigma^{70}$
+  subunit is responsible for the recognition of the `extended -10' motif at
+  promoters.
+\newblock \emph{The EMBO Journal}, 16\penalty0 (13):\penalty0 4034--4040, 1997.
+
+\bibitem[Brewster et~al.(2012)Brewster, Jones, and Phillips]{brewster2012lac}
+Brewster, R.~C., Jones, D.~L., and Phillips, R.
+\newblock Tuning promoter strength through rna polymerase binding site design
+  in escherichia coli.
+\newblock \emph{PLoS Computational Biology}, 8\penalty0 (12):\penalty0
+  e1002811, 2012.
+
+\bibitem[Browning \& Busby(2004)Browning and Busby]{browning2004regulation}
+Browning, D.~F. and Busby, S. J.~W.
+\newblock The regulation of bacterial transcription initiation.
+\newblock \emph{Nature Reviews Microbiology}, 2\penalty0 (1):\penalty0 57--65,
+  2004.
+
+\bibitem[Dalla-Torre et~al.(2025)Dalla-Torre, Gonzalez, Mendoza-Revilla,
+  Carranza, Grzywaczewski, Oteri, Dallago, Trop, de~Almeida, Sirelkhatim,
+  Richard, Skwark, Beguir, Lopez, and Pierrot]{dalla2023nucleotide}
+Dalla-Torre, H., Gonzalez, L., Mendoza-Revilla, J., Carranza, N.~L.,
+  Grzywaczewski, A.~H., Oteri, F., Dallago, C., Trop, E., de~Almeida, B.~P.,
+  Sirelkhatim, H., Richard, G., Skwark, M., Beguir, K., Lopez, M., and Pierrot,
+  T.
+\newblock Nucleotide transformer: building and evaluating robust foundation
+  models for human genomics.
+\newblock \emph{Nature Methods}, 22\penalty0 (2):\penalty0 287--297, 2025.
+
+\bibitem[D'Amour et~al.(2022)D'Amour, Heller, Moldovan,
+  et~al.]{d2020underspecification}
+D'Amour, A., Heller, K., Moldovan, D., et~al.
+\newblock Underspecification presents challenges for credibility in modern
+  machine learning.
+\newblock \emph{Journal of Machine Learning Research}, 23:\penalty0 1--61,
+  2022.
+
+\bibitem[Gal(2016)]{gal2016uncertainty}
+Gal, Y.
+\newblock Uncertainty in deep learning.
+\newblock \emph{University of Cambridge}, 2016.
+
+\bibitem[Geiger et~al.(2021)Geiger, Lu, Icard, and Potts]{geiger2021causal}
+Geiger, A., Lu, H., Icard, T., and Potts, C.
+\newblock Causal abstractions of neural networks.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~34, pp.\  9574--9586, 2021.
+
+\bibitem[Gu \& Dao(2023)Gu and Dao]{gu2023mamba}
+Gu, A. and Dao, T.
+\newblock Mamba: Linear-time sequence modeling with selective state spaces.
+\newblock \emph{arXiv preprint arXiv:2312.00752}, 2023.
+
+\bibitem[Guo et~al.(2017)Guo, Pleiss, Sun, and Weinberger]{guo2017calibration}
+Guo, C., Pleiss, G., Sun, Y., and Weinberger, K.~Q.
+\newblock On calibration of modern neural networks.
+\newblock In \emph{International Conference on Machine Learning}, pp.\
+  1321--1330, 2017.
+
+\bibitem[Harley \& Reynolds(1987)Harley and Reynolds]{harley1987analysis}
+Harley, C.~B. and Reynolds, R.~P.
+\newblock Analysis of e. coli promoter sequences.
+\newblock \emph{Nucleic Acids Research}, 15\penalty0 (5):\penalty0 2343--2361,
+  1987.
+
+\bibitem[Hewitt \& Manning(2019)Hewitt and Manning]{hewitt2019structural}
+Hewitt, J. and Manning, C.~D.
+\newblock A structural probe for finding syntax in word representations.
+\newblock \emph{Proceedings of NAACL-HLT}, pp.\  4129--4138, 2019.
+
+\bibitem[Ji et~al.(2021)Ji, Zhou, Liu, and Davuluri]{ji2021dnabert}
+Ji, Y., Zhou, Z., Liu, H., and Davuluri, R.~V.
+\newblock Dnabert: pre-trained bidirectional encoder representations from
+  transformers model for dna-language in genome.
+\newblock \emph{Bioinformatics}, 37\penalty0 (15):\penalty0 2112--2120, 2021.
+
+\bibitem[Kinney et~al.(2010)Kinney, Murugan, Callan, and Cox]{kinney2010using}
+Kinney, J.~B., Murugan, A., Callan, Jr., C.~G., and Cox, E.~C.
+\newblock Using deep sequencing to characterize the biophysical mechanism of a
+  transcriptional regulatory sequence.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 107\penalty0
+  (20):\penalty0 9158--9163, 2010.
+
+\bibitem[Lakshminarayanan et~al.(2017)Lakshminarayanan, Pritzel, and
+  Blundell]{lakshminarayanan2017simple}
+Lakshminarayanan, B., Pritzel, A., and Blundell, C.
+\newblock Simple and scalable predictive uncertainty estimation using deep
+  ensembles.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+
+\bibitem[Lee et~al.(2011)Lee, Karchin, and Beer]{lee2011discriminative}
+Lee, D., Karchin, R., and Beer, M.~A.
+\newblock Discriminative prediction of mammalian enhancers from dna sequence.
+\newblock \emph{Genome Research}, 21\penalty0 (12):\penalty0 2167--2180, 2011.
+
+\bibitem[Meng et~al.(2022)Meng, Bau, Andonian, and Belinkov]{meng2022locating}
+Meng, K., Bau, D., Andonian, A., and Belinkov, Y.
+\newblock Locating and editing factual associations in gpt.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  35:\penalty0 17359--17372, 2022.
+
+\bibitem[Nguyen et~al.(2023)Nguyen, Poli, Faizi, Thomas, Wornow, Birch-Sykes,
+  Massaroli, Patel, Rabideau, Bengio, Ermon, R{\'e}, and
+  Baccus]{nguyen2023hyenadna}
+Nguyen, E., Poli, M., Faizi, M., Thomas, A., Wornow, M., Birch-Sykes, C.,
+  Massaroli, S., Patel, A., Rabideau, C., Bengio, Y., Ermon, S., R{\'e}, C.,
+  and Baccus, S.
+\newblock Hyenadna: Long-range genomic sequence modeling at single nucleotide
+  resolution.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36, 2023.
+
+\bibitem[Nguyen et~al.(2024)Nguyen, Poli, Durrant, Kang, Katrekar, Li, Bartie,
+  Thomas, King, Brixi, Sullivan, Ng, Lewis, Lou, Ermon, Baccus,
+  Hernandez-Boussard, R{\'e}, Hsu, and Hie]{nguyen2024evo2}
+Nguyen, E., Poli, M., Durrant, M.~G., Kang, B., Katrekar, D., Li, D.~B.,
+  Bartie, L.~J., Thomas, A.~W., King, S.~H., Brixi, G., Sullivan, J., Ng,
+  M.~Y., Lewis, A., Lou, A., Ermon, S., Baccus, S.~A., Hernandez-Boussard, T.,
+  R{\'e}, C., Hsu, P.~D., and Hie, B.~L.
+\newblock Sequence modeling and design from molecular to genome scale with evo.
+\newblock \emph{Science}, 386\penalty0 (6723):\penalty0 eado9336, 2024.
+
+\bibitem[Novakovsky et~al.(2023)Novakovsky, Dexter, Libbrecht, Wasserman, and
+  Mostafavi]{novakovsky2023obtaining}
+Novakovsky, G., Dexter, N., Libbrecht, M.~W., Wasserman, W.~W., and Mostafavi,
+  S.
+\newblock Obtaining genetics insights from deep learning via explainable
+  artificial intelligence.
+\newblock \emph{Nature Reviews Genetics}, 24\penalty0 (2):\penalty0 125--137,
+  2023.
+
+\bibitem[Ovadia et~al.(2019)Ovadia, Fertig, Ren, Nado, Sculley, Nowozin,
+  Dillon, Lakshminarayanan, and Snoek]{ovadia2019can}
+Ovadia, Y., Fertig, E., Ren, J., Nado, Z., Sculley, D., Nowozin, S., Dillon,
+  J., Lakshminarayanan, B., and Snoek, J.
+\newblock Can you trust your model's uncertainty? evaluating predictive
+  uncertainty under dataset shift.
+\newblock \emph{Advances in Neural Information Processing Systems}, 32, 2019.
+
+\bibitem[Ross et~al.(1993)Ross, Gosink, Salomon, Igarashi, Zou, Ishihama,
+  Severinov, and Gourse]{ross1993third}
+Ross, W., Gosink, K.~K., Salomon, J., Igarashi, K., Zou, C., Ishihama, A.,
+  Severinov, K., and Gourse, R.~L.
+\newblock A third recognition element in bacterial promoters: Dna binding by
+  the alpha subunit of rna polymerase.
+\newblock \emph{Science}, 262\penalty0 (5138):\penalty0 1407--1413, 1993.
+
+\bibitem[Salazar et~al.(2020)Salazar, Liang, Nguyen, and
+  Kirchhoff]{salazar2020masked}
+Salazar, J., Liang, D., Nguyen, T.~Q., and Kirchhoff, K.
+\newblock Masked language model scoring.
+\newblock \emph{Proceedings of the 58th Annual Meeting of the Association for
+  Computational Linguistics}, pp.\  2699--2712, 2020.
+
+\bibitem[Sanabria et~al.(2024)Sanabria, Hirsch, and
+  Poetsch]{sanabria2024grover}
+Sanabria, M., Hirsch, J., and Poetsch, A.~R.
+\newblock Dna language model grover learns sequence context in the human
+  genome.
+\newblock \emph{Nature Machine Intelligence}, 6:\penalty0 911--923, 2024.
+
+\bibitem[Schiff et~al.(2024)Schiff, Kao, Gokaslan, Dao, Gu, and
+  Kuleshov]{schiff2024caduceus}
+Schiff, Y., Kao, C.-H., Gokaslan, A., Dao, T., Gu, A., and Kuleshov, V.
+\newblock Caduceus: Bi-directional equivariant long-range dna sequence
+  modeling.
+\newblock \emph{Proceedings of the 41st International Conference on Machine
+  Learning}, 235:\penalty0 43632--43648, 2024.
+
+\bibitem[Zhou et~al.(2024)Zhou, Ji, Li, Dutta, Davuluri, and
+  Liu]{zhou2023dnabert2}
+Zhou, Z., Ji, Y., Li, W., Dutta, P., Davuluri, R., and Liu, H.
+\newblock Dnabert-2: Efficient foundation model and benchmark for multi-species
+  genome.
+\newblock \emph{Proceedings of the International Conference on Learning
+  Representations}, 2024.
+
+\end{thebibliography}
