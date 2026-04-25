@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -28,6 +28,21 @@ Barne, K.~A., Bown, J.~A., Busby, S. J.~W., and Minchin, S.~D.
   subunit is responsible for the recognition of the `extended -10' motif at
   promoters.
 \newblock \emph{The EMBO Journal}, 16\penalty0 (13):\penalty0 4034--4040, 1997.
+
+\bibitem[Benjamini \& Hochberg(1995)Benjamini and
+  Hochberg]{benjamini1995controlling}
+Benjamini, Y. and Hochberg, Y.
+\newblock Controlling the false discovery rate: a practical and powerful
+  approach to multiple testing.
+\newblock \emph{Journal of the Royal Statistical Society: Series B
+  (Methodological)}, 57\penalty0 (1):\penalty0 289--300, 1995.
+
+\bibitem[Blattner et~al.(1997)Blattner, Plunkett~III, Bloch, Perna, Burland,
+  Riley, et~al.]{blattner1997complete}
+Blattner, F.~R., Plunkett~III, G., Bloch, C.~A., Perna, N.~T., Burland, V.,
+  Riley, M., et~al.
+\newblock The complete genome sequence of escherichia coli k-12.
+\newblock \emph{Science}, 277\penalty0 (5331):\penalty0 1453--1462, 1997.
 
 \bibitem[Brewster et~al.(2012)Brewster, Jones, and Phillips]{brewster2012lac}
 Brewster, R.~C., Jones, D.~L., and Phillips, R.
@@ -60,6 +75,14 @@ D'Amour, A., Heller, K., Moldovan, D., et~al.
   machine learning.
 \newblock \emph{Journal of Machine Learning Research}, 23:\penalty0 1--61,
   2022.
+
+\bibitem[Estrem et~al.(1998)Estrem, Gaal, Ross, and
+  Gourse]{estrem1998identification}
+Estrem, S.~T., Gaal, T., Ross, W., and Gourse, R.~L.
+\newblock Identification of an up element consensus sequence for bacterial
+  promoters.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 95\penalty0
+  (17):\penalty0 9761--9766, 1998.
 
 \bibitem[Gal(2016)]{gal2016uncertainty}
 Gal, Y.
@@ -192,6 +215,14 @@ Schiff, Y., Kao, C.-H., Gokaslan, A., Dao, T., Gu, A., and Kuleshov, V.
   modeling.
 \newblock \emph{Proceedings of the 41st International Conference on Machine
   Learning}, 235:\penalty0 43632--43648, 2024.
+
+\bibitem[Tierrafr{\'\i}a et~al.(2022)Tierrafr{\'\i}a, Rioualen, Salgado, Lara,
+  Gama-Castro, Lally, et~al.]{tierrafria2022regulondb}
+Tierrafr{\'\i}a, V.~H., Rioualen, C., Salgado, H., Lara, P., Gama-Castro, S.,
+  Lally, P., et~al.
+\newblock Regulondb 11.0: Comprehensive high-throughput datasets on
+  transcriptional regulation in escherichia coli k-12.
+\newblock \emph{Microbial Genomics}, 8\penalty0 (5):\penalty0 000833, 2022.
 
 \bibitem[Zhou et~al.(2024)Zhou, Ji, Li, Dutta, Davuluri, and
   Liu]{zhou2023dnabert2}

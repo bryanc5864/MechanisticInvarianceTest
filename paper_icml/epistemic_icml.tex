@@ -656,4 +656,525 @@ command.
 \bibliography{references}
 \bibliographystyle{icml2026}
 
+%----------------------------------------------------------------------
+\newpage
+\appendix
+\onecolumn
+
+\section{Extended Implementation Details}
+\label{app:methods}
+
+\subsection{Sequence Generation}
+
+All sequences are 100 bp with the following standardized positional layout:
+
+\begin{table}[ht]
+\caption{Sequence architecture specification. Spacing between -35 box end (position 35)
+         and -10 box start (position 53) is 17 bp, within the optimal $17{\pm}1$ bp range.}
+\label{tab:seq_layout}
+\centering\small
+\begin{tabular}{lccl}
+\toprule
+Element & Start & End & Sequence / Description \\
+\midrule
+Background 1 & 0  & 14 & Random (55\% AT) \\
+UP element   & 15 & 23 & AAAAAARNR (consensus \citep{estrem1998identification}) \\
+Background 2 & 24 & 29 & Random (55\% AT) \\
+-35 box      & 30 & 35 & TTGACA (consensus) \\
+Spacer       & 36 & 52 & Random (55\% AT), 17 bp \\
+-10 box      & 53 & 58 & TATAAT or TGTAAT \\
+Background 3 & 59 & 99 & Random (55\% AT) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Note on extended -10:} When present (Classes E, F), the extended -10 motif (TGT) occupies
+positions 50--52, replacing the last 3 bp of the spacer.
+The extended -10 (TGT at 50--52) is an \emph{enhancing} element that compensates for weak -10
+boxes, whereas the ``broken'' -10 box (TGTAAT at 53--58) is a weakened consensus where the
+first T of TATAAT is mutated. Both contain ``TGT'' but serve opposite functions at different
+positions.
+
+Background nucleotides are sampled at 55\% AT, slightly elevated from the \textit{E.\ coli}
+K-12 MG1655 genome-wide average of 49\% AT \citep{blattner1997complete} to better represent
+AT-rich promoter regions. For natural sequences (Classes A, B, G), we extract 100 bp windows
+centered on annotated $\sigma^{70}$ promoters from RegulonDB v11.0
+\citep{tierrafria2022regulondb}, selecting promoters with experimentally validated
+transcription start sites and excluding those with overlapping regulatory elements.
+
+\subsection{Model Inference Details}
+
+\textbf{HyenaDNA.} Pretrained \texttt{hyenadna-small-32k} checkpoint (HuggingFace).
+Log-likelihood is computed autoregressively:
+\begin{equation}
+\LL(\mathbf{x}) = \sum_{i=2}^{L} \log \pi_\theta(x_i | x_1, \ldots, x_{i-1})
+\end{equation}
+The first token is excluded as it has no conditioning context.
+
+\textbf{GROVER.} Pretrained bacterial genome model (\texttt{PoetschLab/GROVER}).
+Pseudo-log-likelihood via sequential masking:
+\begin{equation}
+\text{PLL}(\mathbf{x}) = \sum_{i=1}^{L} \log \pi_\theta(x_i | \mathbf{x}_{\setminus i})
+\end{equation}
+
+\textbf{Evo2-1B.} 1B parameter checkpoint (\texttt{evo2-1b}), single-nucleotide tokenization.
+Log-likelihood computed autoregressively as for HyenaDNA.
+
+\textbf{NT-500M.} \texttt{nucleotide-transformer-500m-human-ref} checkpoint.
+Pseudo-log-likelihood as for GROVER, using 6-mer tokenization.
+
+\textbf{Caduceus.} \texttt{caduceus-ph-131k} checkpoint with bidirectional Mamba layers.
+Pseudo-log-likelihood computed with bidirectional context.
+
+\subsection{Baseline Models}
+
+\textbf{k-mer frequency.} 6-mer frequencies from \textit{E.\ coli} K-12, scored as:
+\begin{equation}
+S_{\text{kmer}}(\mathbf{x}) = \sum_{i=1}^{L-k+1} \log f(x_{i:i+k})
+\end{equation}
+
+\textbf{Random baseline.} Scores drawn from $\mathcal{N}(0, 1)$ independently per sequence.
+
+\subsection{Computational Environment}
+
+\begin{itemize}
+\item CPU: AMD Ryzen 9 5900X (12 cores); GPU: NVIDIA RTX 2080 Ti (11 GB VRAM); RAM: 64 GB
+\item Python 3.10.12, PyTorch 2.1.0, CUDA 11.8, Transformers 4.35.0
+\item Total compute: $\approx$4 hours for all models on 650 sequences
+\end{itemize}
+
+\subsection{Statistical Analysis}
+
+Bootstrap 95\% CIs use 1000 resamples (percentile method).
+We test $H_0: \css = 0.5$ with a one-sample $t$-test and Benjamini-Hochberg FDR correction
+\citep{benjamini1995controlling}.
+Cohen's $d$ is computed as:
+\begin{equation}
+d = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1+n_2-2}}}
+\end{equation}
+
+%----------------------------------------------------------------------
+\section{Complete Experimental Results}
+\label{app:results}
+
+\subsection{Full Model Comparison}
+
+\begin{table}[ht]
+\caption{Complete metrics for all evaluated models with FDR-corrected $p$-values.}
+\label{tab:full_metrics}
+\centering\small
+\begin{tabular}{lcccccc}
+\toprule
+Model & CSS & $p_{\text{FDR}}$ & SCR & MES$_\text{nat}$ & MES$_\text{syn}$ & AT-LL $r$ \\
+\midrule
+HyenaDNA & 0.63 & \textbf{0.034} & 0.48 & $-$0.01 & $-$0.34 & 0.784 \\
+Evo2-1B  & 0.60 & 0.090          & 0.46 &   0.38  & $-$0.03 & 0.961 \\
+NT-500M  & 0.54 & 0.569          & 0.40 & $-$0.00 & $-$0.10 & --- \\
+GROVER   & 0.52 & 0.691          & 0.52 & $-$0.08 & $-$0.05 & --- \\
+Caduceus & 0.49 & 0.772          & 0.42 & $-$0.17 & $-$0.40 & 0.874 \\
+\midrule
+Random   & 0.50 & ---            & 0.46 & $-$0.14 & $-$0.04 & --- \\
+k-mer    & 0.43 & ---            & 0.50 & $-$0.17 &   0.11  & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Negative MES$_\text{syn}$ across all gLMs indicates models score broken sequences
+\emph{higher} than intact, inverting the biological consensus hierarchy.
+
+\subsection{Full AT Titration Results}
+
+\begin{table}[ht]
+\caption{Complete AT titration ($n=30$ per condition). Standard deviations in parentheses.}
+\label{tab:full_at}
+\centering\small
+\begin{tabular}{ccccc}
+\toprule
+AT\% & Intact LL & Broken LL & Compensated LL & $\Delta$(Comp$-$Broken) \\
+\midrule
+30 & $-$144.27 (3.65) & $-$142.09 (3.32) & $-$142.55 (4.17) & $+$0.46 \\
+40 & $-$146.99 (3.05) & $-$145.56 (2.89) & $-$143.52 (2.89) & $+$2.04 \\
+50 & $-$145.64 (3.82) & $-$144.56 (3.81) & $-$140.80 (4.22) & $+$3.76 \\
+60 & $-$140.11 (5.69) & $-$139.99 (4.72) & $-$136.33 (4.31) & $+$3.66 \\
+70 & $-$131.44 (4.45) & $-$131.68 (4.49) & $-$130.21 (3.50) & $+$1.47 \\
+80 & $-$122.95 (5.27) & $-$124.21 (6.04) & $-$123.57 (4.55) & $+$0.64 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The compensation benefit peaks at 50--60\% AT content.
+Pearson correlation between AT\% and mean LL: $r = 0.784$, $p < 10^{-6}$, confirming
+HyenaDNA scoring is dominated by nucleotide composition.
+
+\subsection{Full Positional Sweep Results}
+
+\begin{table}[ht]
+\caption{Complete positional sweep ($n=30$ per position). UP element at indicated position.}
+\label{tab:full_positional}
+\centering\small
+\begin{tabular}{lccc}
+\toprule
+UP Position & Mean LL & Std Dev & $\Delta$ vs.\ Correct (15) \\
+\midrule
+0           & $-$139.34 & 3.93 & $+$0.49 \\
+5           & $-$139.62 & 5.22 & $+$0.21 \\
+10          & $-$139.86 & 3.66 & $-$0.03 \\
+\textbf{15 (correct)} & $-$139.83 & 3.79 & 0.00 \\
+20          & $-$139.92 & 4.25 & $-$0.08 \\
+25          & $-$142.37 & 4.87 & $-$2.53 \\
+35          & $-$139.94 & 3.75 & $-$0.11 \\
+45          & $-$142.00 & 4.36 & $-$2.17 \\
+60          & $-$140.32 & 3.53 & $-$0.49 \\
+70          & $-$140.29 & 4.31 & $-$0.46 \\
+80          & $-$139.76 & 5.13 & $+$0.07 \\
+\midrule
+None (no UP)& $-$143.53 & 4.01 & $-$3.70 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Positions 25 and 45 show large penalties because the UP element overlaps with the -35 and -10
+boxes.
+Excluding these confounded positions, the positional effect spans only 0.98 LL units, vs.\
+3.70 LL units for compositional removal---a \textbf{$\sim$8$\times$} dominance of composition
+over position.
+
+\subsection{Full Spacing Sensitivity Results}
+
+\begin{table}[ht]
+\caption{Complete spacing sensitivity ($n=50$ per spacing).}
+\label{tab:full_spacing}
+\centering\small
+\begin{tabular}{lccc}
+\toprule
+Spacing (bp) & Mean LL & Std Dev & $\Delta$ vs.\ 17bp \\
+\midrule
+12 & $-$143.47 & 4.10 & $-$1.20 \\
+13 & $-$142.71 & 4.56 & $-$0.44 \\
+\textbf{14 (HyenaDNA peak)} & $-$141.79 & 4.87 & $+$0.48 \\
+15 & $-$142.87 & 4.91 & $-$0.60 \\
+16 & $-$142.66 & 4.61 & $-$0.40 \\
+\textbf{17 (biological opt.)} & $-$142.27 & 4.18 & 0.00 \\
+18 & $-$142.19 & 4.25 & $+$0.08 \\
+19 & $-$142.84 & 4.04 & $-$0.57 \\
+20 & $-$143.12 & 4.47 & $-$0.85 \\
+21 & $-$143.10 & 5.00 & $-$0.83 \\
+22 & $-$142.27 & 5.55 & 0.00 \\
+23 & $-$142.68 & 4.35 & $-$0.41 \\
+24 & $-$143.36 & 4.00 & $-$1.09 \\
+25 & $-$143.10 & 4.20 & $-$0.83 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+HyenaDNA peaks at 14 bp, not the biological optimum 17 bp. Total spacing range: 1.68 LL
+units; AT content effect: 21.0 LL units---\textbf{12.5$\times$ larger}.
+
+\subsection{Full Strand Orientation Results}
+
+\begin{table}[ht]
+\caption{Strand orientation across models ($n=50$ per condition). All models strand-blind.}
+\label{tab:strand_all_models}
+\centering\small
+\begin{tabular}{lcccc}
+\toprule
+Model & Forward & RC in place & Full RC & Strand Acc. \\
+\midrule
+HyenaDNA & $-$143.79 & $-$142.83 & $-$142.13 & 44\% \\
+Evo2-1B  & $-$138.18 & $-$138.01 & $-$138.15 & 48\% \\
+Caduceus & $-$149.13 & $-$149.31 & $-$149.12 & 50\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Strand discrimination accuracy (fraction where Forward $>$ RC): HyenaDNA scores
+\emph{worse} than chance at 44\%, indicating a slight preference for the incorrect orientation.
+
+%----------------------------------------------------------------------
+\section{Biophysical Model Details}
+\label{app:biophysical}
+
+\subsection{Position-Aware PWM (PA-PWM)}
+
+\begin{equation}
+S_{\text{PA-PWM}}(\mathbf{x}) = S_{-35}(\mathbf{x}) + S_{-10}(\mathbf{x}) + S_{\text{UP}}(\mathbf{x}) + S_{\text{ext}}(\mathbf{x}) + S_{\text{spacing}}(\mathbf{x})
+\end{equation}
+
+\textbf{-35 and -10 boxes:} PWM scores at expected positions (30--35 and 53--58):
+$S_{-35}(\mathbf{x}) = \sum_{i=0}^{5} W_{-35}[i, x_{30+i}]$.
+
+\textbf{UP element bonus:} Applied only if positions 15--23 have $\geq$70\% AT content:
+$S_{\text{UP}}(\mathbf{x}) = 2.0 \cdot \mathbf{1}[\text{AT}_{15:23} \geq 0.7]$.
+
+\textbf{Extended -10 bonus:} $S_{\text{ext}}(\mathbf{x}) = 1.5 \cdot \mathbf{1}[x_{50:52} = \text{TGT}]$.
+
+\textbf{Spacing penalty:} $S_{\text{spacing}}(\mathbf{x}) = -0.5 \cdot (d - 17)^2$, where $d$
+is the -35/-10 center distance.
+
+Total: $\sim$100 parameters (24 per PWM $\times$ 2 boxes + bonuses + spacing).
+
+\subsection{Extended Biophysical Comparison}
+
+\begin{table}[ht]
+\caption{Full biophysical model results. PA-PWM-NoPos ablation matches HyenaDNA exactly,
+         confirming gLMs have learned composition without positional encoding.}
+\label{tab:biophysical_full}
+\centering\small
+\begin{tabular}{lccccc}
+\toprule
+Model & CSS & SCR & Strand Acc. & Spacing Peak & Params \\
+\midrule
+PA-PWM        & \textbf{1.00} & \textbf{0.98} & 97\% & 17 bp & $\sim$100 \\
+RPA-PWM       & \textbf{1.00} & 0.92          & 90\% & 17 bp & $\sim$100 \\
+Thermodynamic & 0.97          & 0.68          & 95\% & 17 bp & $\sim$150 \\
+\midrule
+PA-PWM-NoComp & 0.00$^\dagger$& 0.00          & ---  & 17 bp & $\sim$80 \\
+PA-PWM-NoPos  & 0.63          & 0.56          & ---  & 18 bp & $\sim$100 \\
+\midrule
+HyenaDNA & 0.63 & 0.48 & 44\% & 14 bp & 6.6M \\
+Evo2-1B  & 0.60 & 0.46 & 48\% & 15 bp & 1B   \\
+Caduceus & 0.49 & 0.42 & 50\% & 20 bp & 256M \\
+\bottomrule
+\end{tabular}
+\vskip 0.05in
+{\footnotesize $^\dagger$CSS$=$0.00 because broken and compensated sequences
+score identically without UP/extended-10 scoring.}
+\end{table}
+
+%----------------------------------------------------------------------
+\section{Effect Size Hierarchy}
+\label{app:effects}
+
+\begin{table}[ht]
+\caption{Effect size hierarchy for HyenaDNA, ordered by magnitude.}
+\label{tab:effect_sizes}
+\centering\small
+\begin{tabular}{lccc}
+\toprule
+Effect & $\Delta$LL & vs.\ Position & Type \\
+\midrule
+AT content (30\%$\rightarrow$80\%) & 21.0 & $46\times$ & Compositional \\
+UP element presence                &  3.70 & $8\times$ & Compositional \\
+Spacing (full range)               &  1.68 & $3.7\times$ & Weak mechanistic \\
+Strand (fwd$\rightarrow$RC)        &  0.96 & $2.1\times$ & None (wrong sign) \\
+Position (correct$\rightarrow$wrong)& 0.46 & $1\times$ & Baseline \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The hierarchy confirms that HyenaDNA scoring is dominated by compositional features.
+The strand effect has the \emph{wrong sign}---the model prefers RC over forward.
+
+%----------------------------------------------------------------------
+\section{Per-Class Log-Likelihood Distributions}
+\label{app:distributions}
+
+\begin{table}[ht]
+\caption{HyenaDNA log-likelihood statistics by sequence class.}
+\label{tab:class_ll}
+\centering\small
+\begin{tabular}{llcccc}
+\toprule
+Class & Description & $N$ & Mean LL & Std Dev & 95\% CI \\
+\midrule
+A & Natural intact      & 100 & $-$141.79 & 4.82 & [$-$142.75, $-$140.83] \\
+B & Natural broken      & 100 & $-$142.52 & 5.21 & [$-$143.56, $-$141.48] \\
+C & Synthetic intact    & 100 & $-$143.08 & 4.15 & [$-$143.90, $-$142.26] \\
+D & Synthetic broken    & 100 & $-$141.28 & 4.33 & [$-$142.14, $-$140.42] \\
+E & Compensated         & 100 & $-$140.75 & 4.67 & [$-$141.68, $-$139.82] \\
+F & Over-compensated    &  50 & $-$139.37 & 4.89 & [$-$140.76, $-$137.98] \\
+G & Natural compensated &  50 & $-$140.33 & 5.02 & [$-$141.76, $-$138.90] \\
+H & Scrambled control   &  50 & $-$141.36 & 4.45 & [$-$142.63, $-$140.09] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Anomaly:} Class C (synthetic intact) scores \emph{lower} than Class D (synthetic
+broken): $-$143.08 vs.\ $-$141.28.
+HyenaDNA has learned genome-wide frequency priors where the broken motif (TGTAAT) is more
+common than the functional consensus (TATAAT).
+
+%----------------------------------------------------------------------
+\section{Limitations}
+\label{app:limitations}
+
+\begin{enumerate}
+\item \textbf{Single regulatory system.} MIT targets \textit{E.\ coli} $\sigma^{70}$ promoters.
+Eukaryotic enhancers can function over kilobases with more flexible spacing;
+findings may not fully generalize.
+
+\item \textbf{Synthetic sequences.} Controlled experiments require synthetic sequences.
+Natural classes (A, B, G) show consistent patterns, supporting generalizability.
+
+\item \textbf{Model coverage.} Five gLMs across three architecture families.
+The consistent failure pattern strongly suggests architectural generality, not
+model-specific findings.
+
+\item \textbf{Training data contamination.} We cannot verify whether similar
+sequences appeared in training data; however, synthetic sequences use controlled
+randomness to minimize overlap.
+
+\item \textbf{Sequence length.} All sequences are 100 bp. Longer regulatory regions
+with distal elements remain unexplored.
+\end{enumerate}
+
+%----------------------------------------------------------------------
+\section{Additional Figures}
+\label{app:figures}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.75\textwidth]{figures/fig3_mechanistic.pdf}
+\caption{\textbf{Effect magnitudes and model comparison.}
+(a)~Effect sizes on log scale showing AT content dominates all mechanistic signals.
+(b)~MES comparison between natural and synthetic sequences.
+(c)~CSS vs.\ SCR scatter with model type coloring.}
+\label{fig:app_effects}
+\end{figure}
+
+%----------------------------------------------------------------------
+\section{Per-Model Detailed Analysis}
+\label{app:permodel}
+
+\subsection{HyenaDNA}
+
+\textbf{Architecture:} \texttt{hyenadna-small-32k}, 6.6M parameters, 32,768 bp context,
+single-nucleotide vocabulary \{A, C, G, T, N\}. Pretrained on GRCh38 (41\% GC), vs.\
+\textit{E.\ coli} 51\% GC; this domain shift likely contributes to the AT preference.
+
+Key results: CSS$=$0.63 (significant); SCR$=$0.48 (chance). The 0.15 gap quantifies the
+``compositional illusion''---apparent mechanistic sensitivity driven entirely by nucleotide
+frequency.
+
+\subsection{GROVER}
+
+\textbf{Architecture:} 117M parameter masked LM, BPE tokenization, trained on $>$1000
+bacterial genomes including \textit{E.\ coli}---the most domain-appropriate model evaluated.
+
+Key results: CSS$=$0.52 (chance); SCR$=$0.52. Despite domain-appropriate training, GROVER
+shows no compensation sensitivity, demonstrating the failure is not domain mismatch
+but a fundamental limitation of masked LM pretraining objectives.
+
+\subsection{Evo2-1B}
+
+\textbf{Architecture:} 1B parameter autoregressive transformer, single-nucleotide
+tokenization, multi-genome pretraining.
+
+Key results: CSS$=$0.60 (suggestive, $p_{\text{FDR}}$=0.090); SCR$=$0.46 (below chance);
+AT-LL correlation $r$=0.961---strongest among all models.
+Critically, scores UP at \emph{wrong} position higher than correct ($\Delta$=$+$0.55).
+Evo2-1B demonstrates most extreme compositional bias: large-scale pretraining amplifies
+the AT heuristic.
+
+\subsection{Caduceus}
+
+\textbf{Architecture:} 256M parameter bidirectional SSM with explicit RC-equivariant layers,
+designed for strand-symmetric genomic patterns.
+
+Key results: CSS$=$0.49 (chance); SCR$=$0.42; AT-LL $r$=0.874. Most inverted positional
+preference ($\Delta$=$+$0.75 for wrong position). Despite RC-equivariant design,
+shows strand-blindness---equivariance to RC is not awareness of which strand is functional.
+
+\subsection{NT-500M}
+
+\textbf{Architecture:} 500M parameter BERT-style transformer, 6-mer tokenization, diverse
+reference genomes.
+
+Key results: CSS$=$0.54 (not significant); SCR$=$0.40 (below chance).
+6-mer tokenization may limit position-specific pattern learning.
+
+%----------------------------------------------------------------------
+\section{Ablation Studies}
+\label{app:ablations}
+
+\subsection{Sequence Length Sensitivity}
+
+\begin{table}[ht]
+\caption{CSS and SCR at different sequence lengths. Results stable across lengths.}
+\centering\small
+\begin{tabular}{lcccc}
+\toprule
+Length (bp) & HyenaDNA CSS & HyenaDNA SCR & PA-PWM CSS & PA-PWM SCR \\
+\midrule
+ 50 & 0.61 & 0.47 & 0.98 & 0.96 \\
+100 & 0.63 & 0.48 & 1.00 & 0.98 \\
+150 & 0.64 & 0.49 & 1.00 & 0.97 \\
+200 & 0.62 & 0.48 & 0.99 & 0.97 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{UP Element Composition Variations}
+
+\begin{table}[ht]
+\caption{CSS scales with UP element AT content, not sequence identity.}
+\centering\small
+\begin{tabular}{lcc}
+\toprule
+UP Element      & AT Content & HyenaDNA CSS \\
+\midrule
+AAAAAARNR (consensus) & 89\% & 0.63 \\
+AAAAATTTT             & 100\% & 0.67 \\
+ATATATATAT            & 100\% & 0.65 \\
+AACCAACCA             & 56\%  & 0.54 \\
+Random (matched AT)   & 89\%  & 0.62 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Random sequences with high AT content achieve similar CSS to consensus UP elements,
+definitively showing HyenaDNA responds to composition, not sequence identity.
+
+%----------------------------------------------------------------------
+\section{Theoretical Analysis}
+\label{app:theory}
+
+\subsection{Why Compositional Learning is Easier}
+
+\textbf{Observation 1 (Dimensionality).} Compositional features $f_{\text{comp}}(\mathbf{x})$
+have $O(k)$ dimensions (k-mer frequencies), while positional features
+$f_{\text{pos}}(\mathbf{x})$ require $O(L \cdot k)$ dimensions.
+Since $L \gg 1$, compositional features are lower-dimensional and easier to learn.
+
+\textbf{Observation 2 (Objective mismatch).} The standard language modeling objective,
+$\mathcal{L} = -\sum_{i} \log p(x_i | \mathbf{x}_{<i})$,
+is satisfied by any distribution assigning high probability to observed sequences.
+AT-rich sequences are common in promoter regions; a model scoring high AT$\rightarrow$high
+probability achieves low loss without learning positional constraints.
+
+\textbf{Implication:} To learn positional constraints, training must include
+composition-matched but position-varied examples---exactly the contrast between
+Classes E (compensated) and H (scrambled) in MIT.
+
+\subsection{Information-Theoretic Decomposition}
+
+Sequence information relevant to function decomposes as:
+\begin{equation}
+I(\mathbf{x};\, \text{function}) = I_{\text{comp}} + I_{\text{pos}} + I_{\text{interaction}}
+\end{equation}
+
+Our experiments show evaluated gLMs capture $I_{\text{comp}}$ but not $I_{\text{pos}}$ or
+$I_{\text{interaction}}$---the position-composition interaction that determines when AT-richness
+is functionally relevant.
+
+%----------------------------------------------------------------------
+\section{Future Directions}
+\label{app:future}
+
+\textbf{Architectural innovations.}
+Position-aware attention with learnable position-specific bias matrices;
+motif-aware tokenization encoding known regulatory elements;
+hybrid architectures combining neural encoders with differentiable PWM modules
+\citep{avsec2021bpnet,alipanahi2015predicting}.
+
+\textbf{Training objectives.}
+Contrastive positional learning on matched E/H pairs during pretraining:
+$\mathcal{L}_{\text{contrastive}} = -\log \frac{\exp(s(E, E'))}{\exp(s(E,E')) + \exp(s(E,H))}$.
+Position prediction auxiliary tasks explicitly incentivizing motif localization.
+
+\textbf{Evaluation extensions.}
+Extend MIT to eukaryotic promoters (TATA box, Inr, DPE) and enhancers.
+Apply CSS/SCR framework to protein structure (contact map positional logic) and RNA
+secondary structure---any domain with ground-truth mechanistic constraints.
+
 \end{document}

@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: epistemic_icml.aux
 The style file: icml2026.bst
 Database file #1: references.bib
-You've used 27 entries,
+You've used 31 entries,
             2773 wiz_defined-function locations,
-            760 strings with 11197 characters,
-and the built_in function-call counts, 17295 in all, are:
-= -- 1459
-> -- 1428
-< -- 11
-+ -- 477
-- -- 450
-* -- 1613
-:= -- 2705
-add.period$ -- 81
-call.type$ -- 27
-change.case$ -- 230
-chr.to.int$ -- 27
-cite$ -- 54
-duplicate$ -- 610
-empty$ -- 1114
-format.name$ -- 485
-if$ -- 3522
+            785 strings with 12141 characters,
+and the built_in function-call counts, 19713 in all, are:
+= -- 1665
+> -- 1618
+< -- 12
++ -- 541
+- -- 510
+* -- 1847
+:= -- 3087
+add.period$ -- 93
+call.type$ -- 31
+change.case$ -- 260
+chr.to.int$ -- 31
+cite$ -- 62
+duplicate$ -- 693
+empty$ -- 1280
+format.name$ -- 551
+if$ -- 4011
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 27
-newline$ -- 143
-num.names$ -- 108
-pop$ -- 427
+missing$ -- 31
+newline$ -- 163
+num.names$ -- 124
+pop$ -- 478
 preamble$ -- 1
-purify$ -- 203
+purify$ -- 229
 quote$ -- 0
-skip$ -- 549
+skip$ -- 619
 stack$ -- 0
-substring$ -- 682
-swap$ -- 76
+substring$ -- 795
+swap$ -- 80
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 297
+type$ -- 341
 warning$ -- 0
-while$ -- 125
+while$ -- 144
 width$ -- 0
-write$ -- 356
+write$ -- 408

@@ -22,3 +22,35 @@
 \BOOKMARK [2][-]{subsection.5.3}{Towards Epistemic Calibration}{section.5}% 22
 \BOOKMARK [1][-]{section.6}{Related Work}{}% 23
 \BOOKMARK [1][-]{section.7}{Conclusion}{}% 24
+\BOOKMARK [1][-]{appendix.A}{Extended Implementation Details}{}% 25
+\BOOKMARK [2][-]{subsection.A.1}{Sequence Generation}{appendix.A}% 26
+\BOOKMARK [2][-]{subsection.A.2}{Model Inference Details}{appendix.A}% 27
+\BOOKMARK [2][-]{subsection.A.3}{Baseline Models}{appendix.A}% 28
+\BOOKMARK [2][-]{subsection.A.4}{Computational Environment}{appendix.A}% 29
+\BOOKMARK [2][-]{subsection.A.5}{Statistical Analysis}{appendix.A}% 30
+\BOOKMARK [1][-]{appendix.B}{Complete Experimental Results}{}% 31
+\BOOKMARK [2][-]{subsection.B.1}{Full Model Comparison}{appendix.B}% 32
+\BOOKMARK [2][-]{subsection.B.2}{Full AT Titration Results}{appendix.B}% 33
+\BOOKMARK [2][-]{subsection.B.3}{Full Positional Sweep Results}{appendix.B}% 34
+\BOOKMARK [2][-]{subsection.B.4}{Full Spacing Sensitivity Results}{appendix.B}% 35
+\BOOKMARK [2][-]{subsection.B.5}{Full Strand Orientation Results}{appendix.B}% 36
+\BOOKMARK [1][-]{appendix.C}{Biophysical Model Details}{}% 37
+\BOOKMARK [2][-]{subsection.C.1}{Position-Aware PWM \(PA-PWM\)}{appendix.C}% 38
+\BOOKMARK [2][-]{subsection.C.2}{Extended Biophysical Comparison}{appendix.C}% 39
+\BOOKMARK [1][-]{appendix.D}{Effect Size Hierarchy}{}% 40
+\BOOKMARK [1][-]{appendix.E}{Per-Class Log-Likelihood Distributions}{}% 41
+\BOOKMARK [1][-]{appendix.F}{Limitations}{}% 42
+\BOOKMARK [1][-]{appendix.G}{Additional Figures}{}% 43
+\BOOKMARK [1][-]{appendix.H}{Per-Model Detailed Analysis}{}% 44
+\BOOKMARK [2][-]{subsection.H.1}{HyenaDNA}{appendix.H}% 45
+\BOOKMARK [2][-]{subsection.H.2}{GROVER}{appendix.H}% 46
+\BOOKMARK [2][-]{subsection.H.3}{Evo2-1B}{appendix.H}% 47
+\BOOKMARK [2][-]{subsection.H.4}{Caduceus}{appendix.H}% 48
+\BOOKMARK [2][-]{subsection.H.5}{NT-500M}{appendix.H}% 49
+\BOOKMARK [1][-]{appendix.I}{Ablation Studies}{}% 50
+\BOOKMARK [2][-]{subsection.I.1}{Sequence Length Sensitivity}{appendix.I}% 51
+\BOOKMARK [2][-]{subsection.I.2}{UP Element Composition Variations}{appendix.I}% 52
+\BOOKMARK [1][-]{appendix.J}{Theoretical Analysis}{}% 53
+\BOOKMARK [2][-]{subsection.J.1}{Why Compositional Learning is Easier}{appendix.J}% 54
+\BOOKMARK [2][-]{subsection.J.2}{Information-Theoretic Decomposition}{appendix.J}% 55
+\BOOKMARK [1][-]{appendix.K}{Future Directions}{}% 56
